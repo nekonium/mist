@@ -144,13 +144,13 @@ ipc.on('backendAction_checkWalletFile', (e, path) => {
                     }
                 // geth
                 } else {
-                    if (process.platform === 'darwin') keystorePath += '/Library/Ethereum/keystore';
+                    if (process.platform === 'darwin') keystorePath += '/Library/Nekonium/keystore';
 
                     if (process.platform === 'freebsd' ||
                         process.platform === 'linux' ||
-                        process.platform === 'sunos') keystorePath += '/.ethereum/keystore';
+                        process.platform === 'sunos') keystorePath += '/.nekonium/keystore';
 
-                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\Ethereum\\keystore`;
+                    if (process.platform === 'win32') keystorePath = `${Settings.appDataPath}\\Nekonium\\keystore`;
                 }
 
                 fs.writeFile(`${keystorePath}/0x${keyfile.address}`, data, (err) => {

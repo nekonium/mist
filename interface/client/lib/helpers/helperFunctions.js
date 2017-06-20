@@ -207,12 +207,12 @@ Helpers.detectNetwork = function (hash) {
     var network = {};
 
     switch (hash) {
-    case '0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3':
+    case '0x1a505395bfe4b2a8eef2f80033d68228db70e82bb695dd4ffb20e6d0cf71cb73':
         console.log('Network is mainnet');
         network.type = 'mainnet';
         break;
 
-    case '0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d':
+    case '0x86a89bcce7783fec92fce4f7b85094db7702c3afc28881aa4a64fd633ecf3526':
         console.log('Network is Testnet #3 (Ropsten)');
         network.type = 'testnet';
         network.name = 'Testnet #3 (Ropsten)';

@@ -178,17 +178,17 @@ let menuTempl = function (webviews) {
                             // geth
                             } else {
                                 if (process.platform === 'darwin') {
-                                    userPath += '/Library/Ethereum/keystore';
+                                    userPath += '/Library/Nekonium/keystore';
                                 }
 
                                 if (process.platform === 'freebsd' ||
                                 process.platform === 'linux' ||
                                 process.platform === 'sunos') {
-                                    userPath += '/.ethereum/keystore';
+                                    userPath += '/.nekonium/keystore';
                                 }
 
                                 if (process.platform === 'win32') {
-                                    userPath = `${Settings.appDataPath}\\Ethereum\\keystore`;
+                                    userPath = `${Settings.appDataPath}\\Nekonium\\keystore`;
                                 }
                             }
 
@@ -398,7 +398,7 @@ let menuTempl = function (webviews) {
         if (gethClient) {
             nodeSubmenu.push(
                 {
-                    label: `Geth ${gethClient.version} (Go)`,
+                    label: `Gnekonium ${gethClient.version} (Go)`,
                     checked: ethereumNode.isOwnNode && ethereumNode.isGeth,
                     enabled: ethereumNode.isOwnNode,
                     type: 'checkbox',

@@ -11,7 +11,7 @@ const EventEmitter = require('events').EventEmitter;
 const Sockets = require('./socketManager');
 const ClientBinaryManager = require('./clientBinaryManager');
 
-const DEFAULT_NODE_TYPE = 'geth';
+const DEFAULT_NODE_TYPE = 'gnekonium';
 const DEFAULT_NETWORK = 'main';
 
 
@@ -66,7 +66,7 @@ class EthereumNode extends EventEmitter {
     }
 
     get isGeth() {
-        return this._type === 'geth';
+        return this._type === 'gnekonium';
     }
 
     get isMainNetwork() {
@@ -298,7 +298,7 @@ class EthereumNode extends EventEmitter {
 
                 // if unable to start eth node then write geth to defaults
                 if (nodeType === 'eth') {
-                    Settings.saveUserData('node', 'geth');
+                    Settings.saveUserData('node', 'gnekonium');
                 }
 
                 throw err;
@@ -352,13 +352,13 @@ class EthereumNode extends EventEmitter {
 
                 // START TESTNET
                 if (network == 'test') {
-                    args = (nodeType === 'geth')
+                    args = (nodeType === 'gnekonium')
                         ? ['--testnet', '--fast', '--ipcpath', Settings.rpcIpcPath]
                         : ['--morden', '--unsafe-transactions'];
                 }
                 // START MAINNET
                 else {
-                    args = (nodeType === 'geth')
+                    args = (nodeType === 'gnekonium')
                         ? ['--fast', '--cache', ((process.arch === 'x64') ? '1024' : '512')]
                         : ['--unsafe-transactions'];
                 }
@@ -404,9 +404,9 @@ class EthereumNode extends EventEmitter {
                     if (STATES.STARTING === this.state) {
                         const dataStr = data.toString().toLowerCase();
 
-                        if (nodeType === 'geth') {
+                        if (nodeType === 'gnekonium') {
                             if (dataStr.indexOf('fatal: error') >= 0) {
-                                const err = new Error(`Geth error: ${dataStr}`);
+                                const err = new Error(`Gnekonium error: ${dataStr}`);
 
                                 if (dataStr.indexOf('bind') >= 0) {
                                     err.tag = UNABLE_TO_BIND_PORT_ERROR;

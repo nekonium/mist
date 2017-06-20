@@ -211,7 +211,7 @@ Template['popupWindows_sendTransactionConfirmation'].helpers({
     @method (totalAmount)
     */
     'totalAmount': function () {
-        var amount = EthTools.formatBalance(this.value, '0,0.00[0000000000000000]', 'ether');
+        var amount = EthTools.formatBalance(this.value, '0,0.00[0000000000000000]', 'nuko');
         var dotPos = (~amount.indexOf('.')) ? amount.indexOf('.') + 3 : amount.indexOf(',') + 3;
 
         return amount ? amount.substr(0, dotPos) + '<small style="font-size: 0.5em;">' + amount.substr(dotPos) + '</small>' : '0';

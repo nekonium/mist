@@ -393,7 +393,7 @@ let menuTempl = function (webviews) {
         const nodeSubmenu = [];
 
         const ethClient = ClientBinaryManager.getClient('eth');
-        const gethClient = ClientBinaryManager.getClient('gnekonium');
+        const gethClient = ClientBinaryManager.getClient('geth');
 
         if (gethClient) {
             nodeSubmenu.push(
@@ -403,7 +403,7 @@ let menuTempl = function (webviews) {
                     enabled: ethereumNode.isOwnNode,
                     type: 'checkbox',
                     click() {
-                        restartNode('gnekonium');
+                        restartNode('geth');
                     },
                 }
             );

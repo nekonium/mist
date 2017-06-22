@@ -5,7 +5,7 @@
   "author": "Ethereum Mist Team <mist@ethereum.org>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum/mist.git"
+    "url": "https://github.com/nekonium/mist.git"
   },
   "scripts": {
     "postinstall": "cd interface && yarn"

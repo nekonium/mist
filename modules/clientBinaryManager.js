@@ -16,7 +16,8 @@ const log = require('./utils/logger').create('ClientBinaryManager');
 const BINARY_URL = 'https://raw.githubusercontent.com/nekonium/mist/Branch_v0.8.10/clientBinaries.json';
 
 const ALLOWED_DOWNLOAD_URLS_REGEX =
-    /^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?ethereum\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+)/;  // eslint-disable-line max-len
+//    /^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?nekonium\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+)/;  // eslint-disable-line max-len
+    /^http:\/\/localhost\/(?:.+)/;  // eslint-disable-line max-len
 
 class Manager extends EventEmitter {
     constructor() {

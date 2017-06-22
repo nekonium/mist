@@ -32,10 +32,10 @@ const startGeth = function* () {
         gethPath = manager.clients.Geth.activeCli.fullPath;
     }
     else {
-        console.info('Downloading geth...');
-        let downloadedGeth = yield manager.download('Geth');
+        console.info('Downloading gnekonium...');
+        let downloadedGeth = yield manager.download('Gnekonium');
         gethPath = downloadedGeth.client.activeCli.fullPath;
-        console.info('Geth downloaded at:', gethPath);
+        console.info('Gnekonium downloaded at:', gethPath);
     }
 
     const geth = gethPrivate({

@@ -26,7 +26,7 @@ CRCCheck on
 RequestExecutionLevel admin
 
 !searchreplace APPNAMENOHYPEN ${APPNAME} "-" " "
-!define GROUPNAME "Ethereum"
+!define GROUPNAME "Nekonium"
 !define HELPURL "https://github.com/nekonium/mist/releases/issues"
 !define UPDATEURL "https://github.com/nekonium/mist/releases"
 !define ABOUTURL "https://github.com/nekonium"
@@ -168,9 +168,9 @@ Section Mist MIST_IDX
     CreateShortCut "$SHORTCUTDIR\Uninstall.lnk" "$FILEDIR\uninstall.exe"
 
     ## Firewall - add rules
-    #SimpleFC::AdvAddRule "Geth incoming peers (TCP:28568)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Gnekonium\unpacked\gnekonium.exe" "" "" "Ethereum" 28568 "" "" ""
-    #SimpleFC::AdvAddRule "Geth outgoing peers (TCP:28568)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Gnekonium\unpacked\gnekonium.exe" "" "" "Ethereum" "" 28568 "" ""
-    #SimpleFC::AdvAddRule "Geth UDP discovery (UDP:28568)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Gnekonium\unpacked\gnekonium.exe" "" "" "Ethereum" "" 28568 "" ""
+    #SimpleFC::AdvAddRule "GNekonium incoming peers (TCP:28568)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Gnekonium\unpacked\gnekonium.exe" "" "" "Nekonium" 28568 "" "" ""
+    #SimpleFC::AdvAddRule "GNekonium outgoing peers (TCP:28568)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Gnekonium\unpacked\gnekonium.exe" "" "" "Nekonium" "" 28568 "" ""
+    #SimpleFC::AdvAddRule "GNekonium UDP discovery (UDP:28568)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Gnekonium\unpacked\gnekonium.exe" "" "" "Nekonium" "" 28568 "" ""
 
     # write registry strings for uninstallation
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${GROUPNAME} ${APPNAME}" "DisplayName" "${GROUPNAME} ${APPNAME}"
@@ -237,9 +237,9 @@ Section "uninstall"
     rmDir /r /REBOOTOK "$FILEDIR"
 
     ## Firewall - remove rules (if exists)
-    #SimpleFC::AdvRemoveRule "Geth incoming peers (TCP:28568)"
-    #SimpleFC::AdvRemoveRule "Geth outgoing peers (TCP:28568)"
-    #SimpleFC::AdvRemoveRule "Geth UDP discovery (UDP:28568)"
+    #SimpleFC::AdvRemoveRule "GNekonium incoming peers (TCP:28568)"
+    #SimpleFC::AdvRemoveRule "GNekonium outgoing peers (TCP:28568)"
+    #SimpleFC::AdvRemoveRule "GNekonium UDP discovery (UDP:28568)"
 
     # delete registry strings
     DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${GROUPNAME} ${APPNAME}"

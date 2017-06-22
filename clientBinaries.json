@@ -2,27 +2,27 @@
 {
     "clients": {
         "Gnekonium": {
-            "version": "1.6.5b",
+            "version": "1.6.6",
             "platforms": {
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "http://localhost/gnekonium-windows-amd64-1.6.5b.zip",
+                            "url": "http://localhost/gnekonium-windows-amd64-1.6.6.zip",
                             "type": "zip",
                             "md5": "e3097fc32e838d6e8fee9e090fb3b624",
-                            "bin": "gnekonium-windows-amd64-1.6.5b\\gnekonium.exe"
+                            "bin": "gnekonium-windows-amd64-1.6.6\\gnekonium.exe"
                         },
                         "bin": "gnekonium.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gnekonium", "1.6.5b" ]
+                                "output": [ "Gnekonium", "1.6.6" ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "http://localhost/gnekonium-windows-386-1.6.5b.zip",
+                            "url": "http://localhost/gnekonium-windows-386-1.6.6.zip",
                             "type": "zip",
                             "md5": "0935e22c5626c73b9f0b556b3323c71a",
                             "bin": "gnekonium-windows-386-1.6.0-facc47cb\\gnekonium.exe"
@@ -31,7 +31,7 @@
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
-                                "output": [ "Gnekonium", "1.6.5b" ]
+                                "output": [ "Gnekonium", "1.6.6" ]
                             }
                         }
                     }

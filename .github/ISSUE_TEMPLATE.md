@@ -2,7 +2,7 @@
 ``````
 Version: `0.0.0`
 OS & Version: windows/linux/osx
-Node type: `eth/geth(default)`
+Node type: `nekonium/gnukonium(default)`
 ``````
 
 #### Please check the **already existing** issues to keep duplicates at a minimum.

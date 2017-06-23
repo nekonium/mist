@@ -392,7 +392,7 @@ let menuTempl = function (webviews) {
     if (process.platform === 'darwin' || process.platform === 'win32') {
         const nodeSubmenu = [];
 
-        const ethClient = ClientBinaryManager.getClient('eth');
+        const ethClient = ClientBinaryManager.getClient('nekonium');
         const gethClient = ClientBinaryManager.getClient('gnekonium');
 
         if (gethClient) {
@@ -412,13 +412,13 @@ let menuTempl = function (webviews) {
         if (ethClient) {
             nodeSubmenu.push(
                 {
-                    label: `Eth ${ethClient.version} (C++)`,
+                    label: `Nekonium ${ethClient.version} (C++)`,
                     checked: ethereumNode.isOwnNode && ethereumNode.isEth,
                     enabled: ethereumNode.isOwnNode,
                     // enabled: false,
                     type: 'checkbox',
                     click() {
-                        restartNode('eth');
+                        restartNode('nekonium');
                     },
                 }
             );

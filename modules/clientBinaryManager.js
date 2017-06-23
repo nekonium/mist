@@ -195,7 +195,7 @@ class Manager extends EventEmitter {
             return mgr.init({
                 folders: [
                     path.join(Settings.userDataPath, 'binaries', 'Gnekonium', 'unpacked'),
-                    path.join(Settings.userDataPath, 'binaries', 'Eth', 'unpacked'),
+                    path.join(Settings.userDataPath, 'binaries', 'Nekonium', 'unpacked'),
                 ],
             })
             .then(() => {
@@ -283,7 +283,7 @@ class Manager extends EventEmitter {
 
 
     _resolveEthBinPath() {
-        log.info('Resolving path to Eth client binary ...');
+        log.info('Resolving path to Nekonium client binary ...');
 
         let platform = process.platform;
 
@@ -300,7 +300,7 @@ class Manager extends EventEmitter {
             __dirname,
             '..',
             'nodes',
-            'eth',
+            'gnekonium',
             `${platform}-${process.arch}`
         );
 
@@ -309,13 +309,13 @@ class Manager extends EventEmitter {
             binPath = binPath.replace('nodes', path.join('..', '..', 'nodes'));
         }
 
-        binPath = path.join(path.resolve(binPath), 'eth');
+        binPath = path.join(path.resolve(binPath), 'gnekonium');
 
         if (platform === 'win') {
             binPath += '.exe';
         }
 
-        log.info(`Eth client binary path: ${binPath}`);
+        log.info(`Nekonium client binary path: ${binPath}`);
 
         this._availableClients.eth = {
             binPath,

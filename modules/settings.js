@@ -33,7 +33,7 @@ const argv = require('yargs')
         node: {
             demand: false,
             default: null,
-            describe: 'Node to use: gnekonium, eth',
+            describe: 'Node to use: gnekonium, nekonium',
             requiresArg: true,
             nargs: 1,
             type: 'string',
@@ -66,7 +66,7 @@ const argv = require('yargs')
         },
         ethpath: {
             demand: false,
-            describe: 'Path to Eth executable to use instead of default.',
+            describe: 'Path to Nekonium executable to use instead of default.',
             requiresArg: true,
             nargs: 1,
             type: 'string',

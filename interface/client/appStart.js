@@ -20,8 +20,8 @@ mistInit = function () {
 
             Tabs.insert({
                 _id: 'browser',
-                url: 'https://ethereum.org',
-                redirect: 'https://ethereum.org',
+                url: 'https://github.com/nekonium',
+                redirect: 'https://github.com/nekonium',
                 position: 0
             });
         } else {
@@ -38,8 +38,8 @@ mistInit = function () {
             { _id: 'wallet' },
             {
                 $set: {
-                    url: 'https://wallet.ethereum.org',
-                    redirect: 'https://wallet.ethereum.org',
+                    url: 'https://wallet.nekonium.org',
+                    redirect: 'https://wallet.nekonium.org',
                     position: 1,
                     permissions: {
                         admin: true

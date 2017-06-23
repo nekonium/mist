@@ -297,7 +297,7 @@ class EthereumNode extends EventEmitter {
                 this.state = STATES.ERROR;
 
                 // if unable to start eth node then write geth to defaults
-                if (nodeType === 'eth') {
+                if (nodeType === 'gnekonium') {
                     Settings.saveUserData('node', 'gnekonium');
                 }
 

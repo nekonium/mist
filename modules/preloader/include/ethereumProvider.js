@@ -3,7 +3,7 @@ Sets the ethereum provider, as well as "web3" for backwards compatibility.
 
 @module ethereumProvider
 */
-const Web3 = require('web3');
+const Web3 = require('@nekonium/web3');
 const BigNumber = require('bignumber.js');
 const ipcProviderWrapper = require('../../ipc/ipcProviderWrapper.js');
 const LegacyWeb3IpcProvider = require('./legacyWeb3IpcProvider.js');

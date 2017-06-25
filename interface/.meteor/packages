@@ -21,8 +21,8 @@ agnito:simptip
 mrt:jquery-ui-sortable
 nekonium:web3
 nekonium:elements
-ethereum:accounts
-ethereum:blocks
+nekonium:accounts
+nekonium:blocks
 ethereum:dapp-styles
 meteor-base@1.0.4
 mobile-experience@1.0.4

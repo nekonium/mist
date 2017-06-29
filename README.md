@@ -71,7 +71,7 @@ In the original window you can then start Mist with:
     $ cd mist
     $ electron .
 
-*NOTE: client-binaries (e.g. [geth](https://github.com/ethereum/go-ethereum)) specified in [clientBinaries.json](https://github.com/ethereum/mist/blob/master/clientBinaries.json) will be checked during every startup and downloaded if out-of-date, binaries are stored in the [config folder](#config-folder)*
+*NOTE: client-binaries (e.g. [gnekonium](https://github.com/nekonium/go-nekonium)) specified in [clientBinaries.json](https://github.com/nekonium/mist/blob/master/clientBinaries.json) will be checked during every startup and downloaded if out-of-date, binaries are stored in the [config folder](#config-folder)*
 
 *NOTE: use `--help` to display available options, e.g. `--loglevel debug` (or `trace`) for verbose output*
 
@@ -101,9 +101,9 @@ $ electron . --rpc http://localhost:8545
 ```
 
 
-### Passing options to Geth
+### Passing options to Gnekonium
 
-You can pass command-line options directly to Geth by prefixing them with `--node-` in
+You can pass command-line options directly to Gnekonium by prefixing them with `--node-` in
 the command-line invocation:
 
 ```bash
@@ -114,14 +114,14 @@ The `--rpc` Mist option is a special case. If you set this to an IPC socket file
 path then the `--ipcpath` option automatically gets set, i.e.:
 
 ```bash
-$ electron . --rpc /my/geth.ipc
+$ electron . --rpc /my/gnekonium.ipc
 ```
 
 ...is the same as doing...
 
 
 ```bash
-$ electron . --rpc /my/geth.ipc --node-ipcpath /my/geth.ipc
+$ electron . --rpc /my/gnekonium.ipc --node-ipcpath /my/gnekonium.ipc
 ```
 
 ### Using Mist with a privatenet
@@ -130,13 +130,13 @@ To run a private network you will need to set the IPC path, network id and data
 folder:
 
 ```bash
-$ electron . --rpc ~/Library/Ethereum/geth.ipc --node-networkid 1234  --node-datadir ~/Library/Ethereum/privatenet
+$ electron . --rpc ~/Library/Nekonium/gnekonium.ipc --node-networkid 1234  --node-datadir ~/Library/Nekonium/privatenet
 ```
 
 _NOTE: since `ipcpath` is also a Mist option you do not need to also include a
 `--node-ipcpath` option._
 
-You can also launch `geth` separately with the same options prior starting
+You can also launch `gnekonium` separately with the same options prior starting
 Mist.
 
 
@@ -164,7 +164,7 @@ To generate the binaries for Mist run:
 
     $ gulp
 
-To generate the Ethereum Wallet (this will pack the one Ðapp from https://github.com/ethereum/meteor-dapp-wallet):
+To generate the Nekonium Wallet (this will pack the one Ðapp from https://github.com/nekonium/meteor-dapp-wallet):
 
     $ gulp --wallet
 

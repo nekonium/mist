@@ -17,7 +17,7 @@ const BINARY_URL = 'https://raw.githubusercontent.com/nekonium/mist/master/clien
 
 const ALLOWED_DOWNLOAD_URLS_REGEX =
 //    /^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?nekonium\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+)/;  // eslint-disable-line max-len
-    /^http:\/\/localhost\/(?:.+)/;  // eslint-disable-line max-len
+    /^https:\/\/github\.com\/nekonium\/go\-nekonium\/(?:.+)/;  // eslint-disable-line max-len
 
 class Manager extends EventEmitter {
     constructor() {

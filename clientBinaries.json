@@ -10,7 +10,7 @@
                             "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-linux-amd64.zip",
                             "type": "zip",
                             "md5": "488d8b715404d725b6396809d0fa7ace",
-                            "bin": "gnekonium-linux-amd64/gnekonium-linux-amd64"
+                            "bin": "gnekonium-linux-amd64"
                         },
                         "bin": "gnekonium-linux-amd64",
                         "commands": {
@@ -30,7 +30,7 @@
                             "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-linux-386.zip",
                             "type": "zip",
                             "md5": "fc977b6dff34d4b38a3cb25d586a55ea",
-                            "bin": "gnekonium-linux-386/gnekonium-linux-386"
+                            "bin": "gnekonium-linux-386"
                         },
                         "bin": "gnekonium-linux-386",
                         "commands": {
@@ -52,7 +52,7 @@
                             "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-darwin-amd64.zip",
                             "type": "zip",
                             "md5": "72bcc182e72542c74313b230922c75f1",
-                            "bin": "gnekonium-darwin-amd64/gnekonium-darwin-10.6-amd64"
+                            "bin": "gnekonium-darwin-10.6-amd64"
                         },
                         "bin": "gnekonium-darwin-10.6-amd64",
                         "commands": {
@@ -74,7 +74,7 @@
                             "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-windows-amd64.zip",
                             "type": "zip",
                             "md5": "bb8f8d9a20c01979b881460ee8d58374",
-                            "bin": "gnekonium-windows-amd64\\gnekonium-windows-4.0-amd64.exe"
+                            "bin": "gnekonium-windows-4.0-amd64.exe"
                         },
                         "bin": "gnekonium-windows-4.0-amd64.exe",
                         "commands": {
@@ -89,7 +89,7 @@
                             "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-windows-386.zip",
                             "type": "zip",
                             "md5": "97ba9442bb51605c4a8754d8f5821df0",
-                            "bin": "gnekonium-windows-386\\gnekonium-windows-4.0-386.exe"
+                            "bin": "gnekonium-windows-4.0-386.exe"
                         },
                         "bin": "gnekonium-windows-4.0-386.exe",
                         "commands": {

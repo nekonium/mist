@@ -7,10 +7,10 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "",
+                            "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-linux-amd64-1.6.6-N1.zip",
                             "type": "zip",
-                            "md5": "",
-                            "bin": "gnekonium-linux-amd64"
+                            "md5": "13f97adb01d700c9ae89b8801ba5cf4c",
+                            "bin": "gnekonium-linux-amd64-1.6.6-N1/gnekonium-linux-amd64"
                         },
                         "bin": "gnekonium-linux-amd64",
                         "commands": {
@@ -27,10 +27,10 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "",
+                            "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-linux-386-1.6.6-N1.zip",
                             "type": "zip",
-                            "md5": "",
-                            "bin": "gnekonium-linux-386"
+                            "md5": "24a010570f7670663ad64d6352c16026",
+                            "bin": "gnekonium-linux-386-1.6.6-N1/gnekonium-linux-386"
                         },
                         "bin": "gnekonium-linux-386",
                         "commands": {
@@ -49,10 +49,10 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "",
+                            "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-darwin-amd64-1.6.6-N1.zip",
                             "type": "zip",
-                            "md5": "72bcc182e72542c74313b230922c75f1",
-                            "bin": "gnekonium-darwin-10.6-amd64"
+                            "md5": "25eaf3e1c912647a73cd025c44d19071",
+                            "bin": "gnekonium-darwin-amd64-1.6.6-N1/gnekonium-darwin-10.6-amd64"
                         },
                         "bin": "gnekonium-darwin-10.6-amd64",
                         "commands": {

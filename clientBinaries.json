@@ -74,9 +74,9 @@
                             "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-windows-amd64-1.6.6-N1.zip",
                             "type": "zip",
                             "md5": "5a50df291c52c74d40a63b2a4190012e",
-                            "bin": "gnekonium-windows-4.0-amd64.exe"
+                            "bin": "gnekonium-windows-amd64-1.6.6-N1\\gnekonium-windows-4.0-amd64.exe"
                         },
-                        "bin": "gnekonium-windows-amd64-1.6.6-N1\\gnekonium-windows-4.0-amd64.exe",
+                        "bin": "gnekonium-windows-4.0-amd64.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],
@@ -89,9 +89,9 @@
                             "url": "https://github.com/nekonium/go-nekonium/releases/download/v1.6.6.n1/gnekonium-windows-386-1.6.6-N1.zip",
                             "type": "zip",
                             "md5": "26f0a0786cd3d9adb46fa3b6e3bc6ed3",
-                            "bin": "gnekonium-windows-4.0-386.exe"
+                            "bin": "gnekonium-windows-386-1.6.6-N1\\gnekonium-windows-4.0-386.exe"
                         },
-                        "bin": "gnekonium-windows-386-1.6.6-N1\\gnekonium-windows-4.0-386.exe",
+                        "bin": "gnekonium-windows-4.0-386.exe",
                         "commands": {
                             "sanity": {
                                 "args": ["version"],

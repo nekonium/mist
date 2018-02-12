@@ -8,9 +8,17 @@ The Mist browser is the tool of choice to browse and use Ðapps.
 
 For the Mist API see the [MISTAPI.md](MISTAPI.md).
 
+Please note that this repository is the Electron host for the Meteor based wallet dapp whose repository is located here: https://github.com/ethereum/meteor-dapp-wallet.
+
+## Help and troubleshooting
+
+Please check the [Mist troubleshooting guide](https://github.com/ethereum/mist/wiki).
+
+Or the [Gitter Channel](https://gitter.im/ethereum/mist), to connect with the community for instant help.
+
 ## Installation
 
-If you want install the app from a pre-built version on the [release page](https://github.com/ethereum/mist/releases),
+If you want to install the app from a pre-built version on the [release page](https://github.com/ethereum/mist/releases),
 you can simply run the executeable after download.
 
 For updating simply download the new version and copy it over the old one (keep a backup of the old one if you want to be sure).
@@ -19,30 +27,30 @@ For updating simply download the new version and copy it over the old one (keep 
 The data folder for Mist is stored in other places:
 
 - Windows `%APPDATA%\Mist`
-- macOS `~/Library/Application Support/Mist`
+- macOS `~/Library/Application\ Support/Mist`
 - Linux `~/.config/Mist`
 
 
 ## Development
 
-For development, a Meteor server will to be started to assist with live reload and CSS injection.
-Once a Mist version is released the Meteor frontend part is bundled using `meteor-build-client` npm package to create pure static files.
+For development, a Meteor server will need to be started to assist with live reload and CSS injection.
+Once a Mist version is released the Meteor frontend part is bundled using the `meteor-build-client` npm package to create pure static files.
 
 ### Dependencies
 
 To run mist in development you need:
 
-- [Node.js](https://nodejs.org) `v6.x` (use the prefered installation method for your OS)
+- [Node.js](https://nodejs.org) `v7.x` (use the prefered installation method for your OS)
 - [Meteor](https://www.meteor.com/install) javascript app framework
 - [Yarn](https://yarnpkg.com/) package manager
-- [Electron](http://electron.atom.io/) `v1.3.13` cross platform desktop app framework
+- [Electron](http://electron.atom.io/) `v1.7.9` cross platform desktop app framework
 - [Gulp](http://gulpjs.com/) build and automation system
 
-Install the later ones via:
+Install the latter ones via:
 
     $ curl https://install.meteor.com/ | sh
     $ curl -o- -L https://yarnpkg.com/install.sh | bash
-    $ yarn global add electron@1.3.13
+    $ yarn global add electron@1.7.9
     $ yarn global add gulp
 
 ### Initialisation
@@ -69,7 +77,7 @@ For development we start the interface with a Meteor server for autoreload etc.
 In the original window you can then start Mist with:
 
     $ cd mist
-    $ electron .
+    $ yarn dev:electron
 
 *NOTE: client-binaries (e.g. [gnekonium](https://github.com/nekonium/go-nekonium)) specified in [clientBinaries.json](https://github.com/nekonium/mist/blob/master/clientBinaries.json) will be checked during every startup and downloaded if out-of-date, binaries are stored in the [config folder](#config-folder)*
 
@@ -88,7 +96,7 @@ Start the wallet app for development, *in a separate terminal window:*
 In the original window you can then start Mist using wallet mode:
 
     $ cd mist
-    $ electron . --mode wallet
+    $ yarn dev:electron --mode wallet
 
 
 ### Connecting to node via HTTP instead of IPC
@@ -97,7 +105,7 @@ This is useful if you have a node running on another machine, though note that
 it's less secure than using the default IPC method.
 
 ```bash
-$ electron . --rpc http://localhost:8545
+$ yarn dev:electron --rpc http://localhost:8545
 ```
 
 
@@ -107,22 +115,28 @@ You can pass command-line options directly to Gnekonium by prefixing them with `
 the command-line invocation:
 
 ```bash
-$ electron . --mode mist --node-rpcport 19343 --node-networkid 2
+$ yarn dev:electron --mode mist --node-rpcport 19343 --node-networkid 2
 ```
 
 The `--rpc` Mist option is a special case. If you set this to an IPC socket file
 path then the `--ipcpath` option automatically gets set, i.e.:
 
 ```bash
-$ electron . --rpc /my/gnekonium.ipc
+$ yarn dev:electron --rpc /my/gnekonium.ipc
 ```
 
 ...is the same as doing...
 
 
 ```bash
-$ electron . --rpc /my/gnekonium.ipc --node-ipcpath /my/gnekonium.ipc
+$ yarn dev:electron --rpc /my/gnekonium.ipc --node-ipcpath /my/gnekonium.ipc
 ```
+
+### Creating a local private net
+
+See this guide to quickly set up a local private network on your computer:
+https://gist.github.com/evertonfraga/9d65a9f3ea399ac138b3e40641accf23
+
 
 ### Using Mist with a privatenet
 
@@ -130,7 +144,7 @@ To run a private network you will need to set the IPC path, network id and data
 folder:
 
 ```bash
-$ electron . --rpc ~/Library/Nekonium/gnekonium.ipc --node-networkid 1234  --node-datadir ~/Library/Nekonium/privatenet
+$ yarn dev:electron --rpc ~/Library/Ethereum/gnekonium.ipc --node-networkid 1234 --node-datadir ~/Library/Nekonium/privatenet
 ```
 
 _NOTE: since `ipcpath` is also a Mist option you do not need to also include a
@@ -201,6 +215,12 @@ Options are:
 
 *Note: applicable only when combined with `--wallet`*
 
+#### skipTasks
+
+When building a binary, you can optionally skip some tasks — generally for testing purposes.
+
+  $ gulp --mac --skipTasks=bundling-interface,release-dist
+
 #### Checksums
 
 Spits out the MD5 checksums of distributables.
@@ -212,12 +232,14 @@ It expects installer/zip files to be in the generated folders e.g. `dist_mist/re
 
 ## Testing
 
+Tests are ran using [Spectron](https://github.com/electron/spectron/), a webdriver.io runner built for Electron.
+
 First make sure to build Mist with:
 
-    $ gulp [--wallet]
+    $ gulp
 
 Then run the tests:
 
-    $ gulp test [--wallet]
+    $ gulp test
 
 *Note: Integration tests are not yet supported on Windows.*

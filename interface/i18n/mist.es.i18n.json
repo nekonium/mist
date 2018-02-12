@@ -26,8 +26,8 @@
                 "fullscreen": "Pantalla Completa",
                 "default": "Default"
             },
-            "accounts": {
-                "label": "Cuentas",
+            "file": {
+                "label": "Arquivo",
                 "importPresale": "Importar Cuentas",
                 "newAccount": "Nueva cuenta",
                 "backup": "Copia de seguridad",
@@ -35,6 +35,7 @@
                 "backupMist": "Datos de la aplicación"
             },
             "develop": {
+                "uploadToSwarm": "Upload a Swarm",
                 "label": "Desarrollo",
                 "devTools": "Herramientas para desarrolladores",
                 "devToolsMistUI": "UI de Mist",
@@ -45,7 +46,7 @@
                 "ethereumNode": "Nodo de Nekonium",
                 "network": "Red",
                 "mainNetwork": "Red principal",
-                "startMining": "⛏ Empezar a minar (sólo Testnet)",
+                "startMining": "⛏ Empezar a minar",
                 "stopMining": "⛏ Parar de minar",
                 "externalNode": "using external node",
                 "openRemix": "Open Remix IDE",
@@ -93,14 +94,14 @@
             "blockReceived": "Nuevo bloque recibido",
             "blockNumber": "Su último número de bloque",
             "timeSinceBlock": "Tiempo transcurrido desde el último bloque",
-            "testnetExplain": "Estás en la red de pruebas, NO ENVÍE ningún nekonium real a estas direcciones",
+            "testnetExplain": "Estás en la red de pruebas, NO ENVÍE ningún nuko real a estas direcciones",
             "peers": "pares",
             "checkingWhichNetwork": "Checking network...",
             "mainNetwork": "Main-net",
             "testNetwork": "Test-net",
             "privateNetwork": "Private-net",
             "mainnetExplain": "You are on the main Nekonium global network",
-            "privatenetExplain": "You are on a private net, DO NOT SEND any real nekonium to these addresses",
+            "privatenetExplain": "You are on a private net, DO NOT SEND any real nuko to these addresses",
             "unknownnetExplain": "Unable to determine which network you are on"
         },
         "sidebar": {
@@ -118,7 +119,7 @@
             "runningNodeFound": "Encontrado nodo Nekonium funcionando!",
             "startingNode": "Iniciando el nodo Nekonium...",
             "startedNode": "Iniciando la aplicación...",
-            "nodeConnectionTimeout": "No se pudo iniciar un nodo Nekonium!<br><small>Si <a href='https://github.com/nekonium' class='button' target='_blank'>has instalado Gnekonium</a>, utiliza este comando para ejecutarlo: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> O informa del problema </a></small>",
+            "nodeConnectionTimeout": "No se pudo iniciar un nodo Nekonium!<br><small>Si <a href='https://github.com/nekonium' class='button' target='_blank'>has instalado Gnekonium</a>, utiliza este comando para ejecutarlo: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/nekonium/mist/issues' class='button' target='_blank'> O informa del problema </a></small>",
             "nodeBinaryNotFound": "No se ha encontrado el binario del nodo Nekonium!<br><small> <a href='https://github.com/nekonium' class='button' target='_blank'> Por favor, inicie antes uno manualmente. </a> </small>",
             "nodeSyncing": "El nodo de Nekonium necesita sincronizarse, por favor espere...",
             "nodeSyncInfo": "Descargando bloque __displayBlock__ de __highestBlock__.",
@@ -177,7 +178,7 @@
                 "estimatedFee": "Tasa de comisión estimada",
                 "estimatedGasError": "Los datos no pueden ser ejecutados por lo que se utilizá todo el gas proporcionado.",
                 "gasPrice": "Precio del Gas",
-                "perMillionGas": "nekonium por millón de gas",
+                "perMillionGas": "nuko por millón de gas",
                 "gasLimit": "Proporcionar la tasa máxima",
                 "data": "Datos",
                 "buttons": {
@@ -201,11 +202,11 @@
                 "notEnoughGas": "Gas might not be enough to successfully finish this transaction.<br>Click here to increase the gas amount."
             },
             "onboarding": {
-                "description": "Nekonium es una plataforma descentralizada para la construcción de aplicaciones en una blockchain: segura y a prueba de manipulaciones que puede transferir valor, propiedad y vive para siempre",
+                "description": "Nukonium es una plataforma descentralizada para la construcción de aplicaciones en una blockchain: segura y a prueba de manipulaciones que puede transferir valor, propiedad y vive para siempre",
                 "goToTestnet": "Utiliza la red de pruebas",
-                "goToTestnetDescription": "Pruebe la tecnología libremente en una red de pruebas sin utilizar nekonium reales.",
+                "goToTestnetDescription": "Pruebe la tecnología libremente en una red de pruebas sin utilizar nuko reales.",
                 "gotoMainnet": "Utilizar la red principal",
-                "gotoMainnetDescription": " Necesitarás algunos Nekonium para poder crear y ejecutar contratos. No se preocupe, nosotros le ayudaremos a obtener algunos...",
+                "gotoMainnetDescription": " Necesitarás algunos Nuko para poder crear y ejecutar contratos. No se preocupe, nosotros le ayudaremos a obtener algunos...",
                 "doYouHaveAWalletFile": "¿Tiene un archivo de monedero?",
                 "walletFileDescription": "<p>Si participaste en la preventa de Ethereum en 2014, deberías tener un archivo llamado <code>ethereum_wallet_backup.json</code>. Se descargó después de la venta y también se envió a su correo electrónico.</p>",
                 "dropFilesHere": "Soltar el archivo de la pre-venta",
@@ -217,9 +218,9 @@
                 "protectDescription": "Elija una contraseña para su nueva cuenta que sea tan fuerte como si fuera a proteger las llaves de su casa!",
                 "accountTitle": "Cargarla!",
                 "accountTitleTestnet": "Minar algunos!",
-                "etherDescription": "La red nekonium está basada en un token llamado “Nekonium”. Necesitarás una pequeña cantidad de él para hacer cualquier cosa en la red Nekonium.",
-                "loadItDescription": "Si ya dispone de Bitcoin o cualquier otra criptomoneda, puede convertirlas fácilmente a nekonium utilizando shapeshift. <br><br> Recomendamos una cuantía de entre <strong>0.25 a 1 nekonium</strong>.",
-                "mineItDescription": "<strong>En la red de pruebas puedes minar nekonium tú mismo desde el menú <em>Desarrollar</em> y eligiendo <em>Empezar a minar</em>. </strong> <br> <strong> NO INTENTE ENVIAR NEKONIUM REALES A ESTA DIRECCIÓN </strong>",
+                "etherDescription": "La red nekonium está basada en un token llamado “Nuko”. Necesitarás una pequeña cantidad de él para hacer cualquier cosa en la red Nekonium.",
+                "loadItDescription": "Si ya dispone de Bitcoin o cualquier otra criptomoneda, puede convertirlas fácilmente a nuko utilizando shapeshift. <br><br> Recomendamos una cuantía de entre <strong>0.25 a 1 nuko</strong>.",
+                "mineItDescription": "<strong>En la red de pruebas puedes minar nuko tú mismo desde el menú <em>Desarrollar</em> y eligiendo <em>Empezar a minar</em>. </strong> <br> <strong> NO INTENTE ENVIAR NUKO REALES A ESTA DIRECCIÓN </strong>",
                 "you": "TÚ",
                 "etherbase": "Cuenta principal (etherbase)",
                 "depositBitcoin": "Depositar Bitcoin",

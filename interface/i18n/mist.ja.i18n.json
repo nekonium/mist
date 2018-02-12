@@ -5,7 +5,7 @@
                 "label": "__app__",
                 "about": "__app__ について",
                 "checkForUpdates": "アップデートの確認...",
-                "checkForNodeUpdates": "Check for Nekonium node updates...",
+                "checkForNodeUpdates": "ノードのアップデートを確認...",
                 "services": "サービス",
                 "hide": "__app__ を隠す",
                 "hideOthers": "ほかを隠す",
@@ -26,7 +26,7 @@
                 "fullscreen": "フルスクリーンをトグルする",
                 "default": "Default"
             },
-            "accounts": {
+            "file": {
                 "label": "アカウント",
                 "importPresale": "アカウントを読み込む",
                 "newAccount": "新規アカウント",
@@ -35,6 +35,7 @@
                 "backupMist": "アプリケーションデータ"
             },
             "develop": {
+                "uploadToSwarm": "Swarmにアップロード",
                 "label": "Develop",
                 "devTools": "開発者用ツールをトグルする",
                 "devToolsMistUI": "Mist UI",
@@ -45,7 +46,7 @@
                 "ethereumNode": "Nekonium ノード",
                 "network": "ネットワーク",
                 "mainNetwork": "メインネットワーク",
-                "startMining": "⛏ マイニングを始める (テストネット のみ)",
+                "startMining": "⛏ マイニングを始める",
                 "stopMining": "⛏ マイニングを中止する",
                 "externalNode": "using external node",
                 "openRemix": "Open Remix IDE",
@@ -94,14 +95,14 @@
             "timeSinceBlock": "最後のブロックから",
             "peers": "ピアー",
             "blockNumber": "Your latest block number",
-            "checkingWhichNetwork": "Checking network...",
+            "checkingWhichNetwork": "ネットワークの確認...",
             "mainNetwork": "Main-net",
             "testNetwork": "Test-net",
             "privateNetwork": "Private-net",
             "mainnetExplain": "You are on the main Nekonium global network",
-            "testnetExplain": "You are on the testnet, DO NOT SEND any real nekonium to these addresses",
-            "privatenetExplain": "You are on a private net, DO NOT SEND any real nekonium to these addresses",
-            "unknownnetExplain": "Unable to determine which network you are on"
+            "testnetExplain": "あなたはテストネットに繋いでいます。絶対にこれらのアドレスに本物のNukoを送信しないでください",
+            "privatenetExplain": "あなたはプライベートネットに繋いでいます。絶対にこれらのアドレスに本物のNukoを送信しないでください",
+            "unknownnetExplain": "あなたがどのネットワークに接続しているか特定できませんでした"
         },
         "sidebar": {
             "buttons": {
@@ -111,37 +112,37 @@
         "browserBar": {
             "buttons": {
                 "noAccounts": "アカウントがセットされていません",
-                "connect": "Connect"
+                "connect": "接続"
             }
         },
         "startScreen": {
-            "runningNodeFound": "走っているNekonium nodeを見つけました!",
+            "runningNodeFound": "実行中のNekonium ノードを見つけました！",
             "startingNode": "Nekonium ノードを開始しています。",
             "startedNode": "アプリケーションを開始しています...",
-            "nodeConnectionTimeout": "Nekonium nodeをスタート出来ませんでした!<br><small>もし<a href='https://github.com/nekonium' class='button' target='_blank'>Gnekonium</a>をインストールしているならば,このコマンドを使ってみてください: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'>もしくは問題を報告して下さい。 </a></small>",
-            "nodeBinaryNotFound": "Nekonium node バイナリーが見つかりませんでした。<br><small> <a href='https://github.com/nekonium' class='button' target='_blank'> 手動でスタートして下さい。 </a> </small>",
+            "nodeConnectionTimeout": "Nekonium ノードを開始出来ませんでした！<br><small>もし<a href='https://github.com/nekonium' class='button' target='_blank'>Gnekonium</a>をインストールしているならば,このコマンドを使ってみてください: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/nekonium/mist/issues' class='button' target='_blank'>もしくは問題を報告して下さい。 </a></small>",
+            "nodeBinaryNotFound": "Nekonium ノードの実行ファイルが見つかりませんでした。<br><small> <a href='https://github.com/nekonium' class='button' target='_blank'> 手動でスタートして下さい。 </a> </small>",
             "nodeSyncing": "Nekonium node は同期中です...",
             "nodeSyncInfo": "blockをダウンロードしています。 __displayBlock__ of __highestBlock__.",
             "nodeSyncConnecting": "ピアーを探しています。...",
             "peerSearchTimeout": "ピアーの検索を中止しています",
-            "stoppingNode": "Stopping Nekonium node...",
-            "nodeStarting": "Nekonium node starting up...",
-            "nodeStarted": "Nekonium node started",
-            "nodeConnected": "Nekonium node connected",
-            "nodeStopping": "Nekonium node stopping...",
-            "nodeStopped": "Nekonium node stopped",
-            "nodeError": "Nekonium node connection error :'(",
-            "unableToBindPort": "Nekonium node cannot run. Is another instance already running?",
-            "nodeSyncInfoStates": "Downloading block __displayBlock__ of __highestBlock__, <br> Downloading chain structure __displayState__ of __displayKnownStates__",
-            "nodeSyncFoundPeers": "Connecting to __peers__ peers...",
-            "launchApp": "Launch Application",
+            "stoppingNode": "Nekonium ノードを停止中...",
+            "nodeStarting": "Nekonium ノードを起動中...",
+            "nodeStarted": "Nekonium ノードを起動しました",
+            "nodeConnected": "Nekonium ノードに接続完了",
+            "nodeStopping": "Nekonium ノードを停止中...",
+            "nodeStopped": "Nekonium ノードは停止しました",
+            "nodeError": "Nekonium ノード接続エラーが発生しました (´・ω・｀)",
+            "unableToBindPort": "Nekonium ノードを起動できませんでした。同インスタンスがすでに実行されていませんか？",
+            "nodeSyncInfoStates": "ブロックをダウンロード中 __highestBlock__ / __displayBlock__ <br> チェーンのストラクチャをダウンロード中 __displayState__ / __displayKnownStates__",
+            "nodeSyncFoundPeers": "__peers__ ピアに接続しています...",
+            "launchApp": "アプリケーションを起動",
             "clientBinaries": {
-                "scanning": "Checking for node update...",
-                "downloading": "Downloading new node...",
-                "loadConfig": "Loading client config...",
-                "filtering": "Filtering client binaries...",
-                "done": "Nekonium node up-to-date...",
-                "error": "Error running downloaded binary."
+                "scanning": "ノードのアップデートを確認中...",
+                "downloading": "アップデートされたノードをダウンロード中...",
+                "loadConfig": "クライアントの設定を読み込んでいます...",
+                "filtering": "クライアント実行ファイルのチェック中...",
+                "done": "Nekonium ノードは最新です...",
+                "error": "ライブラリのダウンロード時にエラーが発生しました。"
             }
         },
         "popupWindows": {
@@ -152,7 +153,7 @@
                 "creating": "アカウントを生成しています...",
                 "errors": {
                     "passwordMismatch": "あなたのパスワードはあっていません",
-                    "passwordTooShort": "Make a longer password"
+                    "passwordTooShort": "もう少し長いパスワードをお願いします"
                 }
             },
             "unlockMasterPassword": {
@@ -177,7 +178,7 @@
                 "estimatedFee": "推定されるトランザクションフィーの消費",
                 "estimatedGasError": "データが実行できませんでした、そのため全てのgas が消費されます。",
                 "gasPrice": "ガスプライス",
-                "perMillionGas": "百万gas ごとのNekonium",
+                "perMillionGas": "100万gas ごとのNuko",
                 "gasLimit": "最大のフィーを提供",
                 "data": "データ",
                 "buttons": {
@@ -202,10 +203,10 @@
             },
             "onboarding": {
                 "description": "Nekonium は分散型のプラットフォームで、ブロックチェーン上でアプリケーションを作成することが出来ます。価値を転送することが出来、永続的に稼働するセキュリティの高いソフトウェアを作ることが出来ます。",
-                "goToTestnet": "テストネットワークを使用する",
-                "goToTestnetDescription": "サンドボックスのテストネットで、テクノロジーを自由に使う。本当のNekoniumを使うことなく.",
+                "goToTestnet": "テストネットワークを使用する (Rinkeby)",
+                "goToTestnetDescription": "サンドボックスのテストネットで、テクノロジーを自由に使う。本当のNukoを使うことなく。",
                 "gotoMainnet": "メインネットワークを使用する",
-                "gotoMainnetDescription": "コントラクトを作成して実行するためにいくらかのNekoniumが必要となるでしょう。心配することはありません、手に入れるためにこちらの方法があります。...",
+                "gotoMainnetDescription": "コントラクトを作成して実行するためにいくらかのNukoが必要となるでしょう。心配することはありません、手に入れるためにこちらの方法があります。...",
                 "doYouHaveAWalletFile": "ウォレットファイルを持っていますか?",
                 "walletFileDescription": "<p>もし2014年のプリセールに参加していたら、 <code>ethereum_wallet_backup.json</code>という名前のファイルを持っているはずです。プリセールのあとにダウンロードしているか、もしくはEmailにて受け取っているはずです。</p>",
                 "dropFilesHere": "プリセールファイルを削除する",
@@ -217,9 +218,9 @@
                 "protectDescription": "新しいアカウントのためにパスワードを作成する. 必ず強いキーにしてください!",
                 "accountTitle": "もっとダウンロードする!",
                 "accountTitleTestnet": "マイニングを行う!",
-                "etherDescription": "The nekonium network  “Nekonium”. Nekonium networkで何かを行うためには必ず必要となります。",
-                "loadItDescription": "既にもし Bitcoinを持っているか, もしくは他の暗号通貨を持っている場合には簡単にShapeshiftから変換する事ができます。 <br><br> 私たちは <strong>0.25 to 1 nekonium</strong>を変換することをおすすめします.",
-                "mineItDescription": "<strong>テストネットでは自分自身でマイニングを行うか、 <em>Develop</em> メニューから <em>マイニングを始める</em>を選んで. </strong> <br> <strong> 絶対にこのアドレスにはNekoniumを送らないでください </strong>",
+                "etherDescription": "Nekonium ネットワークでは“Nuko”という通貨を使用します。 Nekonium ネットワークで何かを行うためには必ず必要となります。",
+                "loadItDescription": "既にもし Bitcoinを持っているか, もしくは他の暗号通貨を持っている場合には簡単にShapeshiftから変換する事ができます。 <br><br> 私たちは <strong>0.25 to 1 nuko</strong>を変換することをおすすめします.",
+                "mineItDescription": "<strong>テストネットでは自分自身でマイニングを行うか、 <em>Develop</em> メニューから <em>マイニングを始める</em>を選んで. </strong> <br> <strong> 絶対にこのアドレスにはNukoを送らないでください </strong>",
                 "you": "あなた",
                 "etherbase": "メインアカウント(etherbase)",
                 "depositBitcoin": "Bitcoinをデポジットする",

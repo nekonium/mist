@@ -21,16 +21,11 @@ gulp.task('checksums', (cb) => {
     let command;
     let argument = '';
 
-    switch (process.platform) {
-    case 'darwin':
-        command = 'md5';
-        break;
-    case 'win32':
+    if (process.platform === 'win32') {
         command = 'certUtil -hashfile';
-        argument = 'md5';
-        break;
-    default:
-        command = 'md5sum';
+        argument = 'SHA256';
+    } else {
+        command = 'shasum -a 256';
     }
 
     files.forEach((file) => {
@@ -57,6 +52,8 @@ gulp.task('upload-binaries', (cb) => {
     // personal access token (public_repo) must be set using travis' ENVs
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
+    console.info('Checking Github releases...');
+
     // query github releases
     got(`https://api.github.com/repos/nekonium/mist/releases?access_token=${GITHUB_TOKEN}`, { json: true })
     // filter draft with current version's tag
@@ -73,7 +70,7 @@ gulp.task('upload-binaries', (cb) => {
             const dir = `dist_${type}/release`;
             const files = fs.readdirSync(dir);
             const filePaths = _.map(files, (file) => { return path.join(dir, file); });
-
+            console.log('Upload files: ', filePaths);
             // check if draft already contains target binaries
             // note: github replaces spaces in filenames with dots
             const existingAssets = _.intersection(files.map((file) => { return file.replace(/\s/g, '.'); }), _.pluck(draft.assets, 'name'));
@@ -88,13 +85,23 @@ gulp.task('upload-binaries', (cb) => {
             })
             // append checksums to draft text
             .then(() => {
+                console.info('Appending checksums to release notes...', checksums);
                 if (draft.body && checksums) {
+                    const checksumRows = checksums.map((e) => {
+                        const line = e.replace('\n', '').split('  ');
+                        return `<sub>${line[1]}</sub> | <sub>\`${line[0]}\`</sub>`;
+                    }).join('\n');
                     got.patch(`https://api.github.com/repos/nekonium/mist/releases/${draft.id}?access_token=${GITHUB_TOKEN}`, {
                         body: JSON.stringify({
-                            body: `${draft.body}\n\n## Checksums\n\`\`\`\n${checksums.join('')}\`\`\``
+                            tag_name: `v${version}`,
+                            // String manipulation to create a checksums table
+                            body: `File | Checksum (SHA256)\n-- | -- \n${checksumRows}`
                         })
                     });
                 }
+            })
+            .catch((err) => {
+                console.log(err);
             });
         }
     })

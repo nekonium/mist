@@ -7,6 +7,13 @@ mistInit = function () {
     console.info('Initialise Mist Interface');
 
     EthBlocks.init();
+    const ethBlocksInterval = setInterval(() => {
+        if (_.isEmpty(EthBlocks.latest)) {
+            EthBlocks.init();
+        } else {
+            clearInterval(ethBlocksInterval);
+        }
+    }, 500);
 
     Tabs.onceSynced.then(function () {
         if (location.search.indexOf('reset-tabs') >= 0) {
@@ -67,22 +74,8 @@ Meteor.startup(function () {
 
     console.debug('Setting language');
 
-    // SET default language
-    if (Cookie.get('TAPi18next')) {
-        TAPi18n.setLanguage(Cookie.get('TAPi18next'));
-    } else {
-        const userLang = navigator.language || navigator.userLanguage;
-        const availLang = TAPi18n.getLanguages();
+    TAPi18n.setLanguage(ipc.sendSync('backendAction_getLanguage'));
 
-        // set default language
-        if (_.isObject(availLang) && availLang[userLang]) {
-            TAPi18n.setLanguage(userLang);
-        } else if (_.isObject(availLang) && availLang[userLang.substr(0, 2)]) {
-            TAPi18n.setLanguage(userLang.substr(0, 2));
-        } else {
-            TAPi18n.setLanguage('en');
-        }
-    }
     // change moment and numeral language, when language changes
     Tracker.autorun(function () {
         if (_.isString(TAPi18n.getLanguage())) {
@@ -91,7 +84,7 @@ Meteor.startup(function () {
             try {
                 numeral.language(lang);
             } catch (err) {
-                console.error(`numeral.js couldn't set number formating: ${err.message}`);
+                console.warn(`numeral.js couldn't set number formating: ${err.message}`);
             }
             EthTools.setLocale(lang);
         }

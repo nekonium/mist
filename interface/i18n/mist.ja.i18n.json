@@ -12,6 +12,15 @@
                 "showAll": "すべてを表示",
                 "quit": " __app__ を終了する"
             },
+            "file": {
+                "label": "アカウント",
+                "importPresale": "アカウントを読み込む",
+                "newAccount": "新規アカウント",
+                "backup": "バックアップを取る",
+                "backupKeyStore": "アカウント",
+                "backupMist": "アプリケーションデータ",
+                "swarmUpload": "Swarm にアップロード..."
+            },
             "edit": {
                 "label": "編集",
                 "undo": "元に戻す",
@@ -26,16 +35,7 @@
                 "fullscreen": "フルスクリーン",
                 "default": "デフォルト"
             },
-            "file": {
-                "label": "アカウント",
-                "importPresale": "アカウントを読み込む",
-                "newAccount": "新規アカウント",
-                "backup": "バックアップを取る",
-                "backupKeyStore": "アカウント",
-                "backupMist": "アプリケーションデータ"
-            },
             "develop": {
-                "uploadToSwarm": "Swarm にアップロード",
                 "label": "開発",
                 "devTools": "開発者用ツール",
                 "devToolsMistUI": "Mist UI",
@@ -43,16 +43,16 @@
                 "devToolsWebview": "__webview__",
                 "runTests": "テストを実行する",
                 "logFiles": "ログファイルを表示する",
+                "openRemix": "Remix IDE を開く",
+                "externalNode": "外部のノードを使用する",
                 "ethereumNode": "Nekonium ノード",
                 "network": "ネットワーク",
                 "mainNetwork": "メインネットワーク",
-                "startMining": "⛏ マイニングを始める",
-                "stopMining": "⛏ マイニングを中止する",
-                "externalNode": "外部のノードを使用する",
-                "openRemix": "Remix IDE を開く",
                 "nodeMode": "チェーンダウンロード",
                 "fullNode": "フルノードを保存する",
-                "lightNode": "ライトノードを使う (実験的なものです!)"
+                "lightNode": "ライトノードを使う (実験的なものです!)",
+                "startMining": "⛏ マイニングを始める",
+                "stopMining": "⛏ マイニングを中止する"
             },
             "window": {
                 "label": "ウィンドウ",
@@ -62,7 +62,9 @@
             },
             "help": {
                 "label": "ヘルプ",
-                "reportBug": "バグレポート"
+                "mistWiki": "トラブルシュートとヘルプ",
+                "gitter": "Mist channel on Gitter",
+                "reportBug": "Githubでバグレポート"
             }
         },
         "errors": {
@@ -92,9 +94,9 @@
         "nodeInfo": {
             "nodeSyncing": "__blockDiff__ ブロックが残っています",
             "blockReceived": "新しいブロックを受け取りました",
-            "timeSinceBlock": "最後のブロックから",
-            "peers": "ピアー",
+            "blockReceivedShort": "新しいブロック",
             "blockNumber": "ブロック番号",
+            "timeSinceBlock": "最後のブロックから",
             "checkingWhichNetwork": "ネットワークをチェックしています...",
             "mainNetwork": "メインネット",
             "testNetwork": "テストネット",
@@ -102,11 +104,17 @@
             "mainnetExplain": "ここは Nekonium のメインネットです",
             "testnetExplain": "ここはテストネットです。絶対に本物の nuko を送らないでください",
             "privatenetExplain": "ここはプライベートっとです。絶対に本物の nuko を送らないでください",
-            "unknownnetExplain": "どこのネットワークにいるか判定できませんでした"
+            "unknownnetExplain": "どこのネットワークにいるか判定できませんでした",
+            "peers": "ピアー"
         },
         "sidebar": {
             "buttons": {
                 "browser": "探す"
+            },
+            "submenu": {
+                "account": "Account",
+                "account_plural": "Accounts",
+                "connectAccounts": "Connect Accounts"
             }
         },
         "browserBar": {
@@ -118,14 +126,10 @@
         "startScreen": {
             "runningNodeFound": "起動している Nekonium ノードを見つけました!",
             "startingNode": "Nekonium ノードを開始しています。",
+            "stoppingNode": "ノードを終了しています...",
             "startedNode": "Nekonium ノードは開始されました...",
             "nodeConnectionTimeout": "Nekonium ノードをスタート出来ませんでした!<br><small>もし<a href='https://github.com/nekonium' class='button' target='_blank'>Gnekonium</a>をインストールしているならば,このコマンドを使ってみてください: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/nekonium/mist/issues' class='button' target='_blank'>もしくは問題を報告して下さい。 </a></small>",
             "nodeBinaryNotFound": "Nekonium ノードバイナリーが見つかりませんでした。<br><small> <a href='https://github.com/nekonium' class='button' target='_blank'> 手動でスタートして下さい。 </a> </small>",
-            "nodeSyncing": "Nekonium ノードは同期中です...",
-            "nodeSyncInfo": "ブロックをダウンロードしています。 __displayBlock__ / __highestBlock__.",
-            "nodeSyncConnecting": "ピアーを探しています。...",
-            "peerSearchTimeout": "ピアーの検索を中止しています",
-            "stoppingNode": "ノードを終了しています...",
             "nodeStarting": "ノードを起動しています...",
             "nodeStarted": "ノードは起動されました",
             "nodeConnected": "ノードは接続されました",
@@ -133,8 +137,12 @@
             "nodeStopped": "ノードは終了しました",
             "nodeError": "ノード接続エラー :'(",
             "unableToBindPort": "Nekonium ノードが実行できません。既に他のインスタンスが立ち上がっていませんか？",
+            "nodeSyncing": "Nekonium ノードは同期中です...",
+            "nodeSyncInfo": "ブロックをダウンロードしています。 __displayBlock__ / __highestBlock__.",
             "nodeSyncInfoStates": "ブロック __displayBlock__ / __highestBlock__ ダウンロード中, <br> チェーン構造 __displayState__ / __displayKnownStates__ ダウンロード中",
+            "nodeSyncConnecting": "ピアーを探しています。...",
             "nodeSyncFoundPeers": "ピアー __peers__ に接続中...",
+            "peerSearchTimeout": "ピアーの検索を中止しています",
             "launchApp": "アプリケーションを起動",
             "clientBinaries": {
                 "scanning": "ノードのアップデートを確認中...",
@@ -146,11 +154,24 @@
             }
         },
         "popupWindows": {
+            "updateAvailable": {
+                "newVersionAvailable": "新しバージョン __name__ が利用可能です",
+                "version": "バージョン",
+                "downloadURL": "ダウンロード URL",
+                "checksum": "チェックサム",
+                "downloadAndRestart": "アップデートして再起動",
+                "download": "新しいバージョンをダウンロード",
+                "skipUpdate": "アップデートをスキップ",
+                "notNow": "今はしない",
+                "checking": "__name__ のバージョンにアップデートがないか確認しています...",
+                "noUpdateFound": "新しいバージョンは見つかりませんでした. あなたの __name__ は最新バージョンです."
+            },
             "requestAccount": {
                 "title": "アカウントを作成する",
                 "enterPassword": "パスワードを入力する",
                 "repeatPassword": "パスワードを繰り返し入力する",
                 "creating": "アカウントを生成しています...",
+                "backupHint": "keyfilesとパスワードのバックアップを忘れないでください!\n\nkeyfilesフォルダーは メインメニュー -> アカウント -> バックアップを取る -> アカウント から開くことができます。  \"keystore\" フォルダーをどこか別の安全な場所にコピーしてください!",
                 "errors": {
                     "passwordMismatch": "パスワードが正しくありません",
                     "passwordTooShort": "もっと長いパスワードにしてください"
@@ -177,29 +198,29 @@
                 "createContract": "コントラクトを作成する",
                 "estimatedFee": "推定されるトランザクションフィーの消費",
                 "estimatedGasError": "データが実行できませんでした、そのため全ての GAS が消費されます。",
+                "transactionThrow": "契約により、この取引は実行されません",
+                "overBlockGasLimit": "この実行に必要な GAS は、ブロック GAS の限界を超える可能性があります",
+                "notEnoughGas": "GAS が不足してトランザクションが正常に終了できませんでした.<br>ここをクリックして GAS を増やしてください.",
+                "noEstimate": "GAS を見積もることができませんでした",
                 "gasPrice": "GAS 価格",
                 "perMillionGas": "100 万 GAS ごとの Ether",
                 "gasLimit": "GAS リミット",
                 "data": "データ",
+                "parameters": "パラメータ",
                 "buttons": {
                     "sendTransaction": "トランザクションを送信"
                 },
                 "errors": {
                     "connectionTimeout": "ノードにつなげませんでした、バックグラウンドで落ちていますか?",
                     "wrongPassword": "パスワードが間違っています",
-                    "multipleKeysMatchAddress": "複数のキーが一致する場合は、キーストアから重複を削除してください (menu -> accounts -> backup -> accounts)",
-                    "insufficientFundsForGas": "GAS を支払うためにメインアカウント(etherbase)に不十分な資金",
+                    "multipleKeysMatchAddress": "複数のキーが一致する場合は、キーストアから重複を削除してください (メニュー -> アカウント -> バックアップを取る -> アカウント)",
+                    "insufficientFundsForGas": "GAS を支払うためにメインアカウント(nukobase)に不十分な資金",
                     "sameAccount": "同一アカウントには送信できません"
                 },
-                "transactionThrow": "契約により、この取引は実行されません",
-                "noEstimate": "GAS を見積もることができませんでした",
-                "parameters": "パラメータ",
                 "showRawBytecode": "生データを見る",
                 "showDecodedParameters": "デコードされたパラメータを見る",
                 "lookupData": "データをデコードする",
-                "lookupDataExplainer": "インターネットでこれを確認してください",
-                "overBlockGasLimit": "この実行に必要な GAS は、ブロック GAS の限界を超える可能性があります",
-                "notEnoughGas": "GAS が不足してトランザクションが正常に終了できませんでした.<br>ここをクリックして GAS を増やしてください."
+                "lookupDataExplainer": "インターネットでこれを確認してください"
             },
             "onboarding": {
                 "description": "Nekonium は分散型のプラットフォームで、ブロックチェーン上でアプリケーションを作成することが出来ます。価値を転送することが出来、永続的に稼働するセキュリティの高いソフトウェアを作ることが出来ます。",
@@ -219,13 +240,18 @@
                 "accountTitle": "もっとダウンロードする!",
                 "accountTitleTestnet": "マイニングを行う!",
                 "etherDescription": "Nekonium ネットワークは “Nuko“ と呼ばれるトークンに基づき成り立っています. Ethereumネットワークで何かを行うためには必ず必要となります。",
-                "loadItDescription": "既にもし Bitcoin を持っているか, もしくは他の暗号通貨を持っている場合には簡単に Shapeshift で変換する事ができます。 <br><br> 私たちは <strong>0.25 から 1 ether の間で</strong>変換することをおすすめします.",
+                "loadItDescription": "既にもし Bitcoin を持っているか, もしくは他の暗号通貨を持っている場合には簡単に Shapeshift で変換する事ができます。 <br><br> 私たちは <strong>0.25 から 1 nuko の間で</strong>変換することをおすすめします.",
+                "wowcommentwow": "TODO under thing might not needed replaced by faucetDescription?",
                 "mineItDescription": "<strong>テストネットでは自分自身でマイニングを行うか、 <em>Develop</em> メニューから <em>マイニングを始める</em>を選んでください. </strong> <br> <strong> 絶対にこのアドレスには Ether を送らないでください </strong>",
                 "you": "あなた",
                 "etherbase": "メインアカウント(etherbase)",
                 "depositBitcoin": "Bitcoin をデポジットする",
+                "viaShapeshift": "<a href='https://shapeshift.io/' target='_blank'>Shapeshift</a> で簡単にコインを変換",
                 "learnIt": "待っている間に NekoniumWallet のことを学ぶ",
                 "downloadingBlocks": "ブロックをダウンロードする",
+                "syncMessage": "ブロック __displayBlock__ / __highestBlockString__",
+                "syncMessageWithStates": "ブロック __displayBlock__ / __highestBlockString__ (チェーン構造 __statesPercent__%)",
+                "startingSync": "同期を開始しています...",
                 "tutorial1Description": "<p> 全て終わり、後はダウンロードが終了するのは待つだけです。いくつか次の提案があります。: </p> <h4>あなたのお金を発行する </h4> <p> 暗号通貨を一定の供給と共に作成することが出来、トークンを現実世界のアセットと関連付ける事ができます。</p>",
                 "tutorial2Description": "<h4>クラウドセールを作成する </h4> <p>第三者の介入無く共通のゴールを目指して一緒に進みましょう. 従来のファンディングシステムではとは異なり、ブロックチェーンを用いてダイレクトに資金を集める事ができます。</p>",
                 "tutorial3Description": "<h4>ブロックチェーン組織 </h4> <p> どのようにして資金を使うのか、そして誰が決定するのかについて破ることが出来ないルールを持った自律的な組織を作成しましょう。そして、あなたの支援者に、どのように資金が使われるのかをアクティブに考え、行動してもらうことが出来ます。</p>",
@@ -240,23 +266,7 @@
                     "unknownFile": "ファイルを認識できませんでした.",
                     "wrongPassword": "パスワードが間違っています",
                     "importFailed": "ファイルが読み込めませんでした: __error__のエラーです"
-                },
-                "viaShapeshift": "<a href='https://shapeshift.io/' target='_blank'>Shapeshift</a> で簡単にコインを変換",
-                "syncMessage": "ブロック __displayBlock__ / __highestBlockString__",
-                "syncMessageWithStates": "ブロック __displayBlock__ / __highestBlockString__ (チェーン構造 __statesPercent__%)",
-                "startingSync": "同期を開始しています..."
-            },
-            "updateAvailable": {
-                "newVersionAvailable": "新しバージョン __name__ が利用可能です",
-                "version": "バージョン",
-                "downloadURL": "ダウンロード URL",
-                "checksum": "チェックサム",
-                "downloadAndRestart": "アップデートして再起動",
-                "download": "新しいバージョンをダウンロード",
-                "skipUpdate": "アップデートをスキップ",
-                "notNow": "今はしない",
-                "checking": "__name__ のバージョンにアップデートがないか確認しています...",
-                "noUpdateFound": "新しいバージョンは見つかりませんでした. あなたの __name__ は最新バージョンです."
+                }
             },
             "connectAccount": {
                 "chooseAccountTitle": "アカウントを選ぶ",
@@ -267,7 +277,7 @@
         }
     },
     "elements": {
-        "checksumAlert": "このアドレスは正しく見えますが、誤字があります。もう一度確認して再度入力下さい。",
+        "checksumAlert": "入力ミスがあるかどうかチェックを行うことができませんでした。このアドレスは正しいアドレスにも見えますが、もう一度見て確認してください。セキュリティーアイコンが公開されている場合は一致するか確認してください。",
         "identiconHelper": "これはセキュリティアイコンです。もし何かアドレスに変更があればアイコンは全く異なるものになります。",
         "type": {
             "address": "Address",

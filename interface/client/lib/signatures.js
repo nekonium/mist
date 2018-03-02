@@ -10186,5 +10186,8507 @@ window.SIGNATURES = {
     ],
     "0x4e077f2a": [
         "addGasEther()"
+    ],
+    "0x24804cef": [
+        "Deed()"
+    ],
+    "0xfaab9d39": [
+        "setRegistrar(address)"
+    ],
+    "0xfb1669ca": [
+        "setBalance(uint256)"
+    ],
+    "0xbbe42771": [
+        "closeDeed(uint256)"
+    ],
+    "0x0b5ab3d5": [
+        "destroyDeed()"
+    ],
+    "0xa06cab79": [
+        "Registrar(address,bytes32)"
+    ],
+    "0x367bbd78": [
+        "strlen(string)"
+    ],
+    "0x03985426": [
+        "getMode(bytes32)"
+    ],
+    "0xede8acdb": [
+        "startAuction(bytes32)"
+    ],
+    "0xe27fe50f": [
+        "startAuctions(bytes32[])"
+    ],
+    "0x22ec1244": [
+        "shaBid(bytes32,address,uint256,bytes32)"
+    ],
+    "0xce92dced": [
+        "newBid(bytes32)"
+    ],
+    "0xaefc8c72": [
+        "unsealBid(bytes32,address,uint256,bytes32)"
+    ],
+    "0xdf7cec28": [
+        "cancelBid(bytes32)"
+    ],
+    "0x983b94fb": [
+        "finalizeAuction(bytes32)"
+    ],
+    "0x0230a07c": [
+        "releaseDeed(bytes32)"
+    ],
+    "0x15f73331": [
+        "invalidateName(string)"
+    ],
+    "0x5ddae283": [
+        "transferRegistrars(bytes32)"
+    ],
+    "0xebb045fa": [
+        "PublicResolver(address)"
+    ],
+    "0x41b9dc2b": [
+        "has(bytes32,bytes32)"
+    ],
+    "0x01ffc9a7": [
+        "supportsInterface(bytes4)"
+    ],
+    "0x3b3b57de": [
+        "addr(bytes32)"
+    ],
+    "0xd5fa2b00": [
+        "setAddr(bytes32,address)"
+    ],
+    "0x2dff6941": [
+        "content(bytes32)"
+    ],
+    "0xc3d014d6": [
+        "setContent(bytes32,bytes32)"
+    ],
+    "0x1d2e2cc4": [
+        "ENS()"
+    ],
+    "0x02571be3": [
+        "owner(bytes32)"
+    ],
+    "0x0178b8bf": [
+        "resolver(bytes32)"
+    ],
+    "0x16a25cbd": [
+        "ttl(bytes32)"
+    ],
+    "0x5b0fc9c3": [
+        "setOwner(bytes32,address)"
+    ],
+    "0x06ab5923": [
+        "setSubnodeOwner(bytes32,bytes32,address)"
+    ],
+    "0x1896f70a": [
+        "setResolver(bytes32,address)"
+    ],
+    "0x14ab9038": [
+        "setTTL(bytes32,uint64)"
+    ],
+    "0x9d063ed8": [
+        "FIFSRegistrar(address,bytes32)"
+    ],
+    "0xd22057a9": [
+        "register(bytes32,address)"
+    ],
+    "0xe8efc1a0": [
+        "updatedValue(bytes32)"
+    ],
+    "0x3dfb4843": [
+        "renewDeed(bytes32)"
+    ],
+    "0xd8389dc5": [
+        "hash(bytes32)"
+    ],
+    "0xd7fa1007": [
+        "setHash(bytes32,bytes32)"
+    ],
+    "0x003538c5": [
+        "TestRegistrar(address,bytes32)"
+    ],
+    "0x267b6922": [
+        "entries(bytes32)"
+    ],
+    "0x3f15457f": [
+        "ens()"
+    ],
+    "0x61584936": [
+        "sealedBids(bytes32)"
+    ],
+    "0xb88eef53": [
+        "registryCreated()"
+    ],
+    "0xfaff50a8": [
+        "rootNode()"
+    ],
+    "0x8b859409": [
+        "setRelease(bytes32,bytes32,string)"
+    ],
+    "0x244fcd03": [
+        "removeRelease(bytes32,string)"
+    ],
+    "0x89859b50": [
+        "updateLatestTree(bytes32)"
+    ],
+    "0xa10889fa": [
+        "setVersion(uint32,uint32,uint32,string,string)"
+    ],
+    "0x0ccec396": [
+        "getNumReleases()"
+    ],
+    "0x57b07cd9": [
+        "getReleaseHash(uint256)"
+    ],
+    "0x173cb7de": [
+        "getNumReleasesForNameHash(bytes32)"
+    ],
+    "0x0c26e42e": [
+        "getReleaseHashForNameHash(bytes32,uint256)"
+    ],
+    "0x3f415772": [
+        "releaseExists(bytes32)"
+    ],
+    "0xbb814e9e": [
+        "versionExists(bytes32)"
+    ],
+    "0x4c4aea87": [
+        "getReleaseData(bytes32)"
+    ],
+    "0x0c4326a0": [
+        "getMajorMinorPatch(bytes32)"
+    ],
+    "0xfac5bb92": [
+        "getPreRelease(bytes32)"
+    ],
+    "0x8ca4eef6": [
+        "getBuild(bytes32)"
+    ],
+    "0x2ffb8631": [
+        "getReleaseLockfileURI(bytes32)"
+    ],
+    "0x0e5ffb3c": [
+        "hashVersion(uint32,uint32,uint32,string,string)"
+    ],
+    "0x93d79105": [
+        "hashRelease(bytes32,bytes32)"
+    ],
+    "0x3ae9b510": [
+        "getLatestMajorTree(bytes32)"
+    ],
+    "0xf2f254c7": [
+        "getLatestMinorTree(bytes32,uint32)"
+    ],
+    "0x5263ba87": [
+        "getLatestPatchTree(bytes32,uint32,uint32)"
+    ],
+    "0xdea9c72b": [
+        "getLatestPreReleaseTree(bytes32,uint32,uint32,uint32)"
+    ],
+    "0xd7cc8362": [
+        "isLatestMajorTree(bytes32,bytes32)"
+    ],
+    "0xd1f59db9": [
+        "isLatestMinorTree(bytes32,bytes32)"
+    ],
+    "0xc233e870": [
+        "isLatestPatchTree(bytes32,bytes32)"
+    ],
+    "0x02de2cf3": [
+        "isLatestPreReleaseTree(bytes32,bytes32)"
+    ],
+    "0x02556de3": [
+        "updateMajorTree(bytes32)"
+    ],
+    "0x44d75fa9": [
+        "updateMinorTree(bytes32)"
+    ],
+    "0xb6ac24df": [
+        "updatePatchTree(bytes32)"
+    ],
+    "0x900d85fa": [
+        "updatePreReleaseTree(bytes32)"
+    ],
+    "0xbed34bba": [
+        "compareStrings(string,string)"
+    ],
+    "0x15398afe": [
+        "compareNumericStrings(string,string)"
+    ],
+    "0xdd79e33e": [
+        "splitIdentifiers(string)"
+    ],
+    "0x2fc0aad3": [
+        "isNumericString(string)"
+    ],
+    "0x55ff440a": [
+        "castStringToUInt(string)"
+    ],
+    "0xb7009613": [
+        "canCall(address,address,bytes4)"
+    ],
+    "0xeacfc0ae": [
+        "Authorized()"
+    ],
+    "0x87045369": [
+        "setCanCall(address,address,bytes4,bool)"
+    ],
+    "0x02acdb44": [
+        "setAnyoneCanCall(address,bytes4,bool)"
+    ],
+    "0x20d9822e": [
+        "setAnyoneCanCall(address,string,bool)"
+    ],
+    "0x083ae1fe": [
+        "setPackage(string)"
+    ],
+    "0x001f8d11": [
+        "removePackage(bytes32,string)"
+    ],
+    "0x2406cedb": [
+        "setPackageOwner(bytes32,address)"
+    ],
+    "0xa9b35240": [
+        "packageExists(bytes32)"
+    ],
+    "0x7370a38d": [
+        "getNumPackages()"
+    ],
+    "0x95f0684b": [
+        "getPackageNameHash(uint256)"
+    ],
+    "0xb4d6d4c7": [
+        "getPackageData(bytes32)"
+    ],
+    "0x06fe1fd7": [
+        "getPackageName(bytes32)"
+    ],
+    "0xaf9a3f9b": [
+        "hashName(string)"
+    ],
+    "0x34c0d654": [
+        "setPackageDb(address)"
+    ],
+    "0xf314bf46": [
+        "setReleaseDb(address)"
+    ],
+    "0x10ae4ce2": [
+        "setReleaseValidator(address)"
+    ],
+    "0x5fcb568c": [
+        "release(string,uint32,uint32,uint32,string,string,string)"
+    ],
+    "0x0f3d7c3e": [
+        "release(string,uint32[3],string,string,string)"
+    ],
+    "0x4f197ee7": [
+        "transferPackageOwner(string,address)"
+    ],
+    "0x83ea0620": [
+        "packageExists(string)"
+    ],
+    "0x4188d79c": [
+        "releaseExists(string,uint32,uint32,uint32,string,string)"
+    ],
+    "0xcfe9a7b8": [
+        "getPackageName(uint256)"
+    ],
+    "0xc2ba5b40": [
+        "getPackageData(string)"
+    ],
+    "0xcec95aa1": [
+        "getReleaseHashForPackage(string,uint256)"
+    ],
+    "0xc392f5a0": [
+        "getAllPackageReleaseHashes(string)"
+    ],
+    "0x12cc08f2": [
+        "getPackageReleaseHashes(string,uint256,uint256)"
+    ],
+    "0x4cb71b9b": [
+        "getAllReleaseHashes()"
+    ],
+    "0x79cce1c5": [
+        "getReleaseHashes(uint256,uint256)"
+    ],
+    "0x1f6b0a9d": [
+        "getReleaseLockfileURI(string,uint32,uint32,uint32,string,string)"
+    ],
+    "0x79c3ddc1": [
+        "isPackageOwner(string,address,address)"
+    ],
+    "0x91060168": [
+        "fetchString(address,bytes4,bytes32)"
+    ],
+    "0xfa28ba0d": [
+        "validateReleaseLockfileURI(string)"
+    ],
+    "0xf4ea95b9": [
+        "validateReleaseVersion(uint32[3])"
+    ],
+    "0x6f0cfab6": [
+        "DNSResolver()"
+    ],
+    "0x126a710e": [
+        "dnsrr(bytes32)"
+    ],
+    "0x76196c88": [
+        "setDnsrr(bytes32,bytes)"
+    ],
+    "0x61d585da": [
+        "state(bytes32)"
+    ],
+    "0xe571c35e": [
+        "ReverseRegistrar(address,bytes32)"
+    ],
+    "0x1e83409a": [
+        "claim(address)"
+    ],
+    "0xbffbe61c": [
+        "node(address)"
+    ],
+    "0x27b752b8": [
+        "sha3HexAddress(address)"
+    ],
+    "0xe1fa8e84": [
+        "register(bytes32)"
+    ],
+    "0xa31d5580": [
+        "Registrar(address,bytes32,address)"
+    ],
+    "0x3ea3f6c5": [
+        "activateRegistrar()"
+    ],
+    "0x271cd760": [
+        "getPackageDb()"
+    ],
+    "0xfb3a1fb2": [
+        "getReleaseDb()"
+    ],
+    "0x4961b40c": [
+        "getReleaseValidator()"
+    ],
+    "0x2d34ba79": [
+        "setup(address,address)"
+    ],
+    "0x30b9af98": [
+        "withdrawFunding()"
+    ],
+    "0x92a781d8": [
+        "changeBaseValue(uint256)"
+    ],
+    "0xb60d4288": [
+        "fund()"
+    ],
+    "0xc062f578": [
+        "updateStage()"
+    ],
+    "0xf3a44fe1": [
+        "withdrawForWorkshop()"
+    ],
+    "0x99e0021f": [
+        "mergencyCall()"
+    ],
+    "0x299ed37a": [
+        "emergencyCall()"
+    ],
+    "0x0b7abf77": [
+        "TOTAL_TOKENS()"
+    ],
+    "0x17f5de95": [
+        "MAX_TOKENS_SOLD()"
+    ],
+    "0x39f64b52": [
+        "calcTokenPrice()"
+    ],
+    "0x48c54b9d": [
+        "claimTokens()"
+    ],
+    "0x48cd4cb1": [
+        "startBlock()"
+    ],
+    "0x521eb273": [
+        "wallet()"
+    ],
+    "0x60fd902c": [
+        "gnosisToken()"
+    ],
+    "0x62ea82db": [
+        "bids(address)"
+    ],
+    "0x6f85c7e4": [
+        "WAITING_PERIOD()"
+    ],
+    "0x8da5cb5b": [
+        "owner()"
+    ],
+    "0xa3c2c462": [
+        "totalReceived()"
+    ],
+    "0xa6b513ee": [
+        "finalPrice()"
+    ],
+    "0xc040e6b8": [
+        "stage()"
+    ],
+    "0xc51bf934": [
+        "CEILING()"
+    ],
+    "0xd9f8a4e2": [
+        "calcCurrentTokenPrice()"
+    ],
+    "0xdd9dd688": [
+        "calcStopPrice()"
+    ],
+    "0xde78e78a": [
+        "tokenLaunched()"
+    ],
+    "0x4c6b25b1": [
+        "results(bytes32)"
+    ],
+    "0x69347990": [
+        "ownerWithdrawl()"
+    ],
+    "0x7b1aa45f": [
+        "ownerDeposit()"
+    ],
+    "0x996a8046": [
+        "__callback(bytes32,string,bool)"
+    ],
+    "0xb964608d": [
+        "get_return_by_level(uint256)"
+    ],
+    "0xcddbe729": [
+        "game(uint256)"
+    ],
+    "0x0674763c": [
+        "assert(bool)"
+    ],
+    "0xe21608be": [
+        "ReserveToken()"
+    ],
+    "0x1cbd0519": [
+        "accountLevel(address)"
+    ],
+    "0x8abadb6b": [
+        "setAccountLevel(address,uint256)"
+    ],
+    "0x4c7f74df": [
+        "EtherDelta(address,address,address,uint256,uint256,uint256)"
+    ],
+    "0x8f283970": [
+        "changeAdmin(address)"
+    ],
+    "0xe8f6bc2e": [
+        "changeAccountLevelsAddr(address)"
+    ],
+    "0x71ffcb16": [
+        "changeFeeAccount(address)"
+    ],
+    "0x54d03b5c": [
+        "changeFeeMake(uint256)"
+    ],
+    "0x8823a9c0": [
+        "changeFeeTake(uint256)"
+    ],
+    "0x5e1d7ae4": [
+        "changeFeeRebate(uint256)"
+    ],
+    "0x0b927666": [
+        "order(address,uint256,address,uint256,uint256,uint256)"
+    ],
+    "0x05888fcd": [
+        "tradeBalances(address,uint256,address,uint256,address,uint256)"
+    ],
+    "0x46be96c3": [
+        "amountFilled(address,uint256,address,uint256,uint256,uint256,address,uint8,bytes32,bytes32)"
+    ],
+    "0x278b8c0e": [
+        "cancelOrder(address,uint256,address,uint256,uint256,uint256,uint8,bytes32,bytes32)"
+    ],
+    "0x60116397": [
+        "Registrar(address,bytes32,uint256)"
+    ],
+    "0xf4dc2d21": [
+        "Deed(uint256)"
+    ],
+    "0x06fdde03": [
+        "name()"
+    ],
+    "0x313ce567": [
+        "decimals()"
+    ],
+    "0x40275f85": [
+        "getPersonalDepositAddress(address)"
+    ],
+    "0x5a3b7e42": [
+        "standard()"
+    ],
+    "0x89d59ee5": [
+        "createPersonalDepositAddress()"
+    ],
+    "0x8c546f81": [
+        "GNT()"
+    ],
+    "0x8f70bfa0": [
+        "processDeposit()"
+    ],
+    "0x95d89b41": [
+        "symbol()"
+    ],
+    "0xb414d4b6": [
+        "frozenAccount(address)"
+    ],
+    "0xdc3080f2": [
+        "spentAllowance(address,address)"
+    ],
+    "0x366a68dc": [
+        "setBlockLock(uint256)"
+    ],
+    "0xa39a45b7": [
+        "replaceOwner(address)"
+    ],
+    "0xa4e2d634": [
+        "isLocked()"
+    ],
+    "0xd8162db7": [
+        "lockedUntilBlock()"
+    ],
+    "0x1593a8c7": [
+        "endLottery()"
+    ],
+    "0x53aab434": [
+        "buyIn()"
+    ],
+    "0x5ec01e4d": [
+        "random()"
+    ],
+    "0x6939864b": [
+        "lotteryState()"
+    ],
+    "0xd366fbab": [
+        "startLottery(bytes32,uint256,uint256,uint256,uint256,bool)"
+    ],
+    "0xfd7c460d": [
+        "ciberLottery()"
+    ],
+    "0x2525f5c1": [
+        "cancelBid(address,bytes32)"
+    ],
+    "0xc01a8c84": [
+        "confirmTransaction(uint256)"
+    ],
+    "0x1209b1f6": [
+        "ticketPrice()"
+    ],
+    "0x50b44712": [
+        "tickets(uint256)"
+    ],
+    "0x5c3f9765": [
+        "endDateClose()"
+    ],
+    "0x984ac378": [
+        "lotteryTitle()"
+    ],
+    "0xb8851fea": [
+        "endDateStart()"
+    ],
+    "0xc179520c": [
+        "ManageAccount()"
+    ],
+    "0x12494160": [
+        "isHolder()"
+    ],
+    "0x42ce1488": [
+        "upload(string)"
+    ],
+    "0x3c925f16": [
+        "getAccountHolder()"
+    ],
+    "0x83f7b8e1": [
+        "getNumberOfPhotos()"
+    ],
+    "0xe2a71f12": [
+        "accountDelete()"
+    ],
+    "0x009b9369": [
+        "getVoteNumber(uint256)"
+    ],
+    "0x0ee79fb3": [
+        "closeReferendums()"
+    ],
+    "0x291e6777": [
+        "sendVote(uint256,uint256)"
+    ],
+    "0x32d2fb9f": [
+        "getRefRemainingTime(uint256)"
+    ],
+    "0x3b0506f7": [
+        "getVoteByAddress(address,uint256)"
+    ],
+    "0x62fb09b2": [
+        "getRefDescr(uint256)"
+    ],
+    "0x77a7e6be": [
+        "getRefTotal(uint256)"
+    ],
+    "0x80dcaf27": [
+        "getRefNumber()"
+    ],
+    "0x8736fd16": [
+        "getRefStatus(uint256)"
+    ],
+    "0xace523c4": [
+        "createReferendum(string,string,uint256,uint256)"
+    ],
+    "0xb29d7914": [
+        "getRefResults(uint256)"
+    ],
+    "0xc0df77d0": [
+        "getRefName(uint256)"
+    ],
+    "0x94d9cf8f": [
+        "CreateProxyWithControllerAndRecovery(address,address[],uint256,uint256)"
+    ],
+    "0x4a3a87e2": [
+        "CreateProxyWithControllerAndRecoveryKey(address,address,uint256,uint256)"
+    ],
+    "0x4fcf8210": [
+        "eraseRecord(bytes32)"
+    ],
+    "0xde10f04b": [
+        "eraseNode(bytes32[])"
+    ],
+    "0x3a76abff": [
+        "_eraseNode(uint256,bytes32[],bytes32)"
+    ],
+    "0x1cda37f2": [
+        "eraseRecords(bytes32)"
+    ],
+    "0x00e43ee9": [
+        "setMigrationStatus(uint256,address)"
+    ],
+    "0x984413b8": [
+        "_eraseNode(bytes32)"
+    ],
+    "0xb0c80972": [
+        "setBalance(uint256,bool)"
+    ],
+    "0xfebefd61": [
+        "startAuctionsAndBid(bytes32[],bytes32)"
+    ],
+    "0x77bc222c": [
+        "_eraseSingleNode(bytes32)"
+    ],
+    "0x57aee888": [
+        "_eraseNodeHierarchy(uint256,bytes32[],bytes32)"
+    ],
+    "0xdce293a7": [
+        "minLength(uint256)"
+    ],
+    "0xaf92a693": [
+        "addRegistrar(address)"
+    ],
+    "0xba904eed": [
+        "removeRegistrar(address)"
+    ],
+    "0x081780f4": [
+        "clearRecord(bytes32)"
+    ],
+    "0xb0349184": [
+        "clearRecords(bytes32[])"
+    ],
+    "0xf62cce34": [
+        "_clearRecordHierarchy(uint256,bytes32[],bytes32)"
+    ],
+    "0x36b81feb": [
+        "Deed(address)"
+    ],
+    "0x4a617faa": [
+        "shaBid(bytes32,uint256,bytes32)"
+    ],
+    "0x47872b42": [
+        "unsealBid(bytes32,uint256,bytes32)"
+    ],
+    "0x93503337": [
+        "isAllowed(bytes32,uint256)"
+    ],
+    "0x8a4068dd": [
+        "transfer()"
+    ],
+    "0x13c89a8f": [
+        "getAllowedTime(bytes32)"
+    ],
+    "0xa360b26f": [
+        "Migrations()"
+    ],
+    "0xfdacd576": [
+        "setCompleted(uint256)"
+    ],
+    "0x99a88ec4": [
+        "upgrade(address,address)"
+    ],
+    "0x8e7fd292": [
+        "trySetSubnodeOwner(bytes32,address)"
+    ],
+    "0x29cd5777": [
+        "_tryEraseSingleNode(bytes32)"
+    ],
+    "0x5e431709": [
+        "sealedBids(address,bytes32)"
+    ],
+    "0x9c67f06f": [
+        "registryStarted()"
+    ],
+    "0xea9e107a": [
+        "acceptRegistrarTransfer(bytes32,address,uint256)"
+    ],
+    "0x05b34410": [
+        "creationDate()"
+    ],
+    "0x2b20e397": [
+        "registrar()"
+    ],
+    "0x3fa4f245": [
+        "value()"
+    ],
+    "0x674f220f": [
+        "previousOwner()"
+    ],
+    "0x2203ab56": [
+        "ABI(bytes32,uint256)"
+    ],
+    "0x623195b0": [
+        "setABI(bytes32,uint256,bytes)"
+    ],
+    "0xc8690233": [
+        "pubkey(bytes32)"
+    ],
+    "0x29cd62ea": [
+        "setPubkey(bytes32,bytes32,bytes32)"
+    ],
+    "0x691f3431": [
+        "name(bytes32)"
+    ],
+    "0x77372213": [
+        "setName(bytes32,string)"
+    ],
+    "0x20d8741f": [
+        "Feed()"
+    ],
+    "0xdd114c22": [
+        "publish(address,uint256,address,uint256)"
+    ],
+    "0xfb279ef3": [
+        "tip(uint256,address,uint256)"
+    ],
+    "0x96c824a8": [
+        "createAccountFundContract()"
+    ],
+    "0x33397816": [
+        "withdrawAccountBalance(address)"
+    ],
+    "0x6ebbe863": [
+        "updatePublishContract(address)"
+    ],
+    "0xfad4b99a": [
+        "updateChannelMinimum(address,uint256)"
+    ],
+    "0x0b7ad54c": [
+        "getContent(uint256)"
+    ],
+    "0xda9c6a46": [
+        "getReplyCount(uint256)"
+    ],
+    "0x47372325": [
+        "getChannelSize(address)"
+    ],
+    "0x2ca6d2c0": [
+        "getAccountSize(address)"
+    ],
+    "0x73f93a48": [
+        "getAccountContentTip(address,uint256)"
+    ],
+    "0x0a7f4239": [
+        "getAccountFundContract(address)"
+    ],
+    "0x0fcda174": [
+        "getAccountTokenBalance(address,address)"
+    ],
+    "0x79be02af": [
+        "Read(address)"
+    ],
+    "0x27fbcac5": [
+        "getChannelFeed(address,uint256,uint256)"
+    ],
+    "0xdd90c403": [
+        "getAccountFeed(address,uint256,uint256)"
+    ],
+    "0xbff974e8": [
+        "getContentReplies(uint256)"
+    ],
+    "0xb3822da8": [
+        "getContents(uint256[])"
+    ],
+    "0x2a45a39a": [
+        "Post(address)"
+    ],
+    "0xe3579ea5": [
+        "publish(string,string,address,uint256)"
+    ],
+    "0x4c8cc20b": [
+        "toContentID(address,string,string,address,uint256)"
+    ],
+    "0x6ce1417e": [
+        "Fund()"
+    ],
+    "0xea46193e": [
+        "getEtherBalance()"
+    ],
+    "0x55291dbd": [
+        "claimEther()"
+    ],
+    "0xe9e99d81": [
+        "getChannelFeed(address,uint256,uint256,uint256)"
+    ],
+    "0x05a17fc6": [
+        "getAccountFeed(address,uint256,uint256,uint256)"
+    ],
+    "0xd90a88cd": [
+        "getContentReplies(uint256,uint256)"
+    ],
+    "0x49e347ae": [
+        "getContents(uint256[],uint256)"
+    ],
+    "0xbac1e9f6": [
+        "getChannelSize(address,uint256)"
+    ],
+    "0x048e2e94": [
+        "getAccountSize(address,uint256)"
+    ],
+    "0x9f181b5e": [
+        "tokenCount()"
+    ],
+    "0xf446c1d0": [
+        "A()"
+    ],
+    "0x314e99a2": [
+        "abdicate()"
+    ],
+    "0x9b0b9c07": [
+        "acceptBankDraft()"
+    ],
+    "0xbdfdb519": [
+        "accept(string,uint256,uint16)"
+    ],
+    "0x8f5e9ca7": [
+        "acceptTOS(address,bool)"
+    ],
+    "0xa79deb4f": [
+        "acceptTradeDeal()"
+    ],
+    "0x5a28340a": [
+        "accessOperatingBudget(uint256)"
+    ],
+    "0xa8b60b93": [
+        "ackMsg(uint256,string)"
+    ],
+    "0x7ec0f30d": [
+        "ack(string)"
+    ],
+    "0x82a62137": [
+        "activateAccount(address)"
+    ],
+    "0x1e9fcc77": [
+        "activateAllowance(address,address)"
+    ],
+    "0x6bd92f7c": [
+        "activateAllowanceRecord(address,address)"
+    ],
+    "0x0651844e": [
+        "activateBalance(address)"
+    ],
+    "0xc8e49707": [
+        "activateExportFee(address)"
+    ],
+    "0x2cd78450": [
+        "activateExportFeeChargeRecord(address)"
+    ],
+    "0xd532e481": [
+        "activateFrozenAccount(address)"
+    ],
+    "0x1d2b7155": [
+        "activateImportFeeChargeRecord(address)"
+    ],
+    "0xcf03f5f4": [
+        "activateMasterKey(address)"
+    ],
+    "0x1917ab5c": [
+        "activate(string)"
+    ],
+    "0x0b2acb3f": [
+        "add(address,bytes)"
+    ],
+    "0xec97cff7": [
+        "addCertificationDocument(address,bytes32)"
+    ],
+    "0xa0d605c6": [
+        "addCertificationDocumentInternal(address,bytes32)"
+    ],
+    "0xe80bd3e5": [
+        "addCertificationDocumentToSelf(bytes32)"
+    ],
+    "0x2b198366": [
+        "addCertifier(address)"
+    ],
+    "0xac3e7d24": [
+        "addChainyData(string)"
+    ],
+    "0x9450b1c8": [
+        "addCharityFundation(string,string,string)"
+    ],
+    "0x6ac6205c": [
+        "addDataPoint(int256,uint256,bool,string)"
+    ],
+    "0x4094ef5e": [
+        "addDataRequest(string)"
+    ],
+    "0xd3118a5a": [
+        "addDoc(string,string)"
+    ],
+    "0x20339891": [
+        "addGridMember(address)"
+    ],
+    "0x61bffe01": [
+        "addIdentities(bytes32[],bytes32[])"
+    ],
+    "0x17b3a34b": [
+        "_addIdentities(uint256,bytes32[])"
+    ],
+    "0x17e1bfb7": [
+        "addInstitution(address,string)"
+    ],
+    "0xf824384a": [
+        "addInvestorAtID(uint256)"
+    ],
+    "0x202d6eaf": [
+        "addInvestorsValue(uint256)"
+    ],
+    "0x2fe9541f": [
+        "addIssueBounty(string,uint256)"
+    ],
+    "0x2d06177a": [
+        "addManager(address)"
+    ],
+    "0x2ba0b09f": [
+        "AddNewCategory(bytes4,uint8,uint8,address)"
+    ],
+    "0x29dfdded": [
+        "addNewDonkey(address)"
+    ],
+    "0x74bfb965": [
+        "addNewProxy(address)"
+    ],
+    "0x755f99c2": [
+        "AddNewSmallContract(address)"
+    ],
+    "0xc1d5e84f": [
+        "addNewUser(address)"
+    ],
+    "0x76849376": [
+        "addNode(bytes32,address)"
+    ],
+    "0x7d380265": [
+        "addOptionChain(uint256,string,uint256,uint256,bytes32,address,int256[])"
+    ],
+    "0x227f9633": [
+        "addOption(string,address,uint256)"
+    ],
+    "0xdf5dd1a5": [
+        "addOracle(address)"
+    ],
+    "0x3c0dde1c": [
+        "_addPools(address,address)"
+    ],
+    "0x3d90d44d": [
+        "addPowerSource(address,uint256,uint256)"
+    ],
+    "0x49bf66d3": [
+        "addRegistryIntoNameIndex(address)"
+    ],
+    "0xb796a339": [
+        "addRegistryIntoOwnerIndex(address,address)"
+    ],
+    "0x7cdbae63": [
+        "addRegistryIntoTagsIndex(address)"
+    ],
+    "0x3e82055a": [
+        "addSignature(uint256,bytes16,bytes)"
+    ],
+    "0xd1feca67": [
+        "addSpendingRequest(address)"
+    ],
+    "0xdab80d6f": [
+        "addSponsor(address)"
+    ],
+    "0xb0c8f9dc": [
+        "add(string)"
+    ],
+    "0x8396392d": [
+        "add(string,string,string,address)"
+    ],
+    "0x36555b85": [
+        "add(string,uint256)"
+    ],
+    "0xd2dc0869": [
+        "add(string,uint256,string,string,address)"
+    ],
+    "0x0f3eb785": [
+        "add(string,uint256,uint256,uint256)"
+    ],
+    "0x38178fbe": [
+        "addString(string,string)"
+    ],
+    "0x45590ec8": [
+        "addTag(uint256,string)"
+    ],
+    "0x0e1d88fc": [
+        "addTender(uint256,uint256,address,uint256)"
+    ],
+    "0x7f0899f2": [
+        "AddTicket(bytes5[])"
+    ],
+    "0xd48bfca7": [
+        "addToken(address)"
+    ],
+    "0x75c4aaa6": [
+        "addUnderDog(uint256)"
+    ],
+    "0x213ac932": [
+        "addUser(address,uint256,uint8,bytes32,bytes32)"
+    ],
+    "0x9da680f3": [
+        "adjustRegistrationFee(uint256)"
+    ],
+    "0x5b6a54bc": [
+        "adjustTransactionFee(uint256)"
+    ],
+    "0x40fdef80": [
+        "administration(uint256,string,uint256,uint256,address)"
+    ],
+    "0xbc21ce9d": [
+        "Aggregation()"
+    ],
+    "0x98688a95": [
+        "Ai()"
+    ],
+    "0xbd3f0965": [
+        "AiraEtherFunds(string,string)"
+    ],
+    "0xe1efda6d": [
+        "airaSend(address,address,uint256)"
+    ],
+    "0x6d2cb794": [
+        "airaTransfer(address,address,uint256)"
+    ],
+    "0xa9f8ec6c": [
+        "AlarmClockTipFaucet()"
+    ],
+    "0x4a8b5389": [
+        "allocateBountyAndEcosystemTokens()"
+    ],
+    "0xbcfcb03e": [
+        "allocateFounderTokens()"
+    ],
+    "0xd526b9bd": [
+        "_allow()"
+    ],
+    "0x1c8d5d38": [
+        "allowance(address,address,bytes32)"
+    ],
+    "0xeb06e65e": [
+        "allowanceFromProxy(address,address,address)"
+    ],
+    "0x9c0a4bbc": [
+        "AlwaysFail()"
+    ],
+    "0x3b591ea7": [
+        "AmountToForgeTheNextBlock()"
+    ],
+    "0x6056969b": [
+        "announce(bytes32)"
+    ],
+    "0x3ef8ec78": [
+        "announce_numbers(uint8,uint8,uint8,uint8,uint32,bytes32)"
+    ],
+    "0xea0a5237": [
+        "announce(string)"
+    ],
+    "0xac04f5a7": [
+        "append(address)"
+    ],
+    "0x94ed9b77": [
+        "append(address,address)"
+    ],
+    "0x9aaf442c": [
+        "applyCensorship(uint256)"
+    ],
+    "0x691d58e7": [
+        "_applyRefund(uint256)"
+    ],
+    "0x7b7d7225": [
+        "_approve(address,uint256)"
+    ],
+    "0x6d1669e1": [
+        "approveAndCall(address,address,uint256,bytes)"
+    ],
+    "0xf11c4482": [
+        "approveFromProxy(address,address,uint256)"
+    ],
+    "0x7df52ba8": [
+        "Arbitrate(uint32,uint32,bool)"
+    ],
+    "0x99154b49": [
+        "ARK()"
+    ],
+    "0x014e5fde": [
+        "ARKController_1_00()"
+    ],
+    "0xfb32f4f5": [
+        "ARK_FLAGGER_1_00()"
+    ],
+    "0x2be6d43c": [
+        "ARKTagger_1_00()"
+    ],
+    "0xae30d35d": [
+        "ARK_TROGLOg_1_00()"
+    ],
+    "0x97709cde": [
+        "ARK_VOTER_1_00(uint256,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0xdba21657": [
+        "askForEther(uint256)"
+    ],
+    "0x8a3e44d4": [
+        "assetMoveInformation(address,address)"
+    ],
+    "0x0399c357": [
+        "assignFreeReadings(address,uint8)"
+    ],
+    "0x7fe0518a": [
+        "asyncSend(address,uint256)"
+    ],
+    "0xa843c97f": [
+        "attack(uint256,uint256,uint256[])"
+    ],
+    "0xe0886f90": [
+        "at(uint256)"
+    ],
+    "0x373c98a2": [
+        "authCall(address,bytes32)"
+    ],
+    "0x39b35753": [
+        "authCancel(address)"
+    ],
+    "0x4a5db3b5": [
+        "authorizeAddress(address)"
+    ],
+    "0x2db89533": [
+        "Auth(uint8,address)"
+    ],
+    "0x10cf5d47": [
+        "awaitingPayout()"
+    ],
+    "0x3d79d1c8": [
+        "bal()"
+    ],
+    "0x0a6be0e7": [
+        "BalancedPonzi()"
+    ],
+    "0x4d30b6be": [
+        "balanceOf(address,bytes32)"
+    ],
+    "0x61a00f6d": [
+        "Ballot(bytes32[])"
+    ],
+    "0x940f851c": [
+        "Ballot(uint8)"
+    ],
+    "0x97c3ccd8": [
+        "ban(address)"
+    ],
+    "0xb5deeca7": [
+        "BaseRegistry()"
+    ],
+    "0xcbe9ef39": [
+        "BasicCoin(uint256,address)"
+    ],
+    "0xd767aee0": [
+        "bbb()"
+    ],
+    "0x738486bd": [
+        "BeerCoin(uint256)"
+    ],
+    "0xf79b22e0": [
+        "betOnATeam(uint256)"
+    ],
+    "0xd30a512e": [
+        "betOnColumnOrDozen(bool,bool,bool)"
+    ],
+    "0x86314af9": [
+        "BetOnHashV84()"
+    ],
+    "0x3adb2de7": [
+        "bet_this_spin()"
+    ],
+    "0x416c8701": [
+        "beyond()"
+    ],
+    "0x934db458": [
+        "Big()"
+    ],
+    "0x71dd99fe": [
+        "BigRisk()"
+    ],
+    "0xf67a1d37": [
+        "BlockChainChallenge()"
+    ],
+    "0x8a519fb9": [
+        "BlockChainEnterprise()"
+    ],
+    "0x9ad4f98e": [
+        "BlocksureInfo()"
+    ],
+    "0x48d9a374": [
+        "blockTransfer(address,uint256)"
+    ],
+    "0x00601d6c": [
+        "board(uint256,uint8,uint8)"
+    ],
+    "0xd1100691": [
+        "BookCafe()"
+    ],
+    "0xbb00fc55": [
+        "bookEarnings()"
+    ],
+    "0x9eee85fe": [
+        "bookEarnings(address,uint256)"
+    ],
+    "0xdba7ef7d": [
+        "Bookie(address,address)"
+    ],
+    "0x60913244": [
+        "botOnSale(uint256,uint256)"
+    ],
+    "0x4cb85356": [
+        "BranchSender(uint256,bytes32)"
+    ],
+    "0x0ad95b44": [
+        "bribery()"
+    ],
+    "0xb0ad38c4": [
+        "buildCity(string,uint256[2],uint256[2])"
+    ],
+    "0xdad99989": [
+        "burnCoins(address)"
+    ],
+    "0x5fc5d48b": [
+        "burnUnsoldCoins(address)"
+    ],
+    "0x3824d8ee": [
+        "buy100DaoFor1Eth()"
+    ],
+    "0x561a4873": [
+        "buyAd(string,string,string,uint256,uint8,address)"
+    ],
+    "0x5f8f0483": [
+        "buyBankerAgreementFromImporterBank()"
+    ],
+    "0x29274fe1": [
+        "buyBOTx(uint256,string,string,address,uint256)"
+    ],
+    "0xe75528cc": [
+        "buyBuilding(uint256,uint256)"
+    ],
+    "0xe7e2aa0e": [
+        "buyer_cancel()"
+    ],
+    "0xd04bfc9c": [
+        "buyer_pay()"
+    ],
+    "0x29cbdc86": [
+        "buyin(address,uint256)"
+    ],
+    "0x4ea66c38": [
+        "buyinInternal(address,uint256)"
+    ],
+    "0xd24ddcfe": [
+        "buyKissBTC()"
+    ],
+    "0x854f4817": [
+        "buyKissBTCWithCallback(address,uint256)"
+    ],
+    "0xdda44b10": [
+        "buyRecipient(address,uint8,bytes32,bytes32)"
+    ],
+    "0xcef8d343": [
+        "buyShare(uint256,bool)"
+    ],
+    "0x90cb04e1": [
+        "buy(string,uint256,uint16)"
+    ],
+    "0xedca914c": [
+        "buyTicket()"
+    ],
+    "0x920c94df": [
+        "BuyTicketForOther(address,uint8,uint8,uint8)"
+    ],
+    "0x378c0605": [
+        "buyTickets(address)"
+    ],
+    "0x46f7a883": [
+        "BuyTicket(uint8,uint8,uint8)"
+    ],
+    "0xaaf9d13e": [
+        "buyTopDog(uint256,uint256)"
+    ],
+    "0xe5fe4f31": [
+        "buy(uint8,bytes32,bytes32)"
+    ],
+    "0x4b8772c1": [
+        "buyUnit(uint256,uint256)"
+    ],
+    "0xb412d4d6": [
+        "CafeDelivered()"
+    ],
+    "0x4dda1764": [
+        "CafeMaker()"
+    ],
+    "0x4dc3141b": [
+        "CalcAll()"
+    ],
+    "0xea295ec2": [
+        "calcRevenue(address)"
+    ],
+    "0xc1cc0775": [
+        "calculateFeeDynamic(uint256,uint256)"
+    ],
+    "0xc03e382f": [
+        "calculateShare()"
+    ],
+    "0x671dacdc": [
+        "CalculateSqrt(uint256)"
+    ],
+    "0xdcf8113e": [
+        "campaignEndedSuccessfully()"
+    ],
+    "0x74e60a48": [
+        "cancelOrder(address,uint256,address,uint256,uint256,uint256,address,uint8,bytes32,bytes32)"
+    ],
+    "0xdc419fd8": [
+        "cancelOrder(bool,uint256)"
+    ],
+    "0x3fb0b2c9": [
+        "CancelRoundAndRefundAll()"
+    ],
+    "0x9d1bbd7e": [
+        "CancelRoundAndRefundAll(uint256)"
+    ],
+    "0x6618b008": [
+        "cancelSellOrder(address)"
+    ],
+    "0x39b50688": [
+        "cancelSellOrder()"
+    ],
+    "0x06909f69": [
+        "cancel(string,uint256)"
+    ],
+    "0x1d3390a1": [
+        "carefulSendWithFixedGas(address,uint256,uint256)"
+    ],
+    "0x5cff876b": [
+        "carrotsCaught()"
+    ],
+    "0x4bb4b260": [
+        "cashAllOut()"
+    ],
+    "0xe2861c8d": [
+        "cashOutProfit()"
+    ],
+    "0x4a30f976": [
+        "censorship(uint256,bool,bool)"
+    ],
+    "0x05b2b03a": [
+        "CertificationCentre(address)"
+    ],
+    "0x35d79fad": [
+        "CertificationDb(address,uint256,address)"
+    ],
+    "0xf72457af": [
+        "CertifierDb()"
+    ],
+    "0x5103a5a3": [
+        "certify(address,bytes32)"
+    ],
+    "0x0f096163": [
+        "Chainy()"
+    ],
+    "0xdabdc1f2": [
+        "ChangeActiveDigger(address)"
+    ],
+    "0x839849c0": [
+        "changeBaseMultiplier(uint256)"
+    ],
+    "0x1ed6f423": [
+        "changeDescription(address,string)"
+    ],
+    "0x75090ebf": [
+        "changeDomain(uint256,uint256,uint256,address)"
+    ],
+    "0x3fd94686": [
+        "changeEligibleDonkeys(uint256)"
+    ],
+    "0x6a1db1bf": [
+        "changeFee(uint256)"
+    ],
+    "0x93c32e06": [
+        "changeFounder(address)"
+    ],
+    "0xd21d7950": [
+        "changeGasLimitOfSafeSend(uint256)"
+    ],
+    "0x62ee6d29": [
+        "changeHashtoLowOrHigh(uint256)"
+    ],
+    "0x1efb17ee": [
+        "changeHouseAddress(address)"
+    ],
+    "0xeb1ff845": [
+        "changeId(uint256,uint256,uint256)"
+    ],
+    "0x07a9574a": [
+        "changeLeaderMessage(string)"
+    ],
+    "0x53fefd7d": [
+        "changeMaxDeposit(uint256)"
+    ],
+    "0xa51aea2d": [
+        "changeMaxMultiplier(uint256)"
+    ],
+    "0x45ca25ed": [
+        "changeName(address,string)"
+    ],
+    "0x85eac05f": [
+        "changeOwnerAddress(address)"
+    ],
+    "0x244ded7a": [
+        "ChangeOwnership(address)"
+    ],
+    "0xc0b92612": [
+        "changePig(address)"
+    ],
+    "0x0fffbb54": [
+        "changeRankingSize(uint256)"
+    ],
+    "0x1982ed58": [
+        "ChangeReuseCashInHarware(bool,uint16,uint16)"
+    ],
+    "0xcdcb7c8f": [
+        "chase()"
+    ],
+    "0x919840ad": [
+        "check()"
+    ],
+    "0xc23697a8": [
+        "check(address)"
+    ],
+    "0xede8ebf3": [
+        "checkApprove(address,uint256)"
+    ],
+    "0x20e647e1": [
+        "checkBetColor(uint8,address,bytes32,bytes32)"
+    ],
+    "0xf2b904c3": [
+        "checkBetColumn(uint8,address,bytes32,bytes32)"
+    ],
+    "0x74388347": [
+        "checkBetDozen(uint8,address,bytes32,bytes32)"
+    ],
+    "0x75830463": [
+        "checkBetLowhigh(uint8,address,bytes32,bytes32)"
+    ],
+    "0x40c0bcb9": [
+        "checkBetNumber(uint8,address,bytes32,bytes32)"
+    ],
+    "0xe9c31315": [
+        "checkBetParity(uint8,address,bytes32,bytes32)"
+    ],
+    "0x1e5330ca": [
+        "checkBetResult(uint8,address,bytes32,bytes32)"
+    ],
+    "0x90a85119": [
+        "checkBetResult(uint8)"
+    ],
+    "0xc67146a5": [
+        "check_bet(uint256,address,uint8)"
+    ],
+    "0xf062e26b": [
+        "check_darkdao()"
+    ],
+    "0x1a9360dd": [
+        "checkDate()"
+    ],
+    "0x32921690": [
+        "checkDepth(address,uint256)"
+    ],
+    "0xdc3ab866": [
+        "checkEarnings(address)"
+    ],
+    "0x51fdaf92": [
+        "checkExpiredfunds()"
+    ],
+    "0x46b207b8": [
+        "checkExpiry()"
+    ],
+    "0xe95bee59": [
+        "checkFormat(string)"
+    ],
+    "0x119aa5c8": [
+        "checkForward(bytes)"
+    ],
+    "0x19483cd1": [
+        "checkHash()"
+    ],
+    "0x0382c254": [
+        "CheckHash(uint8,uint8,uint8,uint8,bytes32)"
+    ],
+    "0x255016c8": [
+        "checkIfExploded()"
+    ],
+    "0x0343dfa0": [
+        "checkInvariants()"
+    ],
+    "0x4c7a2254": [
+        "checkMyWithdraw()"
+    ],
+    "0x33893071": [
+        "checkMyWithdraw(address)"
+    ],
+    "0xb2bfd948": [
+        "checkNumbers(uint8[3])"
+    ],
+    "0xbed411a0": [
+        "CheckPrize(address)"
+    ],
+    "0xb623f5e5": [
+        "checkSetCosignerAddress(address)"
+    ],
+    "0xef19c332": [
+        "_checkSigned(bytes32,uint256,uint8,bytes32,bytes32)"
+    ],
+    "0x3c959aca": [
+        "CheckTickets()"
+    ],
+    "0xe0c6190d": [
+        "checkTime()"
+    ],
+    "0x5329c681": [
+        "checkTimeout(uint256)"
+    ],
+    "0x88e072b2": [
+        "checkTransfer(address,uint256)"
+    ],
+    "0xc5575ef0": [
+        "checkTransferFrom(address,address,uint256)"
+    ],
+    "0x00a7d6b3": [
+        "checkTransferFromToICAP(address,bytes32,uint256)"
+    ],
+    "0xbd8c1d33": [
+        "checkTransferFromToICAPWithReference(address,bytes32,uint256,string)"
+    ],
+    "0xc6e0c908": [
+        "checkTransferFromWithReference(address,address,uint256,string)"
+    ],
+    "0x8e4afa51": [
+        "checkTransferToICAP(bytes32,uint256)"
+    ],
+    "0x058026d0": [
+        "checkTransferToICAPWithReference(bytes32,uint256,string)"
+    ],
+    "0xcbcaacab": [
+        "checkTransferWithReference(address,uint256,string)"
+    ],
+    "0x5f72f450": [
+        "check(uint256)"
+    ],
+    "0x22d8cf5b": [
+        "CheckUserVote(uint8,uint8)"
+    ],
+    "0xefdecd9b": [
+        "check_withdrawdao()"
+    ],
+    "0xbd66528a": [
+        "claim(bytes32)"
+    ],
+    "0x008a745d": [
+        "claimDividendShare(uint256)"
+    ],
+    "0x0b3ed536": [
+        "claimDonations(uint256)"
+    ],
+    "0xb88a802f": [
+        "claimReward()"
+    ],
+    "0x3b751f7f": [
+        "claimThroneRP(string)"
+    ],
+    "0xe6e7237f": [
+        "claim_time_victory(uint256)"
+    ],
+    "0x4a1aa767": [
+        "claim_victory(uint256,uint8,uint8,uint8)"
+    ],
+    "0x4e05ded6": [
+        "ClassicCheck()"
+    ],
+    "0x565a2ecf": [
+        "classicTransfer(address)"
+    ],
+    "0x2526d960": [
+        "clawback()"
+    ],
+    "0x01775f23": [
+        "_closeBooks()"
+    ],
+    "0xee1b4828": [
+        "closeBooks()"
+    ],
+    "0x31a3a506": [
+        "closeFunding()"
+    ],
+    "0xc71b583b": [
+        "closeRequest()"
+    ],
+    "0x203c03fa": [
+        "Coinflip()"
+    ],
+    "0x7879e19e": [
+        "CollectAllFees()"
+    ],
+    "0xaf8b7525": [
+        "CollectAndReduceFees(uint256)"
+    ],
+    "0xc27b2c2d": [
+        "collectEarnings()"
+    ],
+    "0xd4d5d32a": [
+        "collectFee()"
+    ],
+    "0xb17acdcd": [
+        "collectFees(uint256)"
+    ],
+    "0xeeb57139": [
+        "CollectMoney(uint256)"
+    ],
+    "0x4a71d469": [
+        "collectRev()"
+    ],
+    "0xd9fcb31f": [
+        "comm_channel()"
+    ],
+    "0xf14fcbc8": [
+        "commit(bytes32)"
+    ],
+    "0xf3bb9741": [
+        "commitmentCampaign(uint256,bytes32)"
+    ],
+    "0x355474d2": [
+        "commitReading(address)"
+    ],
+    "0xbe4054b9": [
+        "commitReading(address,uint256,uint256,string)"
+    ],
+    "0xf2f03877": [
+        "commit(uint256,bytes32)"
+    ],
+    "0x3da0ac79": [
+        "compare()"
+    ],
+    "0x3a96fdd7": [
+        "compare(string,string)"
+    ],
+    "0x4f139314": [
+        "compensateLatestMonarch(uint256)"
+    ],
+    "0xbfbc793c": [
+        "computeNameFuzzyHash(string)"
+    ],
+    "0x5aa94a68": [
+        "computeResultVoteExtraInvestFeesRate()"
+    ],
+    "0x6bdbf8e6": [
+        "concat()"
+    ],
+    "0x89c19ddb": [
+        "concat(string,string)"
+    ],
+    "0xc8f8d75d": [
+        "Config(uint8,address)"
+    ],
+    "0x75cb2672": [
+        "configure(address)"
+    ],
+    "0x305b73d9": [
+        "configure(address,address,uint256,uint8,bytes32,bytes32)"
+    ],
+    "0x3773930e": [
+        "ConfigureFunction(address,uint256,uint16,uint16,uint16)"
+    ],
+    "0x47f3d794": [
+        "configure(uint256,uint8,uint256,uint256,uint256,uint256)"
+    ],
+    "0x4746cef8": [
+        "_confirmAndCheck(address,bytes32)"
+    ],
+    "0xffb4c857": [
+        "_confirmAndCheck(bytes32)"
+    ],
+    "0x0ae08793": [
+        "confirmAndCheck(bytes32)"
+    ],
+    "0x3f3935d1": [
+        "confirmReverse(string)"
+    ],
+    "0x0afa9fb9": [
+        "contains(int256,address)"
+    ],
+    "0x5dbe47e8": [
+        "contains(address)"
+    ],
+    "0xda4b5e29": [
+        "contains()"
+    ],
+    "0x1747dfd4": [
+        "ContractPlay()"
+    ],
+    "0x7e7a2fbf": [
+        "contribute_toTheGame()"
+    ],
+    "0x1aadcc34": [
+        "convertGreyGreen(uint8,uint8)"
+    ],
+    "0xc618d15f": [
+        "ConvertNumbers(bytes5)"
+    ],
+    "0x11cd98ed": [
+        "convertToAllTable(uint256,string)"
+    ],
+    "0x5020dcf4": [
+        "convertToEach(uint256,string,uint256)"
+    ],
+    "0xbed1b8b9": [
+        "convertToInt(string)"
+    ],
+    "0x3733ffca": [
+        "convertTo(uint256,string,string)"
+    ],
+    "0x90f2c86d": [
+        "convertToWei(uint256,string)"
+    ],
+    "0x276b94e1": [
+        "copypaste()"
+    ],
+    "0x60726abb": [
+        "copy()"
+    ],
+    "0x061ea8cc": [
+        "countByOwner(address)"
+    ],
+    "0x135128c2": [
+        "CounterPartyDeposit()"
+    ],
+    "0x1840f0ca": [
+        "countVotes(uint256)"
+    ],
+    "0xe10e274a": [
+        "CrazyEarning()"
+    ],
+    "0x4a82534b": [
+        "create(address,address,address,uint256,uint8,uint8,uint256)"
+    ],
+    "0x66e98c31": [
+        "createCoin(string,uint256,uint256,string,string,address)"
+    ],
+    "0x0eb0afa6": [
+        "createDebt(address,address,uint256)"
+    ],
+    "0xf463edd1": [
+        "createDocument(uint256)"
+    ],
+    "0xe9794dc1": [
+        "CreateHash(uint8,string)"
+    ],
+    "0x5fe27ab0": [
+        "createHKG(address)"
+    ],
+    "0xc88961da": [
+        "createKingdom(string,address,address,address)"
+    ],
+    "0xeac116c4": [
+        "createKingdom(string,address,address,address,address)"
+    ],
+    "0xa21931ea": [
+        "CreateProposal(string,string,string,uint32,string,string,string,uint32,uint32)"
+    ],
+    "0xa753d6f2": [
+        "CreateProposal(string,string,string,string,string,string,uint32,uint32)"
+    ],
+    "0x35cc59a9": [
+        "createSchema(bytes)"
+    ],
+    "0x4156fdb7": [
+        "createSwap(uint256)"
+    ],
+    "0x16d960b5": [
+        "createThing(bytes32[],bytes32[],uint88)"
+    ],
+    "0x8ea822d8": [
+        "createThings(bytes32[],uint16[],bytes32[],uint16[],uint88)"
+    ],
+    "0x72479140": [
+        "CreateTicket(address,uint8,uint8,uint8)"
+    ],
+    "0x3d6a32bd": [
+        "createTradeContract(address,uint256,uint256,uint256,bool,bool)"
+    ],
+    "0x6f9a5eab": [
+        "createTx(uint256,address,uint256)"
+    ],
+    "0xe1c66292": [
+        "Create(uint32,address)"
+    ],
+    "0x77863b61": [
+        "CrossWhitehatWithdraw(uint256,address)"
+    ],
+    "0x26a4861c": [
+        "CROWDFUNDING_PERIOD()"
+    ],
+    "0xec5c9036": [
+        "Crowdsale(address,uint256,uint256)"
+    ],
+    "0xe42def21": [
+        "CryptoHill()"
+    ],
+    "0xeccf1b29": [
+        "CrystalDoubler()"
+    ],
+    "0xbfc3d84b": [
+        "CT()"
+    ],
+    "0xce845d1d": [
+        "currentBalance()"
+    ],
+    "0x80c951bf": [
+        "currentClaimPriceInFinney()"
+    ],
+    "0x85528394": [
+        "currentClaimPriceWei()"
+    ],
+    "0xbab2f552": [
+        "currentCycle()"
+    ],
+    "0x0295d71b": [
+        "currentDepositLimit()"
+    ],
+    "0xda3c300d": [
+        "currentFee()"
+    ],
+    "0xb8aca90b": [
+        "CurrentGame()"
+    ],
+    "0xac4bd53a": [
+        "currentLeader()"
+    ],
+    "0x499af77c": [
+        "current_spin_number()"
+    ],
+    "0x06961560": [
+        "DAO(address,uint256,uint256,uint256,address)"
+    ],
+    "0xcaed4f9f": [
+        "DataService()"
+    ],
+    "0xd8915fc5": [
+        "DCAssetBackend(bytes32,bytes32)"
+    ],
+    "0x306387a4": [
+        "dealStatus(uint256)"
+    ],
+    "0x95669952": [
+        "debtor(address,uint256)"
+    ],
+    "0xaa6be303": [
+        "debtors(address)"
+    ],
+    "0x54107401": [
+        "declareLove(string,string)"
+    ],
+    "0x5c19a95c": [
+        "delegate(address)"
+    ],
+    "0x928a00d2": [
+        "deleteCoin(uint256)"
+    ],
+    "0xe4dedc7f": [
+        "DeleteContract()"
+    ],
+    "0xc0f5a9cb": [
+        "deleteThing(bytes32[])"
+    ],
+    "0x07ef99a0": [
+        "demintTokens(int256,address,uint8)"
+    ],
+    "0x4abb9d39": [
+        "depletable()"
+    ],
+    "0xacfdfd1c": [
+        "deploy(uint256,string,string,address)"
+    ],
+    "0xec2ac54e": [
+        "deposit(address,uint256,bytes32,uint256)"
+    ],
+    "0xb7482509": [
+        "deposit(address,string)"
+    ],
+    "0x47e7ef24": [
+        "deposit(address,uint256)"
+    ],
+    "0xc5b1a53c": [
+        "deposit(bytes16[],uint64)"
+    ],
+    "0xaa67c919": [
+        "depositFor(address)"
+    ],
+    "0xbb3ce7fe": [
+        "DepositHolder()"
+    ],
+    "0xb47fa7e0": [
+        "DepositLimit(uint256)"
+    ],
+    "0x44e43cb8": [
+        "depositRevenue()"
+    ],
+    "0xe241c1d9": [
+        "deriveKey(uint256,uint256,uint256)"
+    ],
+    "0x9b1ad792": [
+        "destroyToken(address,uint256)"
+    ],
+    "0x67fbd289": [
+        "destroyTokens(uint256)"
+    ],
+    "0x2b68b9c6": [
+        "destruct()"
+    ],
+    "0x41395efa": [
+        "dgxBalance()"
+    ],
+    "0x56105a08": [
+        "DgxSwap()"
+    ],
+    "0x594151e0": [
+        "Dice()"
+    ],
+    "0x5e855f14": [
+        "Dice(uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x6545bed3": [
+        "Dice(uint256,uint256,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x0f06670a": [
+        "didWin(bytes32)"
+    ],
+    "0x91b4a0e7": [
+        "Difficulty()"
+    ],
+    "0x1b3a8e6f": [
+        "directionCount(int256,int256,int256,int256)"
+    ],
+    "0x0d17bc2e": [
+        "_disallow()"
+    ],
+    "0x7f3bd56e": [
+        "disburse(address,uint256)"
+    ],
+    "0x1f0f711f": [
+        "discontinue()"
+    ],
+    "0x423e7e79": [
+        "_dispatchEarnings()"
+    ],
+    "0xf240f7c3": [
+        "dispute()"
+    ],
+    "0x44691f2b": [
+        "Dispute()"
+    ],
+    "0x4ecd73e2": [
+        "DistributeDividends(uint256)"
+    ],
+    "0x76577eae": [
+        "distributeEarnings()"
+    ],
+    "0x2ef875fb": [
+        "div10(uint256,uint8)"
+    ],
+    "0x058aace1": [
+        "divest()"
+    ],
+    "0x11af3c68": [
+        "divest(address)"
+    ],
+    "0xbb504317": [
+        "divest(address,uint256)"
+    ],
+    "0x8ca17995": [
+        "divest(uint256)"
+    ],
+    "0x8df554b3": [
+        "Dividend()"
+    ],
+    "0x4a2b0c38": [
+        "DividendProfit()"
+    ],
+    "0x0d48e8d0": [
+        "doBalance()"
+    ],
+    "0xe916d0f0": [
+        "doBalance(address)"
+    ],
+    "0x33fd066d": [
+        "doBalanceFor(address)"
+    ],
+    "0xdfdb5f17": [
+        "doBurn(address,uint256)"
+    ],
+    "0x60c311fd": [
+        "doBurnFromContract(address,uint256)"
+    ],
+    "0xf1bca7a4": [
+        "doCall(uint256)"
+    ],
+    "0x7fd238ba": [
+        "doCoinage(address[],uint256[],uint256,uint256,uint256)"
+    ],
+    "0x8ac78c80": [
+        "Docsign()"
+    ],
+    "0xddf187b0": [
+        "dogFight()"
+    ],
+    "0x7997b997": [
+        "doMelt(uint256,uint256)"
+    ],
+    "0xad1ef61e": [
+        "donkeyInvested(address)"
+    ],
+    "0xc9bbc8c0": [
+        "donkeyName(address)"
+    ],
+    "0x26161670": [
+        "donkeyRanking(uint256)"
+    ],
+    "0x23509e69": [
+        "donkeysEligibleForFees()"
+    ],
+    "0x37751b35": [
+        "doTransfer(address,address,uint256)"
+    ],
+    "0x13220305": [
+        "doTransferOther(address,address,address,uint256)"
+    ],
+    "0xdc583801": [
+        "doubleyour5()"
+    ],
+    "0x4974bc27": [
+        "download()"
+    ],
+    "0x9890220b": [
+        "drain()"
+    ],
+    "0x0eecae21": [
+        "draw()"
+    ],
+    "0x89d8ca67": [
+        "drawPot(bytes32,bytes32)"
+    ],
+    "0x18433bb7": [
+        "DrawPrepare()"
+    ],
+    "0xe436bdf3": [
+        "Draws(uint256)"
+    ],
+    "0x4f39ca59": [
+        "drop(bytes32)"
+    ],
+    "0x200538c6": [
+        "DTE()"
+    ],
+    "0x5e0e2957": [
+        "dumpOut()"
+    ],
+    "0xef5daf01": [
+        "_dumpToCompany()"
+    ],
+    "0xaca66aec": [
+        "DVIP()"
+    ],
+    "0xf245b9e4": [
+        "DVIP(address)"
+    ],
+    "0xe570be18": [
+        "DVIPBackend(address,address)"
+    ],
+    "0xa08b3367": [
+        "EC()"
+    ],
+    "0xdb318833": [
+        "_ecAdd(uint256,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0xf47289e1": [
+        "_ecDouble(uint256,uint256,uint256)"
+    ],
+    "0x913f424c": [
+        "_ecMul(uint256,uint256,uint256,uint256)"
+    ],
+    "0x0c7de59d": [
+        "edit(address,bytes,bool)"
+    ],
+    "0xf63da25b": [
+        "Emailer()"
+    ],
+    "0x23385089": [
+        "emitApprove(address,address,uint256)"
+    ],
+    "0xe3a9b508": [
+        "EnableDisableTokenProxy()"
+    ],
+    "0x2c46d8d5": [
+        "EndRound(uint256)"
+    ],
+    "0xacbf98a7": [
+        "endsWith()"
+    ],
+    "0xf67abd87": [
+        "entryDetails(uint256)"
+    ],
+    "0xd4625a3a": [
+        "equals()"
+    ],
+    "0x46bdca9a": [
+        "equal(string,string)"
+    ],
+    "0xfc72c1ef": [
+        "ERC20Base(uint256)"
+    ],
+    "0x0bd2ae1c": [
+        "ERW()"
+    ],
+    "0x22f607f6": [
+        "Escrow()"
+    ],
+    "0x0bad342a": [
+        "EscrowContract(address,address,address,address,uint256,uint256,uint256,uint256)"
+    ],
+    "0x8383bfc8": [
+        "EscrowFoundry()"
+    ],
+    "0x1768b436": [
+        "ETCSurvey()"
+    ],
+    "0xdbf45aa3": [
+        "EthBank()"
+    ],
+    "0x838445e8": [
+        "EtherAds(address,address,address)"
+    ],
+    "0x1df5e755": [
+        "Etherandom()"
+    ],
+    "0x384e5018": [
+        "etherandomCallbackAddress()"
+    ],
+    "0xd216d55d": [
+        "etherandomExec(bytes32,bytes32,uint256)"
+    ],
+    "0x1f201e39": [
+        "etherandomExecWithGasLimit(bytes32,bytes32,uint256,uint256)"
+    ],
+    "0xa715ff59": [
+        "EtherandomProxy()"
+    ],
+    "0x36f9f49c": [
+        "etherandomSeed()"
+    ],
+    "0x70e71ea3": [
+        "etherandomSeedWithGasLimit(uint256)"
+    ],
+    "0x4d561721": [
+        "etherandomSetNetwork()"
+    ],
+    "0x7ca55e00": [
+        "etherandomVerify(bytes32,bytes32,bytes32,uint256,uint256)"
+    ],
+    "0x29bed3bf": [
+        "EthereumRoulette()"
+    ],
+    "0xd81f53fd": [
+        "EtherId()"
+    ],
+    "0x50e06b57": [
+        "Etherization()"
+    ],
+    "0xd409ddda": [
+        "EtherizationUtils()"
+    ],
+    "0xff7f5f2a": [
+        "EtherizationUtils2()"
+    ],
+    "0xf9a794ad": [
+        "EtherLovers()"
+    ],
+    "0x1558ae4d": [
+        "Etheroll()"
+    ],
+    "0xa08d3f83": [
+        "Etheropt(uint256,string,uint256,uint256,bytes32,address,int256[])"
+    ],
+    "0xadd43c59": [
+        "EtherTopDog()"
+    ],
+    "0x356594ab": [
+        "EtherTransfer()"
+    ],
+    "0x0da3e613": [
+        "EthFactory()"
+    ],
+    "0xf5f6ea26": [
+        "EthOne()"
+    ],
+    "0x3023d0c4": [
+        "Ethstick()"
+    ],
+    "0x6f13e01b": [
+        "EthVenturePlugin()"
+    ],
+    "0x4054f5de": [
+        "EthVentures3()"
+    ],
+    "0x9c172f87": [
+        "EthVentures4()"
+    ],
+    "0xd5171523": [
+        "euroteambet()"
+    ],
+    "0x9f87acd0": [
+        "exec(bytes32,bytes32,uint256)"
+    ],
+    "0xf4993bbd": [
+        "executeEmergencyWithdrawal()"
+    ],
+    "0x38557648": [
+        "executeSellOrder(address)"
+    ],
+    "0x4d782cbc": [
+        "executeSellOrder()"
+    ],
+    "0x140b4465": [
+        "executeSpendingRequests()"
+    ],
+    "0x3462f32d": [
+        "execWithGasLimit(bytes32,bytes32,uint256,uint256)"
+    ],
+    "0xd4649fde": [
+        "expire(uint256,uint8,bytes32,bytes32,bytes32)"
+    ],
+    "0x03cf4fd6": [
+        "expire(uint256,uint256,uint8,bytes32,bytes32,bytes32)"
+    ],
+    "0x419945f8": [
+        "ExpiringMarket(uint256)"
+    ],
+    "0x37930615": [
+        "extend(bytes16[],uint64)"
+    ],
+    "0x6a6d31db": [
+        "externalEnter()"
+    ],
+    "0xf55b23c0": [
+        "externalLeave()"
+    ],
+    "0xe2056c46": [
+        "ExtraBalToken()"
+    ],
+    "0x7ef95c6f": [
+        "extractAccountAllowanceRecordLength(address)"
+    ],
+    "0x4de162e4": [
+        "extractAccountLength()"
+    ],
+    "0x727089f1": [
+        "extractAllowanceLength()"
+    ],
+    "0x8f731077": [
+        "extractAllowanceRecordLength(address)"
+    ],
+    "0xc8117b5b": [
+        "extractBalanceOfLength()"
+    ],
+    "0x1cf43b63": [
+        "extractExportFeeChargeLength()"
+    ],
+    "0xa056469a": [
+        "extractFeeLength()"
+    ],
+    "0xb5a6c525": [
+        "extractFrozenAccountLength()"
+    ],
+    "0xd1da09ee": [
+        "extractImportFeeChargeLength()"
+    ],
+    "0x2885b593": [
+        "extractMasterKeyIndexLength()"
+    ],
+    "0x981a60f5": [
+        "extractNameFromData(bytes)"
+    ],
+    "0xb764e273": [
+        "failSend()"
+    ],
+    "0xc57a050e": [
+        "fairandeasy()"
+    ],
+    "0xa5e62f02": [
+        "fallbackRP()"
+    ],
+    "0x93e02d13": [
+        "FallenLeaders()"
+    ],
+    "0xd3732642": [
+        "FastRealisticPyramid()"
+    ],
+    "0xc5096a69": [
+        "feeFor(address,address,uint256)"
+    ],
+    "0x6860fd58": [
+        "Fees(uint256)"
+    ],
+    "0x5b151fd2": [
+        "fifty_fifty()"
+    ],
+    "0x75438e49": [
+        "fillGas()"
+    ],
+    "0x884b5dc2": [
+        "fill(uint256[])"
+    ],
+    "0x7ff729fc": [
+        "fillUpProject(uint256,uint256)"
+    ],
+    "0xbf12165e": [
+        "fillUpSlot(uint256,uint256)"
+    ],
+    "0x5fa513d5": [
+        "findPtr(uint256,uint256,uint256,uint256)"
+    ],
+    "0x70d53be5": [
+        "find()"
+    ],
+    "0xc9bd2893": [
+        "fines()"
+    ],
+    "0x2cce4abe": [
+        "_finishNoCallback()"
+    ],
+    "0x113e6b66": [
+        "fipsAddToLedger(bytes20,address)"
+    ],
+    "0xaa8dea8c": [
+        "fipsAddToLedger(bytes20,address,bytes)"
+    ],
+    "0xa289673b": [
+        "fipsChangeOwner(bytes20,address,address)"
+    ],
+    "0x1dcb304b": [
+        "fipsGenerate()"
+    ],
+    "0x7910085d": [
+        "fipsIsRegistered(bytes20)"
+    ],
+    "0x3ae7cdfa": [
+        "fipsLegacyRegister(bytes20[],address)"
+    ],
+    "0xdfce8ac3": [
+        "fipsLegacyRegister(bytes20,address,bytes)"
+    ],
+    "0x5cb18a6d": [
+        "fipsLegacyRegisterMulti(bytes20[],address,bytes)"
+    ],
+    "0x3def449b": [
+        "FipsNotary()"
+    ],
+    "0x7620f4bb": [
+        "fipsNotaryLegacy68b4()"
+    ],
+    "0x5084da18": [
+        "fipsOwner(bytes20)"
+    ],
+    "0x3df76482": [
+        "fipsPublishData(bytes20,bytes)"
+    ],
+    "0xfba06849": [
+        "fipsPublishDataMulti(bytes20[],bytes)"
+    ],
+    "0x74d4ab27": [
+        "fipsRegister()"
+    ],
+    "0x419ffa03": [
+        "fipsRegister(address)"
+    ],
+    "0xb16562fe": [
+        "fipsRegister(address,bytes)"
+    ],
+    "0x1531c267": [
+        "fipsRegisterMulti(uint256,address,bytes)"
+    ],
+    "0x3dc02266": [
+        "fipsRegister(uint256)"
+    ],
+    "0x2f62a6ff": [
+        "fipsRegister(uint256,address,bytes)"
+    ],
+    "0xc12af1ce": [
+        "fipsRegister(uint256,bytes)"
+    ],
+    "0x2fa00e58": [
+        "fipsTransfer(bytes20,address)"
+    ],
+    "0x42402c2c": [
+        "fipsTransferMulti(bytes20[],address)"
+    ],
+    "0x9e9d3aa4": [
+        "FirstBloodToken(address,address,uint256,uint256)"
+    ],
+    "0x3df4ddf4": [
+        "first()"
+    ],
+    "0xe87df70e": [
+        "fivetimes()"
+    ],
+    "0x912de8de": [
+        "fixBalance()"
+    ],
+    "0xf1c760ae": [
+        "fixBalanceInternal(address)"
+    ],
+    "0x3369dace": [
+        "flipTheCoinAndWin()"
+    ],
+    "0x6b9f96ea": [
+        "flush()"
+    ],
+    "0x446a7974": [
+        "Fokitol()"
+    ],
+    "0x6a5da6e5": [
+        "followCampaign(uint256)"
+    ],
+    "0x384b1393": [
+        "follow(uint256)"
+    ],
+    "0x7cf0ffcb": [
+        "forceDivestAll()"
+    ],
+    "0x29e206bd": [
+        "forceDivestAll(bool)"
+    ],
+    "0x232523e8": [
+        "forceDivestOfAllInvestors()"
+    ],
+    "0x51404cbe": [
+        "forceDivestOfOneInvestor(address)"
+    ],
+    "0x93feb13b": [
+        "ForceSendHelper(address)"
+    ],
+    "0x11b9fee8": [
+        "ForkChecker(uint256,bytes32)"
+    ],
+    "0x16c72721": [
+        "forked()"
+    ],
+    "0xd264e05e": [
+        "forward()"
+    ],
+    "0xa4d575ce": [
+        "_forward(address,bytes)"
+    ],
+    "0xac562666": [
+        "freezeCoin()"
+    ],
+    "0xb466b76f": [
+        "fresh()"
+    ],
+    "0xb72e717d": [
+        "fromAddress(address)"
+    ],
+    "0x891de9ed": [
+        "fromTLA(string)"
+    ],
+    "0x3c067945": [
+        "fundBalance()"
+    ],
+    "0x43243797": [
+        "fundsOf(address)"
+    ],
+    "0xca708230": [
+        "funnel()"
+    ],
+    "0xfc108f70": [
+        "GamblerPerAddress(address)"
+    ],
+    "0xefa7e56b": [
+        "GameEnds()"
+    ],
+    "0x2143da91": [
+        "GameOfThrones()"
+    ],
+    "0xa10edc55": [
+        "GeneralPurposeProfitSplitter()"
+    ],
+    "0x4d70d1d7": [
+        "generateId(uint256)"
+    ],
+    "0x6f6c0244": [
+        "generateShortLink()"
+    ],
+    "0x419db07b": [
+        "generousFee()"
+    ],
+    "0xfa7d68f1": [
+        "getAccountInfo(uint256,uint256)"
+    ],
+    "0x10082bff": [
+        "getActorBillXdetail(address,uint256,bool)"
+    ],
+    "0x04fc11d5": [
+        "getActual()"
+    ],
+    "0x21f8a721": [
+        "getAddress(bytes32)"
+    ],
+    "0x6795dbcd": [
+        "getAddress(bytes32,string)"
+    ],
+    "0x42c69566": [
+        "get_address(address,string)"
+    ],
+    "0xe7b48f74": [
+        "get(int256,address)"
+    ],
+    "0x579cdf17": [
+        "getAdminName(address)"
+    ],
+    "0xc8edf65e": [
+        "GetAndReduceFeesByFraction(uint256)"
+    ],
+    "0xc6ed8e1b": [
+        "getApprovedProxys()"
+    ],
+    "0xf9cc0605": [
+        "getAvailable()"
+    ],
+    "0x12065fe0": [
+        "getBalance()"
+    ],
+    "0x1177892f": [
+        "getBalanceByAdress(address)"
+    ],
+    "0x565a2e2c": [
+        "getBeneficiary()"
+    ],
+    "0xa6afd5fd": [
+        "getBets()"
+    ],
+    "0x061e494f": [
+        "getBet(uint256)"
+    ],
+    "0x8c98117c": [
+        "getBill(uint256,uint256)"
+    ],
+    "0xe422ebe9": [
+        "getBot()"
+    ],
+    "0x618fa9ce": [
+        "getBotBillingIndex(uint256,uint256)"
+    ],
+    "0x4ae9af61": [
+        "getBotStats(uint256,uint256)"
+    ],
+    "0x5f70d9ac": [
+        "getBot(uint256)"
+    ],
+    "0xc06c4474": [
+        "get_burned(bytes32)"
+    ],
+    "0xc00ca383": [
+        "getByOwner(address,uint256)"
+    ],
+    "0x8eaa6ac0": [
+        "get(bytes32)"
+    ],
+    "0xd120a284": [
+        "getBytesFromNumbers(uint8[3])"
+    ],
+    "0x1f6e5117": [
+        "getCallbackAddress()"
+    ],
+    "0x769dc523": [
+        "GetCategoryNumber(bytes4)"
+    ],
+    "0x7281854d": [
+        "GetCategoryValue(uint8)"
+    ],
+    "0xc88cc6ac": [
+        "getCertification(address)"
+    ],
+    "0x777feff5": [
+        "getCertificationDbAtIndex(uint256)"
+    ],
+    "0x808ab1d6": [
+        "getCertificationDbCount()"
+    ],
+    "0xfd260dfc": [
+        "getCertificationDbStatus(address)"
+    ],
+    "0xde629235": [
+        "getCertificationDocumentAtIndex(address,uint256)"
+    ],
+    "0xd5582205": [
+        "getCertifiedStudentAtIndex(uint256)"
+    ],
+    "0x038461ea": [
+        "getCertifiedStudentsCount()"
+    ],
+    "0x2f695053": [
+        "getCertifierAtIndex(uint256)"
+    ],
+    "0x56d73ad1": [
+        "getCertifierDb()"
+    ],
+    "0x6e63015c": [
+        "getCertifiersCount()"
+    ],
+    "0x05b765ea": [
+        "getCertifierStatus(address)"
+    ],
+    "0x045236b4": [
+        "getChainyData(string)"
+    ],
+    "0x919edc7c": [
+        "getChainySender(string)"
+    ],
+    "0xe8b13c44": [
+        "getChainyTimestamp(string)"
+    ],
+    "0x233120aa": [
+        "getChainyURL()"
+    ],
+    "0xd7130651": [
+        "getCity(uint256)"
+    ],
+    "0xd0068f80": [
+        "getClient(uint256)"
+    ],
+    "0x3aa94b1d": [
+        "getCoinStats(uint256)"
+    ],
+    "0xda311588": [
+        "getCoin(uint256)"
+    ],
+    "0xe65d6b49": [
+        "getCommission()"
+    ],
+    "0x69bcdb7d": [
+        "getCommitment(uint256)"
+    ],
+    "0xf896503a": [
+        "getConfigAddress(bytes32)"
+    ],
+    "0xea3ebae6": [
+        "getConfigBool(bytes32)"
+    ],
+    "0x62c7855b": [
+        "getConfigBytes(bytes32)"
+    ],
+    "0xb44bd51d": [
+        "getConfig(string)"
+    ],
+    "0x5c1b3ca1": [
+        "getConfigUint(int256,bytes32)"
+    ],
+    "0xd408746a": [
+        "GetContractAddr()"
+    ],
+    "0xd3edcb5b": [
+        "getCreditorAddresses()"
+    ],
+    "0x81064e2d": [
+        "getCreditorAmounts()"
+    ],
+    "0x77c78df9": [
+        "getCurrentLevel()"
+    ],
+    "0x2bf4e53d": [
+        "getCurrentShareholders()"
+    ],
+    "0x329bfc33": [
+        "getCurrentWinner()"
+    ],
+    "0x152cf9db": [
+        "getDataPoint(int256,uint256,uint256)"
+    ],
+    "0xcf69df28": [
+        "getDataRequestLength()"
+    ],
+    "0x88f53db1": [
+        "getDataRequest(uint256)"
+    ],
+    "0xd2b0d554": [
+        "getDisclaimer()"
+    ],
+    "0x80ede329": [
+        "getDocumentDetails(uint256)"
+    ],
+    "0x16e55626": [
+        "getDogName(address)"
+    ],
+    "0x1a7a98e2": [
+        "getDomain(uint256)"
+    ],
+    "0xbe6307c8": [
+        "getDraw(uint256)"
+    ],
+    "0x2fa7cbfb": [
+        "getExecCost(uint256)"
+    ],
+    "0x752bacce": [
+        "getExecPrice()"
+    ],
+    "0xba1162d7": [
+        "getFmLength()"
+    ],
+    "0xd63547e6": [
+        "GetFreeCnt()"
+    ],
+    "0x4a7e049e": [
+        "getFullCompany(address,uint256)"
+    ],
+    "0x3e853128": [
+        "getGasForXau(address)"
+    ],
+    "0x455259cb": [
+        "getGasPrice()"
+    ],
+    "0x75608264": [
+        "get_hash(uint8,bytes32)"
+    ],
+    "0xbba91ea7": [
+        "getHomeadvIndex(uint256)"
+    ],
+    "0x24fc65ed": [
+        "getId(uint256,uint256)"
+    ],
+    "0xb7de47d3": [
+        "getIndex(uint256,uint256)"
+    ],
+    "0x2b98222e": [
+        "getInstitutionByAddress(address)"
+    ],
+    "0x6da1833c": [
+        "getInstitutionByName(string)"
+    ],
+    "0x728af7ec": [
+        "getInterest(uint256,uint256)"
+    ],
+    "0x0a80ef45": [
+        "getIsClosed()"
+    ],
+    "0x0ed21029": [
+        "getIssueAssignee(uint256,bytes32)"
+    ],
+    "0x706dfe54": [
+        "getIssueState(uint256,bytes32)"
+    ],
+    "0xc5bf339c": [
+        "getLastNonPublished()"
+    ],
+    "0x65fa2f7f": [
+        "getLastPrice(uint256)"
+    ],
+    "0x89f4ed7a": [
+        "getLastTag(uint256)"
+    ],
+    "0x29a065bd": [
+        "getLOg(uint256)"
+    ],
+    "0xe0e3ba5a": [
+        "getLosesShare(address)"
+    ],
+    "0x550ed1f0": [
+        "getMaxBetAmount()"
+    ],
+    "0x82a5285d": [
+        "getMinBetAmount()"
+    ],
+    "0x5af73f3f": [
+        "getMinimalBalance(uint256,address)"
+    ],
+    "0x90daaf67": [
+        "getMinimalDeposit()"
+    ],
+    "0xf909d60d": [
+        "getMinimumGasLimit()"
+    ],
+    "0x724ae9d0": [
+        "getMinInvestment()"
+    ],
+    "0xa538d287": [
+        "getMinMax()"
+    ],
+    "0x686e8aaa": [
+        "GetMoney()"
+    ],
+    "0x3cc86b80": [
+        "GetMoney(uint256,address)"
+    ],
+    "0x50ab6f7f": [
+        "getMsgs()"
+    ],
+    "0xc1d4f708": [
+        "getMwLength()"
+    ],
+    "0xcfb3a493": [
+        "getMyBounty(uint256)"
+    ],
+    "0xb484e532": [
+        "getMyMsg()"
+    ],
+    "0xc003b082": [
+        "getMyPlayerID()"
+    ],
+    "0x36ffa905": [
+        "getMyProposals()"
+    ],
+    "0x0645b5d5": [
+        "getMyShareholderID()"
+    ],
+    "0x3e83fe36": [
+        "getMyShares()"
+    ],
+    "0xea1bf386": [
+        "getNextSellerBOTdata(uint256)"
+    ],
+    "0x2ade6c36": [
+        "getNodeAddress(bytes32)"
+    ],
+    "0xbbe4fd50": [
+        "getNow()"
+    ],
+    "0x1c895915": [
+        "getNumberOfPayments(uint256)"
+    ],
+    "0x5819dde2": [
+        "getNumbersFromBytes(bytes3)"
+    ],
+    "0x017972af": [
+        "getNumbersFromHash(bytes32)"
+    ],
+    "0x06638e92": [
+        "GetNumbersFromHash(bytes32)"
+    ],
+    "0x57ee24af": [
+        "getNum(bytes32,uint256)"
+    ],
+    "0xb39a64cd": [
+        "getNumCalled()"
+    ],
+    "0x52200a13": [
+        "getNumHolders(uint256)"
+    ],
+    "0x72ea4b8c": [
+        "getNumInvestors()"
+    ],
+    "0xa8893a6e": [
+        "getNumOfSalesWithSameId(bytes16)"
+    ],
+    "0x531c1b33": [
+        "getOperatingBudget()"
+    ],
+    "0x09574810": [
+        "getOperationsNumber()"
+    ],
+    "0x202e3924": [
+        "getOperation(uint256)"
+    ],
+    "0xfaa1a8ff": [
+        "getOwnedBot(address,uint256)"
+    ],
+    "0x0ae50a39": [
+        "GetOwner()"
+    ],
+    "0xe74ffbd5": [
+        "getPart(bytes32,uint256)"
+    ],
+    "0xd085e66e": [
+        "GetPart(bytes32,uint256)"
+    ],
+    "0xe42d5be0": [
+        "getPaymentOf(address)"
+    ],
+    "0x5a825cbb": [
+        "getPayment(uint256,uint256)"
+    ],
+    "0xe56556a9": [
+        "getPlayerID(address)"
+    ],
+    "0x953aa435": [
+        "GetPrice(uint8)"
+    ],
+    "0x116c6eab": [
+        "getProfitShare(address)"
+    ],
+    "0x7486a8e3": [
+        "get_publisher(bytes32)"
+    ],
+    "0x6a28db13": [
+        "getQrLength()"
+    ],
+    "0x163aba3c": [
+        "getQueryFee()"
+    ],
+    "0xf1b3f968": [
+        "getRaceEndBlock()"
+    ],
+    "0xcd4b6914": [
+        "getRandom(uint256)"
+    ],
+    "0x7bcd7fad": [
+        "getRecordAtIndex(uint256)"
+    ],
+    "0xb719d1d0": [
+        "getRegInfo(address)"
+    ],
+    "0x052b2aa7": [
+        "getRegistrants()"
+    ],
+    "0xadd4c784": [
+        "getResult(bytes32)"
+    ],
+    "0x7332b520": [
+        "getRewardsCount(uint256)"
+    ],
+    "0x85dd2148": [
+        "getSaleDate(bytes16)"
+    ],
+    "0xac92fdb5": [
+        "getSaleDate(bytes16,uint256)"
+    ],
+    "0xd239ea8b": [
+        "getSchemasLenght()"
+    ],
+    "0x288c6ed2": [
+        "getSeedCost(uint256)"
+    ],
+    "0x9183fd01": [
+        "getSeedPrice()"
+    ],
+    "0x347632e8": [
+        "getShareholderAdressByID(uint256)"
+    ],
+    "0x308d6613": [
+        "getSignData(uint256,uint8)"
+    ],
+    "0xb36a0b15": [
+        "getSignDetails(uint256,uint8)"
+    ],
+    "0x28dcfdac": [
+        "getSignsCount(uint256)"
+    ],
+    "0x842bc37b": [
+        "GetSmallCotractIndex(address)"
+    ],
+    "0xafa293d4": [
+        "getSource()"
+    ],
+    "0xe9e7a667": [
+        "get_stake(bytes32)"
+    ],
+    "0x22b0f6ee": [
+        "getStatusOfPayout(uint256)"
+    ],
+    "0x9a0af2ec": [
+        "getStLength()"
+    ],
+    "0x693ec85e": [
+        "get(string)"
+    ],
+    "0x4a0d89ba": [
+        "getSwap(uint256)"
+    ],
+    "0x7ac26aeb": [
+        "getTag(string,uint256)"
+    ],
+    "0xdf300b46": [
+        "getThing(bytes32[])"
+    ],
+    "0x55b62dcf": [
+        "getThresold(uint256)"
+    ],
+    "0x002a5cc9": [
+        "getTicketHolders(uint256)"
+    ],
+    "0x9f0e3107": [
+        "get_timestamp(bytes32)"
+    ],
+    "0x82b2e257": [
+        "getTokenBalance()"
+    ],
+    "0xacab021c": [
+        "getTOS(address)"
+    ],
+    "0x12b58349": [
+        "getTotalBalance()"
+    ],
+    "0xc4e41b22": [
+        "getTotalSupply()"
+    ],
+    "0xcaa648b4": [
+        "getTotalValue()"
+    ],
+    "0xf709dd51": [
+        "getTrademark()"
+    ],
+    "0x9bb0e4df": [
+        "getUint(int256,bytes32,string)"
+    ],
+    "0x74e4435f": [
+        "getUserAddress(uint256,bytes32)"
+    ],
+    "0xa2bb5d48": [
+        "get_username(address)"
+    ],
+    "0x6de00927": [
+        "GetUserRank(uint8,address)"
+    ],
+    "0xff981099": [
+        "getVotes(uint256)"
+    ],
+    "0xffb1a6cb": [
+        "getWins(address)"
+    ],
+    "0x4ae8c55f": [
+        "getWwLength()"
+    ],
+    "0xfb9a4595": [
+        "GitHubBounty()"
+    ],
+    "0x0b7373d6": [
+        "giveAllBack()"
+    ],
+    "0x04706fdf": [
+        "giveContributionsBackProfitBugged()"
+    ],
+    "0xb5299ca6": [
+        "giveMeat()"
+    ],
+    "0x9e7b8d61": [
+        "giveRightToVote(address)"
+    ],
+    "0x35ae41c9": [
+        "godAutomaticCollectFee()"
+    ],
+    "0x691bfc89": [
+        "goods(uint16,uint256)"
+    ],
+    "0x7c25f260": [
+        "Government()"
+    ],
+    "0xbb6a0853": [
+        "GreedPit()"
+    ],
+    "0x92ba4ba6": [
+        "GridMember(string,uint256,bool,address,address)"
+    ],
+    "0x3cc7790a": [
+        "GSI()"
+    ],
+    "0xa1c95ac2": [
+        "GSIToken(uint256,string,uint8,string,address)"
+    ],
+    "0x75f96ead": [
+        "Guess(uint256)"
+    ],
+    "0xdf143fb7": [
+        "HackerGold(address)"
+    ],
+    "0x5ed7ca5b": [
+        "halt()"
+    ],
+    "0x4f28af6a": [
+        "handleBet(uint256)"
+    ],
+    "0xcb96012e": [
+        "hashTo256(bytes32)"
+    ],
+    "0x650955d4": [
+        "HashToken()"
+    ],
+    "0xa1add510": [
+        "hasRelation(bytes32,bytes32,address)"
+    ],
+    "0x06f36cc9": [
+        "helpBlue()"
+    ],
+    "0x353928d8": [
+        "helpRed()"
+    ],
+    "0xce373b95": [
+        "heroOfThePit()"
+    ],
+    "0xaeeb96af": [
+        "Highlander()"
+    ],
+    "0x7eb69ba1": [
+        "hint(int256,bytes32,string,bytes20)"
+    ],
+    "0xc98031be": [
+        "hintURL(int256,bytes32,string)"
+    ],
+    "0xef4ffee2": [
+        "Honestgamble()"
+    ],
+    "0xa6027d53": [
+        "IconomiTokenTest(uint256,string,uint8,string,uint256)"
+    ],
+    "0xb98fdc36": [
+        "IconomiToken(uint256,string,uint8,string,uint256)"
+    ],
+    "0xdaf22f4d": [
+        "identify(bytes32)"
+    ],
+    "0xaf640d0f": [
+        "id()"
+    ],
+    "0xf7c3ee7a": [
+        "immortality()"
+    ],
+    "0x602acca1": [
+        "InchainICO(address[],uint256)"
+    ],
+    "0xa4beffa7": [
+        "increaseInvestment()"
+    ],
+    "0xcab5c0f1": [
+        "_incrementState()"
+    ],
+    "0x1e8c72b4": [
+        "incrUserAvailBal(address,uint256,bool)"
+    ],
+    "0x3d5db1c2": [
+        "incrUserOnholdBal(address,uint256,bool)"
+    ],
+    "0x22686250": [
+        "index(int256,uint256)"
+    ],
+    "0x1f13de92": [
+        "inEther(uint256)"
+    ],
+    "0x9334ab61": [
+        "Infos()"
+    ],
+    "0x4a1f0bf6": [
+        "inheritToNextGeneration(address)"
+    ],
+    "0x2cc0b254": [
+        "init(address,bytes32)"
+    ],
+    "0x87ebd76c": [
+        "initContract(string,string,uint256,uint256)"
+    ],
+    "0x23584a21": [
+        "initStats(string,address,uint256)"
+    ],
+    "0x98eaca94": [
+        "inKissBTC(uint256)"
+    ],
+    "0xa0469b02": [
+        "inputToDigit(uint256)"
+    ],
+    "0xfeaa29d8": [
+        "insertProfitHere()"
+    ],
+    "0x46af23f5": [
+        "InstantLottery(address,address,bool,address)"
+    ],
+    "0xf83d96c1": [
+        "InsuranceAgent()"
+    ],
+    "0x8cecf66e": [
+        "_inverse(uint256)"
+    ],
+    "0xadfe6b80": [
+        "InvestAdd()"
+    ],
+    "0x391f2e96": [
+        "InvestCancel()"
+    ],
+    "0x4f013184": [
+        "investInTheSystem()"
+    ],
+    "0xc4321adb": [
+        "investInTheSystem(uint256)"
+    ],
+    "0x2afb21bc": [
+        "InvestWithdraw()"
+    ],
+    "0x76285b5b": [
+        "_is360thDay()"
+    ],
+    "0x74eb9b68": [
+        "isAccountLocked(address)"
+    ],
+    "0x1cf52f2b": [
+        "isActiveRegistrant(address)"
+    ],
+    "0x24d7806c": [
+        "isAdmin(address)"
+    ],
+    "0xfc1f7652": [
+        "_isBoardMember(address)"
+    ],
+    "0xda7d0082": [
+        "isCertification(address,bytes32)"
+    ],
+    "0x5afa5036": [
+        "isCertified(address)"
+    ],
+    "0x1c2353e1": [
+        "isCertifier(address)"
+    ],
+    "0x37b0574a": [
+        "isClassic()"
+    ],
+    "0xc2b6b58c": [
+        "isClosed()"
+    ],
+    "0x57eaeddf": [
+        "_isContract()"
+    ],
+    "0x2f553d31": [
+        "isCreated(bytes32)"
+    ],
+    "0x5445e38c": [
+        "_isCycleValid(uint256)"
+    ],
+    "0x88eb7af7": [
+        "_isHuman()"
+    ],
+    "0xaa51793c": [
+        "isLosingBet(uint256)"
+    ],
+    "0x42f6e389": [
+        "isModule(address)"
+    ],
+    "0x6534b4e2": [
+        "IsPayoutReady__InfoFunction(bytes32)"
+    ],
+    "0x245a6f74": [
+        "isProxyLegit(address)"
+    ],
+    "0x3e5cee05": [
+        "issueIOU(string,uint256,address)"
+    ],
+    "0x05d87fe2": [
+        "issueLetterOfCredit(uint256,uint256,uint256)"
+    ],
+    "0x40fdf515": [
+        "issuetender(address,uint256,uint256)"
+    ],
+    "0x475a9fa9": [
+        "issueTokens(address,uint256)"
+    ],
+    "0x4adcbd19": [
+        "isThisHardforkedVersion()"
+    ],
+    "0xaf5610dd": [
+        "isThisPreforkVersion()"
+    ],
+    "0x7c4c27c8": [
+        "isThisPuritanicalVersion()"
+    ],
+    "0x4209fff1": [
+        "isUser(address)"
+    ],
+    "0x04d10f1c": [
+        "isValidChainyJson(string)"
+    ],
+    "0x6662e4be": [
+        "isWinningBet(uint256)"
+    ],
+    "0x99aeade3": [
+        "iterateTable(uint256,uint256)"
+    ],
+    "0x3b46a7df": [
+        "ivote(bool)"
+    ],
+    "0x0138e31b": [
+        "_jAdd(uint256,uint256,uint256,uint256)"
+    ],
+    "0xed64bea4": [
+        "JamCoin()"
+    ],
+    "0x5f972df8": [
+        "_jDiv(uint256,uint256,uint256,uint256)"
+    ],
+    "0x9743dfc1": [
+        "jesterAutomaticCollectFee()"
+    ],
+    "0x5b764811": [
+        "_jMul(uint256,uint256,uint256,uint256)"
+    ],
+    "0x4a7b26ec": [
+        "join_game(uint256)"
+    ],
+    "0x1ecfe64d": [
+        "_jSub(uint256,uint256,uint256,uint256)"
+    ],
+    "0x691fb8ea": [
+        "jumpIn()"
+    ],
+    "0xc53ad76f": [
+        "Kardashian()"
+    ],
+    "0x775dec49": [
+        "keccak()"
+    ],
+    "0xbe26733c": [
+        "Kill()"
+    ],
+    "0x73abecbb": [
+        "kill1()"
+    ],
+    "0x2bb685bc": [
+        "kill2()"
+    ],
+    "0x179b73da": [
+        "killBoardProposal(uint256,address)"
+    ],
+    "0xb0c7f709": [
+        "kingAutomaticCollectFee()"
+    ],
+    "0x7e81b6aa": [
+        "KingdomFactory()"
+    ],
+    "0x5e68ac2c": [
+        "Kingdom(string,address,address,address,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x31ae0019": [
+        "KissBTC()"
+    ],
+    "0x07e00bcb": [
+        "kissBTCCallback(uint256,uint256)"
+    ],
+    "0x47799da8": [
+        "last()"
+    ],
+    "0x7075b1d8": [
+        "latestMonarchInternal()"
+    ],
+    "0xfa6d373c": [
+        "LeaderHash()"
+    ],
+    "0x9fb25d9e": [
+        "LeaderMessage()"
+    ],
+    "0x166c4b85": [
+        "len(bytes32)"
+    ],
+    "0xd95a2d42": [
+        "lendGovernmentMoney(address)"
+    ],
+    "0x56d88e27": [
+        "len()"
+    ],
+    "0xfe71aec5": [
+        "LittleCactus()"
+    ],
+    "0x7b647652": [
+        "LittleEthereumDoubler()"
+    ],
+    "0xf83d08ba": [
+        "lock()"
+    ],
+    "0xe8d1e961": [
+        "lockAccount(uint256)"
+    ],
+    "0x3a7d280c": [
+        "login(string)"
+    ],
+    "0x4cbee813": [
+        "logout(string)"
+    ],
+    "0x41304fac": [
+        "log(string)"
+    ],
+    "0x71e2d919": [
+        "lol()"
+    ],
+    "0x3fd1f232": [
+        "LookAtAllTheseTastyFees()"
+    ],
+    "0xf7bd2361": [
+        "LookAtBalance()"
+    ],
+    "0x25d4bdeb": [
+        "LookAtCollectedFees()"
+    ],
+    "0x7ee65635": [
+        "LookAtDepositsToPlay()"
+    ],
+    "0xb0ecca8f": [
+        "LookAtLastTimePerZone(uint256)"
+    ],
+    "0xb1c6517a": [
+        "LookAtNumberOfPlayers()"
+    ],
+    "0xdfca2f53": [
+        "LookAtPrizes()"
+    ],
+    "0xa9fbc614": [
+        "lookupTicketHolder(uint256)"
+    ],
+    "0xba13a572": [
+        "lottery()"
+    ],
+    "0x21bb79fe": [
+        "luckyDogInfo()"
+    ],
+    "0xb74bc710": [
+        "LuckyDoubler()"
+    ],
+    "0x5a2ee019": [
+        "m()"
+    ],
+    "0x8af49ab7": [
+        "maintain(uint256,uint256)"
+    ],
+    "0x561e91a1": [
+        "makeBet()"
+    ],
+    "0x1077f06c": [
+        "makeClaim(uint256)"
+    ],
+    "0x059a500c": [
+        "makeDeposit(uint256)"
+    ],
+    "0x3df16377": [
+        "make_move_and_claim_victory(uint256,uint8,uint8,uint8,uint8,uint8,uint8,uint8)"
+    ],
+    "0xa35cfa22": [
+        "make_move(uint256,uint8,uint8,uint8,uint8)"
+    ],
+    "0x2f1e4968": [
+        "makeNewProposal(string,uint256)"
+    ],
+    "0x8b543b80": [
+        "maximumCredit(address)"
+    ],
+    "0x11fe773d": [
+        "memcpy(uint256,uint256,uint256)"
+    ],
+    "0x62be3172": [
+        "Message(address,address,address,string)"
+    ],
+    "0x0257c48c": [
+        "meta(bytes32,bytes32)"
+    ],
+    "0x7958533a": [
+        "meta(uint256,bytes32)"
+    ],
+    "0x8f8bde82": [
+        "MicroDAO()"
+    ],
+    "0x1e701780": [
+        "MICRODAO(address,uint256,uint256,uint256,address)"
+    ],
+    "0x026993e0": [
+        "Midas(address,address)"
+    ],
+    "0xfa968eea": [
+        "minBetAmount()"
+    ],
+    "0xd10e99fe": [
+        "mint(int256,bytes32)"
+    ],
+    "0x3a7fb796": [
+        "mintGreen(int256,address,uint256)"
+    ],
+    "0x77ceded8": [
+        "mintGrey(int256,address,uint256)"
+    ],
+    "0xf41bfa9e": [
+        "mint(int256,uint256,string)"
+    ],
+    "0x411c4e72": [
+        "ModifyFeeFraction(uint256)"
+    ],
+    "0xa20c404f": [
+        "ModifySettings(uint256,uint256,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x689b3e2d": [
+        "Moonraker(address,address)"
+    ],
+    "0x5837e083": [
+        "move_history(uint256)"
+    ],
+    "0xd8a8e03a": [
+        "move(uint256,address)"
+    ],
+    "0x231944e2": [
+        "moveUnits(uint256,uint256,uint256[])"
+    ],
+    "0x33f472b9": [
+        "MPO()"
+    ],
+    "0xf714de9c": [
+        "MultiAccess()"
+    ],
+    "0x4f60f334": [
+        "multiAccessAddOwner(address)"
+    ],
+    "0x092a2e37": [
+        "multiAccessAddOwnerD(address,address)"
+    ],
+    "0x69a5e902": [
+        "multiAccessCall(address,uint256,bytes)"
+    ],
+    "0x8b9726c1": [
+        "multiAccessCallD(address,uint256,bytes,address)"
+    ],
+    "0x9bd99195": [
+        "multiAccessChangeOwner(address,address)"
+    ],
+    "0x6c494843": [
+        "multiAccessChangeOwnerD(address,address,address)"
+    ],
+    "0x6d522b19": [
+        "multiAccessChangeRequirementD(uint256,address)"
+    ],
+    "0x62891b5d": [
+        "multiAccessChangeRequirement(uint256)"
+    ],
+    "0x446294ad": [
+        "multiAccessGetOwners()"
+    ],
+    "0xeb7402f5": [
+        "multiAccessHasConfirmed(bytes32,address)"
+    ],
+    "0xe419f189": [
+        "multiAccessIsOwner(address)"
+    ],
+    "0x73f310df": [
+        "multiAccessRemoveOwner(address)"
+    ],
+    "0x5a74dee5": [
+        "multiAccessRemoveOwnerD(address,address)"
+    ],
+    "0x7ed19af9": [
+        "multiAccessRevoke(bytes32)"
+    ],
+    "0xd1b4ff7e": [
+        "multiAccessRevokeD(bytes32,address)"
+    ],
+    "0xd1cf113e": [
+        "multiAccessSetRecipient(address)"
+    ],
+    "0x7429f1eb": [
+        "multiAccessSetRecipientD(address,address)"
+    ],
+    "0x30677b83": [
+        "multiplierFactor()"
+    ],
+    "0x9d7d6667": [
+        "multipliers()"
+    ],
+    "0xfbeaebc6": [
+        "murder()"
+    ],
+    "0x98391c94": [
+        "muteMe(bool)"
+    ],
+    "0x0bd089ab": [
+        "MyAdvancedToken(uint256,string,uint8,string,address)"
+    ],
+    "0xc95e81cb": [
+        "MyBet(uint8,address)"
+    ],
+    "0x6e658fbe": [
+        "myFundsExpireIn(uint256)"
+    ],
+    "0x089327de": [
+        "MyToken()"
+    ],
+    "0x041d0c0b": [
+        "MyTokenLoad(uint256,string,uint8,string,address)"
+    ],
+    "0x1d2bca17": [
+        "MyToken(uint256,string,uint8,string)"
+    ],
+    "0x2e52d606": [
+        "n()"
+    ],
+    "0x19350aea": [
+        "nameFor(address)"
+    ],
+    "0x3bcf7d22": [
+        "newBribedCitizen(address)"
+    ],
+    "0xba487e62": [
+        "newCampaign(uint32,uint96,uint16,uint16)"
+    ],
+    "0x927ed13a": [
+        "newClient(uint256,address)"
+    ],
+    "0x1df473bc": [
+        "newContract(bytes)"
+    ],
+    "0xf3dd3d8a": [
+        "newCurrency(string,string,uint8)"
+    ],
+    "0x78ae88d1": [
+        "newDeal(uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x7c69b5d1": [
+        "NewDeposit(uint256)"
+    ],
+    "0xc853c03d": [
+        "newDraw(uint256,uint8[3],uint256,uint256,uint256,uint256)"
+    ],
+    "0xdcff5581": [
+        "NewFeeAddress(address)"
+    ],
+    "0x66ad484c": [
+        "newfirst_player(address)"
+    ],
+    "0x7d03f5f3": [
+        "newGame()"
+    ],
+    "0xd9e7ee1c": [
+        "new_game(uint256,uint256)"
+    ],
+    "0x1d71a1cd": [
+        "newIncome(string)"
+    ],
+    "0xfb099c84": [
+        "newInvestor()"
+    ],
+    "0x4316abbb": [
+        "newJester(address)"
+    ],
+    "0x9a8f09bd": [
+        "newKing(address)"
+    ],
+    "0x9229c504": [
+        "new_mainPlayer(address)"
+    ],
+    "0x2fac1a54": [
+        "newOrder(bool,uint256,uint256,uint256,uint256)"
+    ],
+    "0x85952454": [
+        "newOwner(address)"
+    ],
+    "0x3baf4e1e": [
+        "newPayment(uint256,uint256)"
+    ],
+    "0x71589d6b": [
+        "newponzi()"
+    ],
+    "0x4f24186a": [
+        "newProposal(string)"
+    ],
+    "0xa07daa65": [
+        "newRequest(uint256)"
+    ],
+    "0x025bbbe5": [
+        "newSale(bytes16,uint256,uint256)"
+    ],
+    "0x97bb2a63": [
+        "newvow(uint256,address)"
+    ],
+    "0xf28386bf": [
+        "Nexium()"
+    ],
+    "0xab73e316": [
+        "next(address)"
+    ],
+    "0x727b1cd6": [
+        "next_draw(bytes32,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x332f93a9": [
+        "nextPayoutGoal()"
+    ],
+    "0x47e40553": [
+        "nextRound()"
+    ],
+    "0xd1bf9aba": [
+        "nextRune()"
+    ],
+    "0xb3cb8885": [
+        "nextUnderdogPayout()"
+    ],
+    "0xb3a2a999": [
+        "nextWithdrawal(bytes16)"
+    ],
+    "0xa668d7c9": [
+        "NiceGuyPonzi()"
+    ],
+    "0x0908178f": [
+        "NoFeePonzi()"
+    ],
+    "0xac20902e": [
+        "NormalizeMoney()"
+    ],
+    "0x305075db": [
+        "NormalizeRanks()"
+    ],
+    "0xecb4136e": [
+        "NotAnotherPonzi()"
+    ],
+    "0x58d3b617": [
+        "Notifier(string)"
+    ],
+    "0xfa4e5e5a": [
+        "notify(uint8,string,string)"
+    ],
+    "0xdea06188": [
+        "NumberOfBlockAlreadyMined()"
+    ],
+    "0x892c0214": [
+        "NumberOfCurrentBlockMiners()"
+    ],
+    "0x85233869": [
+        "NumberOfMiners()"
+    ],
+    "0xdf811d7d": [
+        "numberOfPlayersInCurrentRound()"
+    ],
+    "0xdf06f906": [
+        "numBets()"
+    ],
+    "0xca35271c": [
+        "numDebtors(address)"
+    ],
+    "0x902e64e5": [
+        "Oath()"
+    ],
+    "0xa1920586": [
+        "offer(uint256,uint256)"
+    ],
+    "0x901717d1": [
+        "one()"
+    ],
+    "0xe671f510": [
+        "onEtherandomExec(bytes32,bytes32,uint256)"
+    ],
+    "0x041fe13d": [
+        "onEtherandomSeed(bytes32,bytes32)"
+    ],
+    "0xa5eb7a4e": [
+        "operated()"
+    ],
+    "0x9549355e": [
+        "oracalizeReading(uint256)"
+    ],
+    "0x9a828a71": [
+        "oracalizeReading(uint256,string)"
+    ],
+    "0x053c351b": [
+        "oraclize_getPrice(string)"
+    ],
+    "0xabe9f569": [
+        "oraclize_getPrice(string,uint256)"
+    ],
+    "0xc8e55708": [
+        "oraclize_query(string,string[1])"
+    ],
+    "0x871113c3": [
+        "oraclize_query(string,string[1],uint256)"
+    ],
+    "0x044d0b06": [
+        "oraclize_query(string,string[2])"
+    ],
+    "0xa6bf3df0": [
+        "oraclize_query(string,string[2],uint256)"
+    ],
+    "0x9b9ba572": [
+        "oraclize_query(string,string[3])"
+    ],
+    "0xae404996": [
+        "oraclize_query(string,string[3],uint256)"
+    ],
+    "0x16d9356f": [
+        "oraclize_query(string,string[4])"
+    ],
+    "0xbc5ff5e1": [
+        "oraclize_query(string,string[4],uint256)"
+    ],
+    "0xbd9a5673": [
+        "oraclize_query(string,string[5])"
+    ],
+    "0xb6ce5581": [
+        "oraclize_query(string,string[5],uint256)"
+    ],
+    "0x14167bf0": [
+        "oraclize_query(string,string[])"
+    ],
+    "0xe50a3bb1": [
+        "oraclize_query(string,string[],uint256)"
+    ],
+    "0x0ff4f160": [
+        "oraclize_query(uint256,string,string[1])"
+    ],
+    "0x77ac3da5": [
+        "oraclize_query(uint256,string,string[1],uint256)"
+    ],
+    "0xa8c3ec48": [
+        "oraclize_query(uint256,string,string[2])"
+    ],
+    "0x29a6f31b": [
+        "oraclize_query(uint256,string,string[2],uint256)"
+    ],
+    "0xec6afc22": [
+        "oraclize_query(uint256,string,string[3])"
+    ],
+    "0xfb114f57": [
+        "oraclize_query(uint256,string,string[3],uint256)"
+    ],
+    "0x2ff92323": [
+        "oraclize_query(uint256,string,string[4])"
+    ],
+    "0x0494630f": [
+        "oraclize_query(uint256,string,string[4],uint256)"
+    ],
+    "0x6510ef4d": [
+        "oraclize_query(uint256,string,string[5])"
+    ],
+    "0x00a94b6e": [
+        "oraclize_query(uint256,string,string[5],uint256)"
+    ],
+    "0xdc206e5f": [
+        "oraclize_query(uint256,string,string[])"
+    ],
+    "0xa2b5591c": [
+        "oraclize_query(uint256,string,string[],uint256)"
+    ],
+    "0x83a51ad0": [
+        "oraclize_setConfig(bytes32)"
+    ],
+    "0x01095962": [
+        "oraclize_setCustomGasPrice(uint256)"
+    ],
+    "0x6b1cb549": [
+        "orderMatch(uint256,uint256,uint256,int256,uint256,uint256,address,uint8,bytes32,bytes32,int256)"
+    ],
+    "0xbd858288": [
+        "orderMatch(uint256,uint256,int256,uint256,uint256,address,uint8,bytes32,bytes32,int256)"
+    ],
+    "0x17961d0f": [
+        "ord()"
+    ],
+    "0x16bac350": [
+        "overthrow(string)"
+    ],
+    "0xe2894a8a": [
+        "OwnerAnnounce(string)"
+    ],
+    "0x4f44728d": [
+        "ownerChangeOwner(address)"
+    ],
+    "0xad04592e": [
+        "owner_deposit()"
+    ],
+    "0xd6e0bf29": [
+        "OwnerDeposit()"
+    ],
+    "0xd263b7eb": [
+        "ownerkill()"
+    ],
+    "0x6eacd48a": [
+        "ownerPauseGame(bool)"
+    ],
+    "0x4b7fcee7": [
+        "ownerPausePayouts(bool)"
+    ],
+    "0xcf832ce2": [
+        "ownerRefundPlayer(bytes32,address,uint256,uint256)"
+    ],
+    "0xa27c672a": [
+        "owner_reveal_and_commit(uint8,bytes32,bytes32)"
+    ],
+    "0x392327b5": [
+        "owner_set_fraction(uint256)"
+    ],
+    "0x268d50fe": [
+        "ownerSetHouseEdge(uint256)"
+    ],
+    "0x5e968a49": [
+        "ownerSetMaxProfitAsPercentOfHouse(uint256)"
+    ],
+    "0x6cdf4c90": [
+        "ownerSetMinBet(uint256)"
+    ],
+    "0xd207e757": [
+        "ownerSetOraclizeSafeGas(uint32)"
+    ],
+    "0x8b64d70e": [
+        "owner_set_time_limit(uint256)"
+    ],
+    "0x31375242": [
+        "ownerSetTreasury(address)"
+    ],
+    "0xf738e5ca": [
+        "ownerTakeProfit()"
+    ],
+    "0x758971e8": [
+        "ownerTakeProfit(bool)"
+    ],
+    "0x7ac37d58": [
+        "ownerTransferEther(address,uint256)"
+    ],
+    "0x150ad2a8": [
+        "owner_transfer_ownership(address)"
+    ],
+    "0x26da8e17": [
+        "ownerUpdateCostToCallOraclize(uint256)"
+    ],
+    "0xb33926cb": [
+        "owner_withdraw(uint256)"
+    ],
+    "0xf7bc39bf": [
+        "owns(address)"
+    ],
+    "0x88c3ba85": [
+        "ParallelGambling()"
+    ],
+    "0xf65c4d42": [
+        "Participate(uint256)"
+    ],
+    "0x1b9265b8": [
+        "pay()"
+    ],
+    "0x18b749c4": [
+        "payEther(uint256)"
+    ],
+    "0x4d268ddd": [
+        "payImporterBankForGoodsBought()"
+    ],
+    "0xff08d2b0": [
+        "PayMiners()"
+    ],
+    "0x85db2dda": [
+        "PayoutQueueSize()"
+    ],
+    "0xe0fe075e": [
+        "payoutReady()"
+    ],
+    "0x081e806d": [
+        "PayOut(uint256)"
+    ],
+    "0xb2310cc5": [
+        "payRequstedSum(uint256,uint256)"
+    ],
+    "0xb821f815": [
+        "pay_winner(uint256)"
+    ],
+    "0xabf74a93": [
+        "pitFee()"
+    ],
+    "0x43046844": [
+        "placeBet(uint8)"
+    ],
+    "0xa4406bcd": [
+        "placeSellOrder(uint256,uint256)"
+    ],
+    "0xb1cc4348": [
+        "placeWager()"
+    ],
+    "0x71b6663e": [
+        "play1(address,uint256)"
+    ],
+    "0x2ddbc04a": [
+        "play2(address,uint256)"
+    ],
+    "0xdb18c972": [
+        "play4(address,uint256)"
+    ],
+    "0xf0e10c0d": [
+        "play(address,uint256)"
+    ],
+    "0xc7a1865b": [
+        "play(bytes32)"
+    ],
+    "0x3e4c0c82": [
+        "player_1(uint256)"
+    ],
+    "0x1ef0625b": [
+        "player_2(uint256)"
+    ],
+    "0xc068eae0": [
+        "player_collect_winnings(uint256)"
+    ],
+    "0xa4fde8bc": [
+        "player_declare_taking_too_long()"
+    ],
+    "0x3c314a91": [
+        "playerGetPendingTxByAddress(address)"
+    ],
+    "0x46b04e53": [
+        "PlayerInfoPerZone(uint256,uint256)"
+    ],
+    "0x63aea3e0": [
+        "PlayerInfo(uint256)"
+    ],
+    "0xeace4827": [
+        "player_make_bet(uint8)"
+    ],
+    "0xdc6dd152": [
+        "playerRollDice(uint256)"
+    ],
+    "0x24fb563f": [
+        "PlayerTickets(address,uint256,uint256)"
+    ],
+    "0xa5f4af33": [
+        "playerWithdrawPendingTransactions()"
+    ],
+    "0x39b333d9": [
+        "Play(uint8,uint8,uint8,uint8)"
+    ],
+    "0x4c0eceb5": [
+        "plusOnePonzi()"
+    ],
+    "0xe6cbcba9": [
+        "PlusOnePonzi()"
+    ],
+    "0xd1f0bb2d": [
+        "populateAllowedFreeExchanges()"
+    ],
+    "0x3570c2ee": [
+        "PosRewards()"
+    ],
+    "0xb45105b2": [
+        "post(string,address,string)"
+    ],
+    "0xc6a17d2b": [
+        "pow10(uint256,uint8)"
+    ],
+    "0x2c02d622": [
+        "precalculate()"
+    ],
+    "0x13bd4e2c": [
+        "_prepareAndSendReward()"
+    ],
+    "0xf81d087d": [
+        "prepareLottery()"
+    ],
+    "0xe6c1beb4": [
+        "prepend(address)"
+    ],
+    "0xf8018a79": [
+        "prepend(address,address)"
+    ],
+    "0x6bae05cf": [
+        "preRegister(address)"
+    ],
+    "0x45788ce2": [
+        "prev(address)"
+    ],
+    "0xa035b1fe": [
+        "price()"
+    ],
+    "0x1288c42a": [
+        "Prism()"
+    ],
+    "0x22dc36e2": [
+        "processed(uint64)"
+    ],
+    "0x61aa8d93": [
+        "processFee()"
+    ],
+    "0x5c52e51e": [
+        "processPayout()"
+    ],
+    "0x80acaafb": [
+        "profitDistribution()"
+    ],
+    "0xe1f5ebc5": [
+        "_projectAddNew(address,uint256)"
+    ],
+    "0x6a3c1198": [
+        "_projectCancelNew()"
+    ],
+    "0xa055fe64": [
+        "_projectCommitNew(address)"
+    ],
+    "0x87914c6f": [
+        "prolongateContract()"
+    ],
+    "0x9801cb8e": [
+        "ProofOfExistence()"
+    ],
+    "0x4671e65e": [
+        "proposeEmergencyWithdrawal(address)"
+    ],
+    "0xac4e73f9": [
+        "proposeReverse(string,address)"
+    ],
+    "0x1fdf6e0c": [
+        "protectKingdom()"
+    ],
+    "0xa9b8f7b8": [
+        "ProtectTheCastle()"
+    ],
+    "0x4f09eba7": [
+        "proxyApprove(address,uint256,bytes32)"
+    ],
+    "0xe82b7cb2": [
+        "proxySetCosignerAddress(address,bytes32)"
+    ],
+    "0xea98e540": [
+        "proxyTransferFromToICAPWithReference(address,bytes32,uint256,string)"
+    ],
+    "0xf0cbe059": [
+        "proxyTransferFromWithReference(address,address,uint256,bytes32,string)"
+    ],
+    "0xc5487661": [
+        "proxyTransferToICAPWithReference(bytes32,uint256,string)"
+    ],
+    "0x64ef212e": [
+        "proxyTransferWithReference(address,uint256,bytes32,string)"
+    ],
+    "0xd94073d4": [
+        "PT()"
+    ],
+    "0x8940aebe": [
+        "publicKey(uint256)"
+    ],
+    "0x8b2e6dcf": [
+        "publish(bytes32)"
+    ],
+    "0x57e25a79": [
+        "PullPaymentCapable()"
+    ],
+    "0x0eb495c2": [
+        "pushCity()"
+    ],
+    "0x4616caa9": [
+        "pushCoin(uint256,address,string)"
+    ],
+    "0xacc8cb18": [
+        "pushTerm(string)"
+    ],
+    "0xafd09bab": [
+        "quadrupler()"
+    ],
+    "0x4306cc3f": [
+        "queryEarnings(address)"
+    ],
+    "0x83eed3d5": [
+        "queryN(uint256,string,bytes)"
+    ],
+    "0xc55c1cb6": [
+        "queryN_withGasLimit(uint256,string,bytes,uint256)"
+    ],
+    "0xfdd3a879": [
+        "quick()"
+    ],
+    "0xf28a7912": [
+        "quick2()"
+    ],
+    "0xe0c7c117": [
+        "Randao()"
+    ],
+    "0x0b15650b": [
+        "randInt(uint256,uint256)"
+    ],
+    "0x8e3957d9": [
+        "RandomNumber()"
+    ],
+    "0x7741b4ec": [
+        "RandomNumberFromSeed(uint256)"
+    ],
+    "0xb863bd37": [
+        "random(uint256)"
+    ],
+    "0xeb7cdb56": [
+        "rankDown(uint256,uint256)"
+    ],
+    "0x74fbbc86": [
+        "rate(uint256,uint256,string)"
+    ],
+    "0xba344743": [
+        "_rawTransfer(address,address,uint256)"
+    ],
+    "0x2d2800f1": [
+        "react()"
+    ],
+    "0xb7213bd4": [
+        "readLog(uint256)"
+    ],
+    "0x7d7c2a1c": [
+        "rebalance()"
+    ],
+    "0x248582b0": [
+        "receivePaymentForGoodsSoldEarly()"
+    ],
+    "0x743e0c9b": [
+        "receiveTokens(uint256)"
+    ],
+    "0x49d55d9d": [
+        "receiveTransfer(uint256)"
+    ],
+    "0xc864e760": [
+        "recordCommissionEarned(uint256)"
+    ],
+    "0xe51ace16": [
+        "record(string)"
+    ],
+    "0xf06d335e": [
+        "_recoverAccount(address,address)"
+    ],
+    "0x648bf774": [
+        "recover(address,address)"
+    ],
+    "0x0cd865ec": [
+        "recover(address)"
+    ],
+    "0x0ca35682": [
+        "recover(uint256)"
+    ],
+    "0xf32efd3c": [
+        "recoverUser(address,address,uint256,uint8,bytes32,bytes32)"
+    ],
+    "0xe20bbd8d": [
+        "RecoveryWithTenant()"
+    ],
+    "0x0f23cbaa": [
+        "recycle()"
+    ],
+    "0x578bcc20": [
+        "reduceDebt(address,address,uint256)"
+    ],
+    "0x538e0759": [
+        "refill()"
+    ],
+    "0x58b1f29c": [
+        "refundBounty(uint256)"
+    ],
+    "0x847f8a10": [
+        "Refund(uint32)"
+    ],
+    "0x5af36e3e": [
+        "refund(uint256,uint256)"
+    ],
+    "0x66b42dcb": [
+        "register(address,string,uint256,string)"
+    ],
+    "0xeeda149c": [
+        "Register(address)"
+    ],
+    "0x4420e486": [
+        "register(address)"
+    ],
+    "0x8d59cc02": [
+        "register(address,string,string)"
+    ],
+    "0x8b7f0ddd": [
+        "register(address,address,string,string,bytes32[],uint256,string)"
+    ],
+    "0x7b1a547c": [
+        "registerAs(address,string,uint256,string,address)"
+    ],
+    "0x3facd57c": [
+        "registerBill(uint256,address,address,uint256,uint256,uint256)"
+    ],
+    "0x84c344fe": [
+        "_register(bytes4,string)"
+    ],
+    "0xb0fd935b": [
+        "registerCertificationDb(address)"
+    ],
+    "0x4cd995da": [
+        "registerCompany(address,string)"
+    ],
+    "0x669ee827": [
+        "RegisterDevice()"
+    ],
+    "0xfe63300a": [
+        "registerExternalBill(uint256,address,address,uint256,uint256,uint256)"
+    ],
+    "0x68af4971": [
+        "registerListening()"
+    ],
+    "0x00e7d289": [
+        "registerListening(address)"
+    ],
+    "0x7f6d8955": [
+        "RegisterOne(uint32,address,address)"
+    ],
+    "0xf2c298be": [
+        "register(string)"
+    ],
+    "0x3ffbd47f": [
+        "register(string,string)"
+    ],
+    "0xaeb4f0d3": [
+        "RegisterTwo(address,address)"
+    ],
+    "0x8ae986cf": [
+        "registrantApprove(address)"
+    ],
+    "0xe9fe799e": [
+        "registrantRemove(address)"
+    ],
+    "0x7db9743b": [
+        "Registry()"
+    ],
+    "0x6d15f208": [
+        "reject(string,uint256,uint16,address,uint256)"
+    ],
+    "0xc76a4bfb": [
+        "relayReceiveApproval(address,address,uint256,bytes)"
+    ],
+    "0xd67cbec9": [
+        "release(uint32,uint32,uint32,bytes20)"
+    ],
+    "0xa7b2d4cb": [
+        "remove(int256,address)"
+    ],
+    "0xf3ee6305": [
+        "removeCertificationDocument(address,bytes32)"
+    ],
+    "0x9c30936f": [
+        "removeCertificationDocumentFromSelf(bytes32)"
+    ],
+    "0xba4c206e": [
+        "removeCertificationDocumentInternal(address,bytes32)"
+    ],
+    "0x0066753e": [
+        "removeCertifier(address)"
+    ],
+    "0xd5df7559": [
+        "removeDocument(uint256)"
+    ],
+    "0xac18de43": [
+        "removeManager(address)"
+    ],
+    "0xba7dc45f": [
+        "_removeOperation(bytes32)"
+    ],
+    "0x2c4cb4be": [
+        "removeRegistryFromNameIndex(address)"
+    ],
+    "0x669459a7": [
+        "removeRegistryFromOwnerIndex(address)"
+    ],
+    "0xaf55bba0": [
+        "removeRegistryFromTagsIndex(address)"
+    ],
+    "0xf25eb5c1": [
+        "removeReverse()"
+    ],
+    "0x80599e4b": [
+        "remove(string)"
+    ],
+    "0x7e32a592": [
+        "repairTheCastle()"
+    ],
+    "0x631de4d6": [
+        "replace(address,address)"
+    ],
+    "0x9fd4f7d1": [
+        "replaceWizard(address)"
+    ],
+    "0xce87f626": [
+        "replaceWizardRP(address)"
+    ],
+    "0xeaa1f9fe": [
+        "reqisterListening(address)"
+    ],
+    "0x27f06fff": [
+        "requestFillUp(uint256)"
+    ],
+    "0x2e5d1042": [
+        "requestPayout(uint256,uint256,bytes32,uint256,uint256)"
+    ],
+    "0xe9c63b9c": [
+        "requestPeerBalance()"
+    ],
+    "0x4c9ed763": [
+        "requestTokensBack()"
+    ],
+    "0x0ac28725": [
+        "requestTradeDeal(uint256,uint256,string)"
+    ],
+    "0xf802075f": [
+        "requiredEndowment()"
+    ],
+    "0x432ced04": [
+        "reserve(bytes32)"
+    ],
+    "0x92698814": [
+        "reserved(bytes32)"
+    ],
+    "0x6676871d": [
+        "reserved_funds()"
+    ],
+    "0x6423db34": [
+        "Reset()"
+    ],
+    "0x478e25bf": [
+        "resetAction(bytes32)"
+    ],
+    "0x769796fe": [
+        "resetAction(uint256)"
+    ],
+    "0xb181a8fc": [
+        "resetContract()"
+    ],
+    "0xf50d3914": [
+        "resetFoundationtList()"
+    ],
+    "0xd337616e": [
+        "resetLottery()"
+    ],
+    "0x5cfd8c24": [
+        "ResetPonzi()"
+    ],
+    "0x433d4aab": [
+        "resolve(uint8,uint8)"
+    ],
+    "0xa6403636": [
+        "resolve(uint8,bytes32,bytes32,bytes32)"
+    ],
+    "0x1ef3755d": [
+        "restart()"
+    ],
+    "0xa987d654": [
+        "restoreItem(uint256)"
+    ],
+    "0xc4bc5da5": [
+        "resumeContract()"
+    ],
+    "0x61b20d8c": [
+        "retrieveFunds()"
+    ],
+    "0x85c78fac": [
+        "retryOraclizeRequest(uint256)"
+    ],
+    "0x5cbc85d0": [
+        "returnBounty(uint256)"
+    ],
+    "0xcff2fa42": [
+        "_returnFee(address,uint256)"
+    ],
+    "0x0ca7395f": [
+        "returnFund(address,uint256)"
+    ],
+    "0xec81e22e": [
+        "returnmoneycreator(uint8,uint256)"
+    ],
+    "0x7ac4b05e": [
+        "returnMyMoney(uint256)"
+    ],
+    "0x9ec35352": [
+        "returnRandom()"
+    ],
+    "0xebaf7f2f": [
+        "returnReward(uint256)"
+    ],
+    "0x66d8c463": [
+        "reveal(bytes32,string)"
+    ],
+    "0x32d5fe98": [
+        "revealCampaign(uint256,uint256)"
+    ],
+    "0x9348cef7": [
+        "reveal(uint256,uint256)"
+    ],
+    "0x84ad6ff3": [
+        "ReversibleDemo()"
+    ],
+    "0x05f8b6f5": [
+        "_rewireIdentities(bytes32[],uint256,uint256,uint32)"
+    ],
+    "0x8390b02a": [
+        "rfindPtr(uint256,uint256,uint256,uint256)"
+    ],
+    "0xe1108706": [
+        "rfind()"
+    ],
+    "0xf7149220": [
+        "RNG()"
+    ],
+    "0x4e1053cc": [
+        "RobinHoodPonzi()"
+    ],
+    "0xd2602930": [
+        "RockPaperScissors()"
+    ],
+    "0x8d216186": [
+        "roll(uint256,bytes32)"
+    ],
+    "0x5a7a8850": [
+        "rollWithSeed(bytes32)"
+    ],
+    "0xb73405a9": [
+        "roundMoneyDownNicely(uint256)"
+    ],
+    "0x5ccc3eaa": [
+        "roundMoneyUpToWholeFinney(uint256)"
+    ],
+    "0x96d02099": [
+        "rsplit()"
+    ],
+    "0xdd727ea6": [
+        "runJackpot()"
+    ],
+    "0x5674a3ed": [
+        "runLottery()"
+    ],
+    "0x4d366398": [
+        "runPeerBalance()"
+    ],
+    "0x677cee54": [
+        "SafeConditionalHFTransfer()"
+    ],
+    "0x2baf4f22": [
+        "_safeFalse()"
+    ],
+    "0x4401a6e4": [
+        "safeSend(address)"
+    ],
+    "0x4269d8ef": [
+        "_safeSend(address,uint256)"
+    ],
+    "0xa97ffd5e": [
+        "safeToSell(uint256)"
+    ],
+    "0x38e48f06": [
+        "save(string)"
+    ],
+    "0x3fb27b85": [
+        "seal()"
+    ],
+    "0xddbbc35c": [
+        "searchByName(string)"
+    ],
+    "0x42cf0e72": [
+        "searchByOwner(address)"
+    ],
+    "0xc82aac47": [
+        "searchByTag(bytes32)"
+    ],
+    "0x40a49a96": [
+        "searchSmallestInvestor()"
+    ],
+    "0xf7c2b38c": [
+        "seconds_left()"
+    ],
+    "0xcf1cd249": [
+        "secureSend(address)"
+    ],
+    "0x85e5bb3a": [
+        "Security_AddPasswordSha3HashToBankAccount(bytes32)"
+    ],
+    "0x7d94792a": [
+        "seed()"
+    ],
+    "0xe4cc1161": [
+        "seedWithGasLimit(uint256)"
+    ],
+    "0x88b9e10e": [
+        "seizeTokens(address,uint256)"
+    ],
+    "0x6be505f5": [
+        "selectWinner(bytes32)"
+    ],
+    "0x9cb8a26a": [
+        "selfDestruct()"
+    ],
+    "0x2aa3177a": [
+        "self_store()"
+    ],
+    "0x514dcfe3": [
+        "seller_accept()"
+    ],
+    "0x2d592a34": [
+        "sellKissBTC(uint256)"
+    ],
+    "0x41524433": [
+        "sellKissBTCWithCallback(uint256,address,uint256)"
+    ],
+    "0xddb5b3ac": [
+        "SellTokens()"
+    ],
+    "0xe4849b32": [
+        "sell(uint256)"
+    ],
+    "0x227185d6": [
+        "Send1Get2()"
+    ],
+    "0xd6006e88": [
+        "send(address[],uint256[],uint256)"
+    ],
+    "0x3e58c58c": [
+        "send(address)"
+    ],
+    "0x35d13969": [
+        "SendAllMoney()"
+    ],
+    "0x3d21aa42": [
+        "sendApproval(address,uint256,address)"
+    ],
+    "0xd1e15045": [
+        "sendBack()"
+    ],
+    "0x5292af1f": [
+        "sendBalance(address)"
+    ],
+    "0xeb455dc6": [
+        "sendBitcoin(string,uint256)"
+    ],
+    "0xb938bf42": [
+        "sendBounty(bytes32)"
+    ],
+    "0x9894221a": [
+        "SendCashForHardwareReturn()"
+    ],
+    "0x010731c0": [
+        "sendCryptedHand(bytes32)"
+    ],
+    "0x78ec81a0": [
+        "sendEarnings(address)"
+    ],
+    "0xb1d05422": [
+        "SendEmail(string,string)"
+    ],
+    "0xbb6b4619": [
+        "SendETC(address)"
+    ],
+    "0x3a314b24": [
+        "SendETH(address)"
+    ],
+    "0x9c6034a7": [
+        "sendIfNotForked()"
+    ],
+    "0x7b02b2c9": [
+        "sendMsg(address,string)"
+    ],
+    "0x76d438b0": [
+        "sendReward(uint256,uint256)"
+    ],
+    "0xbf8fc670": [
+        "sendToAggregation(uint256)"
+    ],
+    "0x6620a935": [
+        "sendToOwner()"
+    ],
+    "0x03750d94": [
+        "serverSeed(address,bytes32)"
+    ],
+    "0x7eff1465": [
+        "setAccountAllowance(address,address,uint256)"
+    ],
+    "0x5e03d393": [
+        "setAccountFrozenStatus(address,bool)"
+    ],
+    "0xf6d339e4": [
+        "setAddress(bytes32,string,address)"
+    ],
+    "0x3c84f868": [
+        "set(int256,address,uint256)"
+    ],
+    "0x213b9eb8": [
+        "setAddr(string,address)"
+    ],
+    "0x5d96ec65": [
+        "setAdministrator(address,string,bool)"
+    ],
+    "0xf8af9e6f": [
+        "setAdv(uint256,string,string)"
+    ],
+    "0x058d7433": [
+        "setAlliesContract(address)"
+    ],
+    "0x7a837213": [
+        "setAllowedAccount(address)"
+    ],
+    "0xf8ec4bf2": [
+        "setAllowTransactions(bool)"
+    ],
+    "0x7948f523": [
+        "setAmbiAddress(address,bytes32)"
+    ],
+    "0x9fa5e5d5": [
+        "setARKowner(address)"
+    ],
+    "0xd0d552dd": [
+        "setAsset(address)"
+    ],
+    "0x9f203255": [
+        "setAuditor(address)"
+    ],
+    "0xda7fc24f": [
+        "setBackend(address)"
+    ],
+    "0x754dea40": [
+        "setBackendOwner(address)"
+    ],
+    "0x5c89c10d": [
+        "setBannedCycles(uint256[])"
+    ],
+    "0x1c31f710": [
+        "setBeneficiary(address)"
+    ],
+    "0xcf09e6e1": [
+        "SetBigContract(address)"
+    ],
+    "0xc1441172": [
+        "setBlackFlagRequest(uint256,uint256)"
+    ],
+    "0x2ffda1e0": [
+        "setBlackflag(uint256,bool)"
+    ],
+    "0x6b5caec4": [
+        "setBot(address)"
+    ],
+    "0x23e9c216": [
+        "setBounty(address,string,uint256)"
+    ],
+    "0x16ce8a69": [
+        "setBuilding(uint256,uint256)"
+    ],
+    "0x47448e8a": [
+        "set(bytes32,string,bytes32)"
+    ],
+    "0x37881810": [
+        "setCallbackAddress(address)"
+    ],
+    "0x8702735c": [
+        "setCapitol(uint256,uint256)"
+    ],
+    "0x951b01c5": [
+        "setCertifierDb(address)"
+    ],
+    "0xeef8e35f": [
+        "setChainyURL(string)"
+    ],
+    "0xf8bd526e": [
+        "setCoinageContract(address)"
+    ],
+    "0xa510f776": [
+        "setCompany()"
+    ],
+    "0x4c2d71b3": [
+        "setConfigAddress(bytes32,address)"
+    ],
+    "0x1e0c7ed4": [
+        "setConfigBool(bytes32,bool)"
+    ],
+    "0xe8a5282d": [
+        "setConfig(bytes32)"
+    ],
+    "0x810a882f": [
+        "setConfigBytes(bytes32,bytes32)"
+    ],
+    "0x3e8f5b90": [
+        "setConfig(string,uint256)"
+    ],
+    "0xbc45d789": [
+        "setConfigUint(int256,bytes32,uint256)"
+    ],
+    "0xfd6f5430": [
+        "setContent(string,bytes32)"
+    ],
+    "0x92eefe9b": [
+        "setController(address)"
+    ],
+    "0x5e6ad49d": [
+        "_setCosignerAddress(address)"
+    ],
+    "0x82fc49b8": [
+        "setCosignerAddress(address)"
+    ],
+    "0x986dcd4d": [
+        "setCycleLimit(uint256)"
+    ],
+    "0xe73a914c": [
+        "setDAO(address)"
+    ],
+    "0xc52bd836": [
+        "setDappOwner(bytes32,address)"
+    ],
+    "0x03959bb7": [
+        "setDataContract(address)"
+    ],
+    "0x4a994eef": [
+        "setDelegate(address,bool)"
+    ],
+    "0x90c3f38f": [
+        "setDescription(string)"
+    ],
+    "0x172d8a30": [
+        "setDirectorLock(uint256,uint256)"
+    ],
+    "0xa1b7ae62": [
+        "setdirectorName(string)"
+    ],
+    "0x38eaf913": [
+        "setDirectorNode(string)"
+    ],
+    "0x423e1298": [
+        "setDoNotAutoRefundTo(bool)"
+    ],
+    "0x6716a692": [
+        "setDVIP(address)"
+    ],
+    "0x74331be7": [
+        "sete(address)"
+    ],
+    "0xb56e1bca": [
+        "setExchangeToken()"
+    ],
+    "0xfe4a3ac9": [
+        "setExecPrice(uint256)"
+    ],
+    "0x01cceb38": [
+        "setExpiry(uint256)"
+    ],
+    "0xb35893f3": [
+        "setExporter()"
+    ],
+    "0x87cc1e1c": [
+        "setExporterBank()"
+    ],
+    "0xa4502cb8": [
+        "setExportFee(address,uint256)"
+    ],
+    "0xe5782fd5": [
+        "setFeeStructure(uint256,uint256,uint256)"
+    ],
+    "0x69fe0e2d": [
+        "setFee(uint256)"
+    ],
+    "0x02aa274b": [
+        "setForward(bytes4,address)"
+    ],
+    "0x69569a51": [
+        "setFrontend(address)"
+    ],
+    "0x576eac66": [
+        "setFundingGoal(uint256)"
+    ],
+    "0x711953ef": [
+        "setGameAddress(address)"
+    ],
+    "0x2187a833": [
+        "setGreenToken()"
+    ],
+    "0x78f0161a": [
+        "setGreyGreenPrice(uint8)"
+    ],
+    "0xad9ec17e": [
+        "setGreyToken()"
+    ],
+    "0xd148288f": [
+        "setHoldingPeriod(uint256)"
+    ],
+    "0xa37fd390": [
+        "setHomeAdv(uint256,string)"
+    ],
+    "0x9fb755d7": [
+        "setHotWallet(address)"
+    ],
+    "0x0a3b1cd2": [
+        "setHotwallet(address)"
+    ],
+    "0x1bd9c46e": [
+        "setImporter()"
+    ],
+    "0xae2df7b3": [
+        "setImporterBank()"
+    ],
+    "0xe2c61114": [
+        "setImportFee(address,uint256)"
+    ],
+    "0xa8659216": [
+        "setInitialLockinDays(uint256)"
+    ],
+    "0x26b916b4": [
+        "Set_Interest_Rate(uint256)"
+    ],
+    "0x9fcbc738": [
+        "setIntermediate(address)"
+    ],
+    "0x18f303a1": [
+        "SetInternalValues(uint8,uint256)"
+    ],
+    "0x7f0c949c": [
+        "setJurisdication(string)"
+    ],
+    "0x74f519db": [
+        "setLastTimestamp(uint256,uint256)"
+    ],
+    "0x27ea6f2b": [
+        "setLimit(uint256)"
+    ],
+    "0x9cb31079": [
+        "setLowLimit(uint256)"
+    ],
+    "0x73ffd969": [
+        "setMap(uint256,uint256,uint256)"
+    ],
+    "0x457dd8b3": [
+        "setMasterKey(address)"
+    ],
+    "0x5e404de3": [
+        "setMaximumCredit(uint256)"
+    ],
+    "0xee8ff562": [
+        "setMaxProfit()"
+    ],
+    "0x3b91ceef": [
+        "setMax(uint256,uint256)"
+    ],
+    "0x1ca60aeb": [
+        "setMeltingContract(address)"
+    ],
+    "0x50944a8f": [
+        "setMembership(address)"
+    ],
+    "0x91cd242d": [
+        "setMeta(bytes32,bytes32,bytes32)"
+    ],
+    "0xdd93890b": [
+        "setMeta(uint256,bytes32,bytes32)"
+    ],
+    "0x35930e13": [
+        "setMinimalRewardedBalance(uint256)"
+    ],
+    "0xb0414a2d": [
+        "setMinimumGasLimit(uint256)"
+    ],
+    "0x03251a08": [
+        "setMin(uint256,uint256)"
+    ],
+    "0xb1662d58": [
+        "setModule(address,bool)"
+    ],
+    "0x29de91db": [
+        "setMsg(address,uint256)"
+    ],
+    "0x8aa33776": [
+        "setMsgPrice(uint256)"
+    ],
+    "0x5ac801fe": [
+        "setName(bytes32)"
+    ],
+    "0xfe55932a": [
+        "setName(uint256,string)"
+    ],
+    "0x4b3b6168": [
+        "SetNewBigContract(address)"
+    ],
+    "0xc4d9102f": [
+        "setNextID(uint256,int256)"
+    ],
+    "0xfc9e53df": [
+        "setNextRegistrar(address)"
+    ],
+    "0x8389f353": [
+        "setNumCities(uint256)"
+    ],
+    "0x8173b813": [
+        "setNumCities(uint256,uint256)"
+    ],
+    "0x755b5b75": [
+        "setNumUnits(uint256,uint256)"
+    ],
+    "0x65228934": [
+        "setOperationsCallGas(uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x7adbf973": [
+        "setOracle(address)"
+    ],
+    "0xc7e22ac4": [
+        "setOracleGas(uint256)"
+    ],
+    "0x89ed0b30": [
+        "setOraclizeGas(uint32)"
+    ],
+    "0x18f3fae1": [
+        "setOversight(address)"
+    ],
+    "0xd62b255b": [
+        "setOwner(address,string)"
+    ],
+    "0x167d3e9c": [
+        "SetOwner(address)"
+    ],
+    "0x7acbfb65": [
+        "setOwner(uint256,uint256)"
+    ],
+    "0xffe302d1": [
+        "setPlz(string)"
+    ],
+    "0x2e3be78d": [
+        "setPrecisionDirect(uint8)"
+    ],
+    "0x3f9f5b68": [
+        "setPreviousID(uint256,int256)"
+    ],
+    "0x36f7cd70": [
+        "setPricePerStake(uint256)"
+    ],
+    "0x5e983d08": [
+        "setPrices()"
+    ],
+    "0x05fefda7": [
+        "setPrices(uint256,uint256)"
+    ],
+    "0xf7d97577": [
+        "setPrice(uint256,uint256)"
+    ],
+    "0x53d97e65": [
+        "setPrizes(uint32[])"
+    ],
+    "0x6e0d98fe": [
+        "setProbabilities(uint32[])"
+    ],
+    "0x7137ed47": [
+        "setProxyContract(address)"
+    ],
+    "0x8e25071a": [
+        "setProxyCurrator(address)"
+    ],
+    "0xc24924d6": [
+        "setQueryFee(uint256)"
+    ],
+    "0xe50d0473": [
+        "SetRank(uint8,address,uint16)"
+    ],
+    "0x50b7b7a2": [
+        "setRating(bytes32,uint256)"
+    ],
+    "0x50f07cf9": [
+        "setReadingDelay(uint256)"
+    ],
+    "0x8279c7db": [
+        "setReceiverAddress(address)"
+    ],
+    "0xa0a2f629": [
+        "setReferralId(uint256,address)"
+    ],
+    "0xe0117441": [
+        "setRegistrationPrice(uint256)"
+    ],
+    "0x718bd6dd": [
+        "setRequestUntil(uint8)"
+    ],
+    "0xaf030d2c": [
+        "setResult(uint256,uint256,bytes32)"
+    ],
+    "0x0381cb3b": [
+        "setRowcol(uint256,uint256[2])"
+    ],
+    "0xe1a9109d": [
+        "setSeedPrice(uint256)"
+    ],
+    "0x09d2d0b9": [
+        "setServiceAccount(address,bool)"
+    ],
+    "0xa8026912": [
+        "setSource(address)"
+    ],
+    "0x81183633": [
+        "setStandard(bytes32)"
+    ],
+    "0x3e0a322d": [
+        "setStartTime(uint256)"
+    ],
+    "0x49e65440": [
+        "setSymbol(bytes32)"
+    ],
+    "0xb1233451": [
+        "setTerm(uint256,string)"
+    ],
+    "0xb950556a": [
+        "setThingValid(bytes32[],bool)"
+    ],
+    "0xce592586": [
+        "setThresold(uint256,uint256)"
+    ],
+    "0xaee84f6b": [
+        "setTime(address,uint256)"
+    ],
+    "0x9a9c29f6": [
+        "settle(uint256,uint256)"
+    ],
+    "0xb33a8a11": [
+        "setTokenReference(address)"
+    ],
+    "0x55db4092": [
+        "setTOS(address,bool)"
+    ],
+    "0x506e106c": [
+        "setToS(string)"
+    ],
+    "0xf7ea7a3d": [
+        "setTotalSupply(uint256)"
+    ],
+    "0xa33dd801": [
+        "setTreasuryBalance(uint256)"
+    ],
+    "0x4dc43eaf": [
+        "setTreasury(uint256,uint256)"
+    ],
+    "0xdd57d5c5": [
+        "setTrust(address)"
+    ],
+    "0xacb6c69b": [
+        "setTrustedClient(address)"
+    ],
+    "0x1d7b5baf": [
+        "setUint(int256,bytes32,string,uint256)"
+    ],
+    "0x2f30c6f6": [
+        "set(uint256,address)"
+    ],
+    "0x468129a5": [
+        "setUnit(uint256,uint256,uint256)"
+    ],
+    "0x7bc0ff20": [
+        "setupExportFee(address,uint256)"
+    ],
+    "0x26881518": [
+        "setupFee(address)"
+    ],
+    "0x92d8c8cf": [
+        "setupImportFee(address,uint256)"
+    ],
+    "0x294f3d4d": [
+        "setUpLimit(uint256)"
+    ],
+    "0xce8d054e": [
+        "_setupNoCallback()"
+    ],
+    "0x12ab7242": [
+        "setupStackDepthLib(address)"
+    ],
+    "0x1d124fe4": [
+        "setUtils2(address)"
+    ],
+    "0x69953501": [
+        "setUtils(address)"
+    ],
+    "0x4bc2a657": [
+        "setVoter(address)"
+    ],
+    "0x7318b453": [
+        "setVotetUntil(uint8)"
+    ],
+    "0x4173b181": [
+        "setWeiPrice(uint256)"
+    ],
+    "0x0df71602": [
+        "setWinner(uint256)"
+    ],
+    "0x12819817": [
+        "setXauForGasCurrator(address)"
+    ],
+    "0xef4bdfdd": [
+        "Set_your_game_number_between_1_15(string)"
+    ],
+    "0xb3ade772": [
+        "shipProducts(string,string)"
+    ],
+    "0x83d852d9": [
+        "shutdownTransactions()"
+    ],
+    "0x95d5a1be": [
+        "SignatureReg()"
+    ],
+    "0x76cd7cbc": [
+        "sign(bytes)"
+    ],
+    "0x5f68804e": [
+        "SimpleLotto()"
+    ],
+    "0x152fb125": [
+        "SimpleMixer()"
+    ],
+    "0x4ac7becf": [
+        "SimpleSign()"
+    ],
+    "0xc83be888": [
+        "single_move(uint256,uint8,uint8)"
+    ],
+    "0x70d084c0": [
+        "SingularDTVCrowdfunding()"
+    ],
+    "0x0ab58ead": [
+        "SingularDTVFund()"
+    ],
+    "0x0b590c6b": [
+        "SingularDTVToken()"
+    ],
+    "0x1ff13086": [
+        "size(int256)"
+    ],
+    "0x9c4baf27": [
+        "Skywalker(address,address)"
+    ],
+    "0x1a88bc66": [
+        "slot()"
+    ],
+    "0x853552d7": [
+        "_slotAddNew(address)"
+    ],
+    "0xee564544": [
+        "_slotCancelNew()"
+    ],
+    "0x16f9ce49": [
+        "_slotCommitNew(address)"
+    ],
+    "0x6fe665e9": [
+        "SlotMachine()"
+    ],
+    "0x22593300": [
+        "Small(address)"
+    ],
+    "0x5503a659": [
+        "smallponzi()"
+    ],
+    "0xe3b26a8c": [
+        "SocialNetwork()"
+    ],
+    "0x5d0be9de": [
+        "softWithdrawRevenueFor(address)"
+    ],
+    "0xd5dbb1ad": [
+        "solveBet(address,uint8,bool,uint8,bytes32,bytes32)"
+    ],
+    "0xb2f2588b": [
+        "sortNumbers(uint8[3])"
+    ],
+    "0xface030b": [
+        "SpinTheWheel(address)"
+    ],
+    "0x56fa47f0": [
+        "split(address)"
+    ],
+    "0x0f2c9329": [
+        "split(address,address)"
+    ],
+    "0x9c709343": [
+        "split(bool,address)"
+    ],
+    "0xf7654176": [
+        "split()"
+    ],
+    "0xd9d2d058": [
+        "Splitter()"
+    ],
+    "0x2672b3e2": [
+        "SplitterEtcToEth()"
+    ],
+    "0x8946d33f": [
+        "SplitterEthToEtc()"
+    ],
+    "0xb7266456": [
+        "StandardToken()"
+    ],
+    "0x70983e91": [
+        "startBoardProposal(uint256,address)"
+    ],
+    "0x9f35d3b2": [
+        "start(string,string,uint256,uint256,uint256,uint256)"
+    ],
+    "0x0fbf7151": [
+        "startsWith()"
+    ],
+    "0xa1cb31b7": [
+        "_state()"
+    ],
+    "0x12253a6c": [
+        "stopContract()"
+    ],
+    "0x975057e7": [
+        "store()"
+    ],
+    "0xdda9939c": [
+        "Store(address[])"
+    ],
+    "0x877653f0": [
+        "_storeBalanceRecord(address)"
+    ],
+    "0xf60381a1": [
+        "stra2cbor(string[])"
+    ],
+    "0x2fcb6628": [
+        "_stringGas(string,string)"
+    ],
+    "0xfc01abbe": [
+        "stringToBytes32(string,string)"
+    ],
+    "0x9077dcfd": [
+        "submitCoding(string,uint256)"
+    ],
+    "0x2da8f764": [
+        "submitVideo(string,string)"
+    ],
+    "0xb71c47a2": [
+        "surrender()"
+    ],
+    "0xcd57a448": [
+        "SwapContract(address,uint256)"
+    ],
+    "0x6b76484e": [
+        "swap(address,address)"
+    ],
+    "0xd60dcb5d": [
+        "Switch()"
+    ],
+    "0xb660d77c": [
+        "switchMPO(address,address)"
+    ],
+    "0xd422e4e0": [
+        "takeFee(address,uint256,string)"
+    ],
+    "0x4f073130": [
+        "takeOrder(bool,uint256,uint256)"
+    ],
+    "0xbf55486b": [
+        "Tanya()"
+    ],
+    "0xe2ee9941": [
+        "tap(bytes20)"
+    ],
+    "0x420ef2b3": [
+        "TargetHash()"
+    ],
+    "0x922fc84b": [
+        "taskProcessedNoCosting(uint256)"
+    ],
+    "0x36e6b92e": [
+        "taskProcessedWithCosting(uint256,uint256)"
+    ],
+    "0x93cc9162": [
+        "taskRejected(uint256,uint256)"
+    ],
+    "0x4dc7cc55": [
+        "terminateAlt()"
+    ],
+    "0x08714bfa": [
+        "TestContract()"
+    ],
+    "0x1465aa97": [
+        "testingContract()"
+    ],
+    "0x2af7ceff": [
+        "testPrice(uint256)"
+    ],
+    "0xbab86ea8": [
+        "test(string,string)"
+    ],
+    "0x4cad42d3": [
+        "testWager()"
+    ],
+    "0xc96593a0": [
+        "The10ETHPyramid()"
+    ],
+    "0x83d8a90f": [
+        "theDonkeyKing()"
+    ],
+    "0x87fd0421": [
+        "TheEthereumLottery()"
+    ],
+    "0x0e3f732a": [
+        "TheGame()"
+    ],
+    "0xafbec8df": [
+        "TheGrid()"
+    ],
+    "0x7399646a": [
+        "theRun()"
+    ],
+    "0x83c51a38": [
+        "thesimplegame()"
+    ],
+    "0x6f9a023c": [
+        "theultimatepyramid()"
+    ],
+    "0x3c6e03d7": [
+        "thewhalegame()"
+    ],
+    "0x18489f50": [
+        "thingExist(bytes32[])"
+    ],
+    "0xe3848e5b": [
+        "thing(string,string,string)"
+    ],
+    "0xda25c0cd": [
+        "ThisExternalAssembly()"
+    ],
+    "0x857d4c07": [
+        "throwScraps(uint256)"
+    ],
+    "0x18253234": [
+        "ticketsAvailable()"
+    ],
+    "0xd7f746ce": [
+        "tickingBomb()"
+    ],
+    "0x5f17114e": [
+        "TimeDeposit()"
+    ],
+    "0x2f5a5c5b": [
+        "timegame()"
+    ],
+    "0xcfed9199": [
+        "timePassed(uint256)"
+    ],
+    "0xdd137b5d": [
+        "toBase58(uint256,uint8)"
+    ],
+    "0xb05e390a": [
+        "TokenEther(string,string)"
+    ],
+    "0x7ff9b596": [
+        "tokenPrice()"
+    ],
+    "0x31380c89": [
+        "TokenSale()"
+    ],
+    "0x4da47ba0": [
+        "TokenSale(address,uint256)"
+    ],
+    "0xd5089396": [
+        "Token(string,string,uint8,uint256)"
+    ],
+    "0x6c1a5b8c": [
+        "TOKEN_TARGET()"
+    ],
+    "0xb29c2493": [
+        "token(uint256,string,uint8,string)"
+    ],
+    "0xf2022905": [
+        "toldYouItWouldWork()"
+    ],
+    "0x283a4576": [
+        "Tomeka()"
+    ],
+    "0x51560da9": [
+        "topDogInfo()"
+    ],
+    "0x43ec3f38": [
+        "toSliceB32(bytes32)"
+    ],
+    "0xafed762b": [
+        "toSlice(string)"
+    ],
+    "0x15a03930": [
+        "TossMyCoin()"
+    ],
+    "0x47e46806": [
+        "toString()"
+    ],
+    "0xfc7b9c18": [
+        "totalDebt()"
+    ],
+    "0x1ff517ff": [
+        "totalDebt(address)"
+    ],
+    "0x7fef036e": [
+        "totalEntries()"
+    ],
+    "0x5216aeec": [
+        "totalInvested()"
+    ],
+    "0xdc19266f": [
+        "Total_of_Players()"
+    ],
+    "0x6831c169": [
+        "totalPayedOut()"
+    ],
+    "0x6a8c2437": [
+        "totalRescues()"
+    ],
+    "0xb524abcf": [
+        "totalSupply(bytes32)"
+    ],
+    "0xbff1f9e1": [
+        "totalUsers()"
+    ],
+    "0x8caaaae6": [
+        "totalWeiPrice()"
+    ],
+    "0x637e86eb": [
+        "totBOTs()"
+    ],
+    "0xbb39a960": [
+        "trade(address,uint256,address,uint256)"
+    ],
+    "0x04bb754c": [
+        "TradeFinancing()"
+    ],
+    "0x4847a79c": [
+        "_transfer(address,uint256)"
+    ],
+    "0x57cfeeee": [
+        "transfer(address,uint256,bytes32)"
+    ],
+    "0xdeb80111": [
+        "transfer_asset(address,uint256)"
+    ],
+    "0x22e803c2": [
+        "transferBounty()"
+    ],
+    "0x60063887": [
+        "transferDebt(address,address,address,uint256)"
+    ],
+    "0xddd41ef6": [
+        "transferDirector(address)"
+    ],
+    "0x30e0789e": [
+        "_transfer(address,address,uint256)"
+    ],
+    "0x63334c58": [
+        "transferETC(address)"
+    ],
+    "0xd50f6bf0": [
+        "transferETH(address)"
+    ],
+    "0x97fcb54e": [
+        "transfer_eth(address,uint256)"
+    ],
+    "0xa0eda9f2": [
+        "_transferFee(address,uint256,string)"
+    ],
+    "0xcb712535": [
+        "_transferFrom(address,address,uint256)"
+    ],
+    "0xc204f9f1": [
+        "_transferFromToICAP(address,bytes32,uint256)"
+    ],
+    "0xa525f42c": [
+        "transferFromToICAP(address,bytes32,uint256)"
+    ],
+    "0xcac77df7": [
+        "__transferFromToICAPWithReference(address,bytes32,uint256,string)"
+    ],
+    "0x0b1e400a": [
+        "_transferFromToICAPWithReference(address,bytes32,uint256,string)"
+    ],
+    "0xa48a663c": [
+        "transferFromToICAPWithReference(address,bytes32,uint256,string)"
+    ],
+    "0x48a490fb": [
+        "transferFromTreasury(address,uint256)"
+    ],
+    "0xcacc24eb": [
+        "transferFromViaProxy(address,address,address,uint256)"
+    ],
+    "0x31c6c4cf": [
+        "transferFromWithReference(address,address,uint256,bytes32,string)"
+    ],
+    "0x3de9e4c6": [
+        "__transferFromWithReference(address,address,uint256,string)"
+    ],
+    "0xa10bee85": [
+        "_transferFromWithReference(address,address,uint256,string)"
+    ],
+    "0x6461fe39": [
+        "transferFromWithReference(address,address,uint256,string)"
+    ],
+    "0x752a3df6": [
+        "transferIfHardForked(address)"
+    ],
+    "0xd6a619e3": [
+        "transferIfPuritanical(address)"
+    ],
+    "0x29605e77": [
+        "transferOperator(address)"
+    ],
+    "0x235c002d": [
+        "transferOther(address,address,uint256)"
+    ],
+    "0x67af26fb": [
+        "transferOtherFrom(address,address,address,uint256)"
+    ],
+    "0x1301ee02": [
+        "transferringETC(address)"
+    ],
+    "0xd4245e5b": [
+        "transferringETH(address)"
+    ],
+    "0xfbf58b3e": [
+        "transfer(string,address)"
+    ],
+    "0xd3aa22c7": [
+        "transferTLA(string,address)"
+    ],
+    "0xa25057de": [
+        "_transferToICAP(bytes32,uint256)"
+    ],
+    "0x733480b7": [
+        "transferToICAP(bytes32,uint256)"
+    ],
+    "0x3bf2313d": [
+        "__transferToICAPWithReference(bytes32,uint256,string)"
+    ],
+    "0x078c3fa4": [
+        "_transferToICAPWithReference(bytes32,uint256,string)"
+    ],
+    "0x77fe38a4": [
+        "transferToICAPWithReference(bytes32,uint256,string)"
+    ],
+    "0xe7dafdb6": [
+        "transfer_token(address,address,uint256)"
+    ],
+    "0x12514bba": [
+        "transfer(uint256)"
+    ],
+    "0x240ecad5": [
+        "transferViaProxy(address,address,uint256)"
+    ],
+    "0x6d16f79c": [
+        "__transferWithReference(address,uint256,string)"
+    ],
+    "0x51b3d7b9": [
+        "_transferWithReference(address,uint256,string)"
+    ],
+    "0xac35caee": [
+        "transferWithReference(address,uint256,string)"
+    ],
+    "0x1d065dde": [
+        "_transferWithReward(address,address,uint256)"
+    ],
+    "0xe99543aa": [
+        "Trash(uint256)"
+    ],
+    "0x8fe58eb9": [
+        "Triger()"
+    ],
+    "0x54204ad4": [
+        "triple()"
+    ],
+    "0x432c685f": [
+        "trustClient(address)"
+    ],
+    "0x464f37c9": [
+        "trustedChildRefund()"
+    ],
+    "0x866f6736": [
+        "trustedChildWithdraw()"
+    ],
+    "0x2e6e504a": [
+        "trusteeWithdraw()"
+    ],
+    "0x65343fcb": [
+        "TrustEth()"
+    ],
+    "0x5fdf05d7": [
+        "two()"
+    ],
+    "0x0d0c2008": [
+        "TwoAndAHalfPonzi()"
+    ],
+    "0x49cc954b": [
+        "twoYearsPassed()"
+    ],
+    "0x4dd850fb": [
+        "UfoPonzi()"
+    ],
+    "0xf76f950e": [
+        "uint2str(uint256)"
+    ],
+    "0x9e1e6528": [
+        "uncertify(address)"
+    ],
+    "0x734d8287": [
+        "unclaimedFees()"
+    ],
+    "0xf0d474f9": [
+        "underdogCount()"
+    ],
+    "0x6eb7b4c2": [
+        "underdogInfo(uint256)"
+    ],
+    "0x75f40f40": [
+        "underdogPayoutFund()"
+    ],
+    "0x2880ebe7": [
+        "underdogPayoutMarkup()"
+    ],
+    "0xcb3e64fd": [
+        "unhalt()"
+    ],
+    "0xff81fb91": [
+        "unhint(int256,bytes32)"
+    ],
+    "0xd4859dbc": [
+        "UniversalFunctionSecure(uint8,bytes32,bytes32,bytes32,bytes32,bytes32)"
+    ],
+    "0x579badf6": [
+        "UniversalFunction(uint8,bytes32,bytes32,bytes32,bytes32,bytes32)"
+    ],
+    "0x2ec2c246": [
+        "unregister(address)"
+    ],
+    "0x1a0919dc": [
+        "unregister(bytes32)"
+    ],
+    "0x4e116eb8": [
+        "unRegisterCertificationDb(address)"
+    ],
+    "0xf1a00a53": [
+        "unregisterListening(address)"
+    ],
+    "0xf295206f": [
+        "_unsafeSend(address,uint256)"
+    ],
+    "0x9447fd0a": [
+        "until()"
+    ],
+    "0x63def590": [
+        "untrustClient(address)"
+    ],
+    "0x6a4b6aa5": [
+        "untrustedChildWithdraw()"
+    ],
+    "0x0e38901a": [
+        "unvault(uint256)"
+    ],
+    "0xe0b1cccb": [
+        "updateBalance(address,uint256)"
+    ],
+    "0xfd8055d2": [
+        "updateBOTBillingInfo(uint256,string,address,string,string,uint256)"
+    ],
+    "0xb4a5ef58": [
+        "updateDefaultTimeoutPeriod(uint256)"
+    ],
+    "0x2ffb9e64": [
+        "updateGasForXaurData(uint256,uint256)"
+    ],
+    "0x4f10acc1": [
+        "updateGoldFeeData(uint256)"
+    ],
+    "0x7c582304": [
+        "updateInvestmentTotal(address,uint256)"
+    ],
+    "0xf2016a4f": [
+        "updateMinEthPerNotification(uint256)"
+    ],
+    "0x10f41715": [
+        "updateMintingData(uint256,uint256)"
+    ],
+    "0xb3485dca": [
+        "UpdatePrice(uint8,uint32)"
+    ],
+    "0x482961e1": [
+        "updateReading(uint256,uint256)"
+    ],
+    "0x9dc35799": [
+        "updateReading(uint256)"
+    ],
+    "0x71e11354": [
+        "updateRegistration(string,string)"
+    ],
+    "0x645dce72": [
+        "updateRelease(uint32,uint32,uint32,bytes20,bool)"
+    ],
+    "0x5dddea66": [
+        "updateState(uint256,uint8,uint256)"
+    ],
+    "0xbc058968": [
+        "updateThingData(bytes32[],bytes32[],uint88)"
+    ],
+    "0x4ca7fbd0": [
+        "updateTokenPriceWeekTwo()"
+    ],
+    "0x1d4b0796": [
+        "updateTxStats()"
+    ],
+    "0x5a6c787e": [
+        "updateWithMPO()"
+    ],
+    "0x1aa86370": [
+        "updateXIPFSPublicKey(string)"
+    ],
+    "0xac7ffae3": [
+        "updt(uint256,string,uint256,uint256,string,string,address)"
+    ],
+    "0x0900f010": [
+        "upgrade(address)"
+    ],
+    "0xf597a499": [
+        "UserDatabase(uint256)"
+    ],
+    "0x376fe102": [
+        "userId(address)"
+    ],
+    "0xe6b972f5": [
+        "userName(address)"
+    ],
+    "0x7b12df39": [
+        "userProfits()"
+    ],
+    "0xe28fed1e": [
+        "userRescues(address)"
+    ],
+    "0x8a65d874": [
+        "userStats(address)"
+    ],
+    "0xed498fa8": [
+        "userTokens(address)"
+    ],
+    "0xccf1ab9b": [
+        "usurpation()"
+    ],
+    "0x83f6d9a4": [
+        "validateNameInternal(string)"
+    ],
+    "0xb8d4efb5": [
+        "validate_percent(uint8)"
+    ],
+    "0x67fc1c6a": [
+        "validateProposedMonarchName(string)"
+    ],
+    "0xd22c391a": [
+        "validateProposedThroneRules(uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x8f7fe231": [
+        "ValidetherOracle()"
+    ],
+    "0xc0a239e3": [
+        "valuePerShare()"
+    ],
+    "0xcc189d00": [
+        "Vault(address,uint256)"
+    ],
+    "0xe820a32f": [
+        "vetoPayout(uint256,uint256)"
+    ],
+    "0x4228974c": [
+        "Videos()"
+    ],
+    "0x226685ee": [
+        "Visit()"
+    ],
+    "0x6bf52ffa": [
+        "Vote()"
+    ],
+    "0x5f09952e": [
+        "voteAllowTransactions(bool)"
+    ],
+    "0x52a554a1": [
+        "voteBoardProposal(uint256,address,bool)"
+    ],
+    "0x187a62d5": [
+        "voteEmergencyWithdrawal(bool)"
+    ],
+    "0x045c6ce0": [
+        "voteForProposal(uint256)"
+    ],
+    "0x58ae8bcf": [
+        "voteInMasterKey(address)"
+    ],
+    "0x901d7775": [
+        "voteOutMasterKey(address)"
+    ],
+    "0x23637e60": [
+        "votePrice(uint256,bool)"
+    ],
+    "0x76e4ca0d": [
+        "voteQuorum(uint256,bool)"
+    ],
+    "0xf2561a43": [
+        "voteSuicide(address)"
+    ],
+    "0x0bf75567": [
+        "voteSuperQuorum(uint256,bool)"
+    ],
+    "0xb3f98adc": [
+        "vote(uint8)"
+    ],
+    "0xe2cdd42a": [
+        "vote(uint256,address,bool)"
+    ],
+    "0x0121b93f": [
+        "vote(uint256)"
+    ],
+    "0x655388be": [
+        "walkTowardsBlock()"
+    ],
+    "0x5d5483b3": [
+        "WatchAppliedFeePercentage()"
+    ],
+    "0xd628e0a6": [
+        "WatchBalance()"
+    ],
+    "0xe0834ea4": [
+        "WatchBalanceInEther()"
+    ],
+    "0x252786e4": [
+        "WatchBlockSizeInEther()"
+    ],
+    "0xcf6b3822": [
+        "WatchCollectedFeesInSzabo()"
+    ],
+    "0x82381c96": [
+        "WatchCurrentMultiplier()"
+    ],
+    "0x20bfec70": [
+        "WatchFees()"
+    ],
+    "0xc9734ebd": [
+        "WatchLastPayout()"
+    ],
+    "0x61ba3377": [
+        "WatchLastTime()"
+    ],
+    "0xfb34fc6f": [
+        "WatchNextBlockReward()"
+    ],
+    "0x4ef5710a": [
+        "WatchNumberOfPlayerInCurrentRound()"
+    ],
+    "0x6b3a87d2": [
+        "WatchWinningPot()"
+    ],
+    "0xbe0638e4": [
+        "WealthShare()"
+    ],
+    "0x05459f42": [
+        "WeeklyLotteryB(address)"
+    ],
+    "0x836d6d66": [
+        "WeeklyLotteryB(address,uint256)"
+    ],
+    "0x856f3080": [
+        "WhatWasMyHash(bytes32)"
+    ],
+    "0x06e53f47": [
+        "whichChainIsThis()"
+    ],
+    "0x9b19251a": [
+        "whitelist(address)"
+    ],
+    "0xd6d02c51": [
+        "whois(string)"
+    ],
+    "0x609ff1bd": [
+        "winningProposal()"
+    ],
+    "0x95ceb4b3": [
+        "winningProtocal()"
+    ],
+    "0x5ca3400c": [
+        "WithBeneficiary(address)"
+    ],
+    "0x31e3e2fe": [
+        "WithDraw()"
+    ],
+    "0x07bc6fad": [
+        "withdraw(address,uint256,bytes32,uint256)"
+    ],
+    "0x8d92fdf3": [
+        "withdrawAsset(uint256)"
+    ],
+    "0x5f52e9fd": [
+        "WithdrawCashForHardwareReturn(uint256)"
+    ],
+    "0x1dd4914b": [
+        "withdrawEtherOrThrow(uint256)"
+    ],
+    "0x24600fc3": [
+        "withdrawFunds()"
+    ],
+    "0xf4aa1291": [
+        "withdrawFundsAdvanced(address,uint256,uint256)"
+    ],
+    "0xceeafd9d": [
+        "withdrawFundsAdvancedRP(address,uint256,uint256)"
+    ],
+    "0xc7f86c37": [
+        "withdrawFundsRP()"
+    ],
+    "0x6103d70b": [
+        "withdrawPayments()"
+    ],
+    "0x770c6cbb": [
+        "WithDrawPreForkChildDAO()"
+    ],
+    "0x4f573cb2": [
+        "withdrawRevenue()"
+    ],
+    "0xf108a7d2": [
+        "withdraw(uint256,address,string)"
+    ],
+    "0x5b6b431d": [
+        "Withdraw(uint256)"
+    ],
+    "0x44faa139": [
+        "Withdraw(uint32)"
+    ],
+    "0xe63697c8": [
+        "withdraw(uint256,address,uint256)"
+    ],
+    "0xf359671c": [
+        "withdrawWithReference(address,uint256,string)"
+    ],
+    "0x89790192": [
+        "WithFee(address,uint256)"
+    ],
+    "0x0d87a7c0": [
+        "WLBDrawsDB()"
+    ],
+    "0xd08275f1": [
+        "WolframAlpha()"
+    ],
+    "0x720c4798": [
+        "workshop()"
+    ],
+    "0x214c9d50": [
+        "WritedrawStatus()"
+    ],
+    "0xc0a1a949": [
+        "x15()"
+    ],
+    "0x7266f4a4": [
+        "X3()"
+    ],
+    "0xdb7ca38a": [
+        "XaurmProxyContract()"
+    ],
+    "0x4f052648": [
+        "XaurumDataContract()"
+    ],
+    "0xc1be4031": [
+        "XaurumProxyERC20()"
+    ],
+    "0x71f297cc": [
+        "XaurumToken(address)"
+    ],
+    "0x648621ec": [
+        "xnotify(string)"
+    ],
+    "0xe3ceb06d": [
+        "YesNo(bytes32,address,string,address,uint256)"
+    ],
+    "0xbc8f3bcb": [
+        "ZeroDollarHomePage()"
+    ],
+    "0xbd02e4f6": [
+        "calcRandomNumberAndGetPreliminaryGameResult(uint256,uint64)"
+    ],
+    "0x8f4fb958": [
+        "calculateRandomNumberByBlockhash(uint256,address)"
+    ],
+    "0xae47a290": [
+        "changeMaxBet(uint256)"
+    ],
+    "0x06394c9b": [
+        "changeOperator(address)"
+    ],
+    "0x3aa5f4f7": [
+        "changeTokenSettings(uint16,uint256,uint256)"
+    ],
+    "0x9a969768": [
+        "distributeProfits(uint256)"
+    ],
+    "0x0f590c36": [
+        "emergencyFixGameResult(uint64,uint256)"
+    ],
+    "0x364f4896": [
+        "emission(address,address,uint256,uint16,uint16)"
+    ],
+    "0x7a8df1b9": [
+        "getAffiliateInfo(address)"
+    ],
+    "0x9eb9dd3b": [
+        "getBetsProcessed()"
+    ],
+    "0x2fd6d40b": [
+        "getBetValueByGamble(uint8)"
+    ],
+    "0x6d12301c": [
+        "getBetValue(bytes32,uint8)"
+    ],
+    "0x03ee8f08": [
+        "getCoeff(uint16)"
+    ],
+    "0x38f77d69": [
+        "getDistributeProfitsInfo()"
+    ],
+    "0xd02528e6": [
+        "GetGameIndexesToProcess()"
+    ],
+    "0xb3fb14ad": [
+        "getGameResult()"
+    ],
+    "0x49041903": [
+        "getGame(uint64)"
+    ],
+    "0x824d5603": [
+        "getIndex(uint16,uint16)"
+    ],
+    "0xf84f420b": [
+        "getRandomNumber(address,uint256)"
+    ],
+    "0x267127ec": [
+        "getTokenSettings()"
+    ],
+    "0x3cf885c4": [
+        "isBitSet(uint256,uint8)"
+    ],
+    "0x15cff546": [
+        "isOperationBlocked()"
+    ],
+    "0x257bcd6a": [
+        "placeBet(uint256,bytes32,bytes32)"
+    ],
+    "0xfe73e3ec": [
+        "preliminaryGameResult(uint64)"
+    ],
+    "0x89abeb19": [
+        "ProcessGameExt(uint256)"
+    ],
+    "0x665bcc32": [
+        "ProcessGames(uint256[],bool)"
+    ],
+    "0xa24d23eb": [
+        "ProcessGame(uint256,uint256)"
+    ],
+    "0xaa677354": [
+        "register(address,address)"
+    ],
+    "0xeb5904c0": [
+        "setProfitDistributionContract(address)"
+    ],
+    "0x53c84526": [
+        "setSmartAffiliateContract(address)"
+    ],
+    "0xf0caea2b": [
+        "SmartRoulette()"
+    ],
+    "0xb599afc8": [
+        "totalBetCount()"
+    ],
+    "0x4ce01d86": [
+        "totalBetValue()"
+    ],
+    "0x2c4e591b": [
+        "totalGames()"
+    ],
+    "0x37bdc99b": [
+        "release(uint256)"
+    ],
+    "0x25fda176": [
+        "notify(address,uint256)"
+    ],
+    "0x545e7c61": [
+        "deploy(address,address)"
+    ],
+    "0xd3017193": [
+        "addUser(address,uint256)"
+    ],
+    "0x2d580ef6": [
+        "add(address,bytes32)"
+    ],
+    "0x79716e43": [
+        "confirmTransaction(bytes32)"
+    ],
+    "0xca1d209d": [
+        "fund(uint256)"
+    ],
+    "0x8b147245": [
+        "update(bytes32)"
+    ],
+    "0x329ce29e": [
+        "buyTile(uint256)"
+    ],
+    "0xa3908e1b": [
+        "convert(uint256)"
+    ],
+    "0xdef2489b": [
+        "convert(address)"
+    ],
+    "0x1e9a6950": [
+        "redeem(address,uint256)"
+    ],
+    "0x74a93e6c": [
+        "setTokenHolder(address,address)"
+    ],
+    "0xac940823": [
+        "betOnLowHigh(bool)"
+    ],
+    "0x5521d17b": [
+        "betOnColor(bool)"
+    ],
+    "0x338cdca1": [
+        "request()"
+    ],
+    "0x59c87d70": [
+        "request(bytes32)"
+    ],
+    "0x2bffc7ed": [
+        "add(string,address)"
+    ],
+    "0x58d9fa04": [
+        "addUser(uint256,address)"
+    ],
+    "0x64371977": [
+        "set(uint256,string)"
+    ],
+    "0xf09ea2a6": [
+        "offer(uint256,address,uint256,address)"
+    ],
+    "0x77fcb91d": [
+        "forward(address,bool)"
+    ],
+    "0x53d9d910": [
+        "create(address[],uint256,uint256)"
+    ],
+    "0xa8d95fb2": [
+        "claim(address,string)"
+    ],
+    "0x591c515f": [
+        "append(string,string)"
+    ],
+    "0xa7abc124": [
+        "activate(bool,bool)"
+    ],
+    "0xc7f2e6af": [
+        "Contribute(bytes20)"
+    ],
+    "0xebf6e91d": [
+        "hit(uint256)"
+    ],
+    "0x7183616c": [
+        "notarize(string)"
+    ],
+    "0x3da5c3ce": [
+        "puzzle(address,bytes32)"
+    ],
+    "0x4b59e880": [
+        "puzzle(address,bytes32,bytes32)"
+    ],
+    "0xae0a6b28": [
+        "signature(string,bytes32)"
+    ],
+    "0x96b76c23": [
+        "stand(uint256)"
+    ],
+    "0x6ea056a9": [
+        "sweep(address,uint256)"
+    ],
+    "0x4637d827": [
+        "trust(address)"
+    ],
+    "0x3af39c21": [
+        "undefined()"
+    ],
+    "0x776d1a01": [
+        "unvest(uint256,uint256,uint256,uint256,uint256,bool)"
+    ],
+    "0xb6608467": [
+        "updateShares(uint256)"
+    ],
+    "0xf04da65b": [
+        "getShares(address)"
+    ],
+    "0x90fa337d": [
+        "storeBlockWithFeeAndRecipient(bytes,int256,int256)"
+    ],
+    "0x59d1d43c": [
+        "text(bytes32,string)"
+    ],
+    "0x10f13a8c": [
+        "setText(bytes32,string,string)"
+    ],
+    "0xa21174bb": [
+        "DefaultReverseResolver(address)"
+    ],
+    "0x4e543b26": [
+        "setResolver(address)"
+    ],
+    "0x0f5a5466": [
+        "claimWithResolver(address,address)"
+    ],
+    "0xc0ee0b8a": [
+        "tokenFallback(address,uint256,bytes)"
+    ],
+    "0x5a6b26ba": [
+        "withdrawal(address,uint256)"
+    ],
+    "0x690e7c09": [
+        "open(uint256)"
+    ],
+    "0x09fd018e": [
+        "setClaimer(uint256,address,uint256)"
+    ],
+    "0x596c8976": [
+        "close(uint256,uint256)"
+    ],
+    "0xdd0d74ff": [
+        "IssueBank(address)"
+    ],
+    "0x228cb733": [
+        "reward()"
+    ],
+    "0x99b721a5": [
+        "rewardEthAnd(address[])"
+    ],
+    "0xeacccaf0": [
+        "setReward(address,uint256)"
+    ],
+    "0x85eddeea": [
+        "setReward(address[],uint256[])"
+    ],
+    "0xeb4dd8f2": [
+        "confirm(address)"
+    ],
+    "0x342b7e71": [
+        "setTokenList(address[])"
+    ],
+    "0xbd5dec98": [
+        "withdraw(address[])"
+    ],
+    "0x640a4d0c": [
+        "_deposited(address,address,uint256)"
+    ],
+    "0xc0b4fa6d": [
+        "_reward(address[])"
+    ],
+    "0x18573bf9": [
+        "calculeReward(uint256,uint256)"
+    ],
+    "0x73053f70": [
+        "tokenDeposit(address)"
+    ],
+    "0x58e2cd76": [
+        "watch(address)"
+    ],
+    "0xd9caed12": [
+        "withdraw(address,address,uint256)"
+    ],
+    "0xb4427263": [
+        "createTokens()"
+    ],
+    "0x01a7a8c0": [
+        "batFundDeposit()"
+    ],
+    "0x229a4978": [
+        "batFund()"
+    ],
+    "0x4172d080": [
+        "tokenExchangeRate()"
+    ],
+    "0x6f7920fd": [
+        "tokenCreationCap()"
+    ],
+    "0x8d4e4083": [
+        "isFinalized()"
+    ],
+    "0x91b43d13": [
+        "fundingEndBlock()"
+    ],
+    "0xa81c3bdf": [
+        "ethFundDeposit()"
+    ],
+    "0xc039daf6": [
+        "tokenCreationMin()"
+    ],
+    "0xd648a647": [
+        "fundingStartBlock()"
+    ],
+    "0x3a1a635e": [
+        "createNewRevision(bytes20,bytes32)"
+    ],
+    "0x7b760537": [
+        "updateLatestRevision(bytes20,bytes32)"
+    ],
+    "0xa4b8c2e7": [
+        "restart(bytes20,bytes32)"
+    ],
+    "0x22fa85ca": [
+        "testFailRegisterContractAgain()"
+    ],
+    "0xcb56d626": [
+        "testFailBlobStoreNotRegistered()"
+    ],
+    "0x6ec99dd0": [
+        "testGetBlobStore()"
+    ],
+    "0x7604b6d7": [
+        "testGetBlobStoreFromFullBlobId()"
+    ],
+    "0xc28bfe5a": [
+        "testFailCreateSameIpfsHashAndNonce()"
+    ],
+    "0xded04fe9": [
+        "testFailCreateNewRevisionNotOwner()"
+    ],
+    "0x9a93e940": [
+        "testFailCreateNewRevisionNotUpdatable()"
+    ],
+    "0x960d8cd3": [
+        "testFailUpdateLatestRevisionNotOwner()"
+    ],
+    "0x3ce1f4e7": [
+        "testFailUpdateLatestRevisionNotUpdatable()"
+    ],
+    "0xf99ebb71": [
+        "testFailUpdateLatestRevisionEnforceRevisions()"
+    ],
+    "0x251fa3b1": [
+        "testFailRetractLatestRevisionNotOwner()"
+    ],
+    "0xb2ab530e": [
+        "testFailRetractLatestRevisionNotUpdatable()"
+    ],
+    "0xc57a99e5": [
+        "testFailRetractLatestRevisionEnforceRevisions()"
+    ],
+    "0xc204505a": [
+        "testFailRetractLatestRevisionDoesntHaveAdditionalRevisions()"
+    ],
+    "0x617f8666": [
+        "testFailRestartNotOwner()"
+    ],
+    "0xd2c5c368": [
+        "testFailRestartNotUpdatable()"
+    ],
+    "0xcf984f16": [
+        "testFailRestartEnforceRevisions()"
+    ],
+    "0x3cc0fb45": [
+        "testFailRetractNotOwner()"
+    ],
+    "0xa9888148": [
+        "testFailRetractNotRetractable()"
+    ],
+    "0x71e60fe6": [
+        "testFailTransferEnableNotTransferable()"
+    ],
+    "0x9acade7e": [
+        "testFailTransferDisableNotEnabled()"
+    ],
+    "0xe2b8766c": [
+        "testFailTransferNotTransferable()"
+    ],
+    "0x615f9f1f": [
+        "testFailTransferNotEnabled()"
+    ],
+    "0x19ea61db": [
+        "testFailTransferDisabled()"
+    ],
+    "0x776df027": [
+        "testFailDisownNotOwner()"
+    ],
+    "0xeddce76b": [
+        "testFailDisownNotTransferable()"
+    ],
+    "0x32d8eee5": [
+        "testFailSetNotUpdatableNotOwner()"
+    ],
+    "0x6fe5b536": [
+        "testFailSetEnforceRevisionsNotOwner()"
+    ],
+    "0xf2c2dff2": [
+        "testFailSetNotRetractableNotOwner()"
+    ],
+    "0x5cc501ce": [
+        "testFailSetNotTransferableNotOwner()"
+    ],
+    "0xf38e5ca2": [
+        "getBlobStoreFromFullBlobId(bytes32)"
+    ],
+    "0x01e3d346": [
+        "create(bytes1,bytes32,uint256)"
+    ],
+    "0x147a5640": [
+        "_getAllRevisionIpfsHashes(bytes20)"
+    ],
+    "0x64d12ec6": [
+        "getRevisionIpfsHash(bytes20,uint256)"
+    ],
+    "0x540c97c8": [
+        "getAllRevisionIpfsHashes(bytes20)"
+    ],
+    "0xb7c38d02": [
+        "testControlCreateSameIpfsHashAndNonce()"
+    ],
+    "0x6e1479c0": [
+        "testControlCreateNewRevisionNotOwner()"
+    ],
+    "0xe73b7d77": [
+        "testControlCreateNewRevisionNotUpdatable()"
+    ],
+    "0x8cdcdae1": [
+        "testControlUpdateLatestRevisionNotOwner()"
+    ],
+    "0x69c5c229": [
+        "testControlUpdateLatestRevisionNotUpdatable()"
+    ],
+    "0x80e74b04": [
+        "testControlUpdateLatestRevisionEnforceRevisions()"
+    ],
+    "0x86602b6b": [
+        "testControlRetractLatestRevisionNotOwner()"
+    ],
+    "0xc7a3778f": [
+        "testControlRetractLatestRevisionNotUpdatable()"
+    ],
+    "0x6c712471": [
+        "testControlRetractLatestRevisionEnforceRevisions()"
+    ],
+    "0x610285d2": [
+        "testControlRetractLatestRevisionDoesntHaveAdditionalRevisions()"
+    ],
+    "0xebc697d1": [
+        "testControlRestartNotOwner()"
+    ],
+    "0x2d985cfb": [
+        "testControlRestartNotUpdatable()"
+    ],
+    "0xcebb8bb0": [
+        "testControlRestartEnforceRevisions()"
+    ],
+    "0xe37e60d1": [
+        "testControlRetractNotOwner()"
+    ],
+    "0xcefdfcf3": [
+        "testControlRetractNotRetractable()"
+    ],
+    "0x490825a9": [
+        "testControlTransferEnableNotTransferable()"
+    ],
+    "0x20d615c2": [
+        "testControlTransferDisableNotEnabled()"
+    ],
+    "0xe18c52ae": [
+        "testControlTransferNotTransferable()"
+    ],
+    "0xe71d7bf0": [
+        "testControlTransferNotEnabled()"
+    ],
+    "0x32bf775d": [
+        "testControlTransferDisabled()"
+    ],
+    "0xb47784d9": [
+        "testControlDisownNotOwner()"
+    ],
+    "0x98a29a58": [
+        "testControlDisownNotTransferable()"
+    ],
+    "0x50a9eddb": [
+        "testControlSetNotUpdatableNotOwner()"
+    ],
+    "0x0ec3b247": [
+        "testControlSetEnforceRevisionsNotOwner()"
+    ],
+    "0xc3689f01": [
+        "testControlSetNotRetractableNotOwner()"
+    ],
+    "0x9bf68006": [
+        "testControlSetNotTransferableNotOwner()"
+    ],
+    "0x0ab03e1b": [
+        "testControlRegisterContractAgain()"
+    ],
+    "0x895224db": [
+        "testControlBlobStoreNotRegistered()"
+    ],
+    "0x81accd0b": [
+        "create(bytes1,bytes32,bytes32)"
+    ],
+    "0x6013aa44": [
+        "testControlCreateSameNonce()"
+    ],
+    "0x94106200": [
+        "testFailCreateSameNonce()"
+    ],
+    "0x396ed0ab": [
+        "Burn()"
+    ],
+    "0xd89135cd": [
+        "totalBurned()"
+    ],
+    "0xf24e4a15": [
+        "Purge()"
+    ],
+    "0x1caba41f": [
+        "decimalUnits()"
+    ],
+    "0xc0463711": [
+        "lastUpdate()"
+    ],
+    "0xe5a6b10f": [
+        "currency()"
+    ],
+    "0x1820b575": [
+        "Team(uint256,address,uint256)"
+    ],
+    "0x8a78f5e2": [
+        "changeMember(address,bool,bool,uint256)"
+    ],
+    "0x30b0faab": [
+        "changeSettings(uint256,address,uint256)"
+    ],
+    "0x03048a42": [
+        "createRequest(address,uint256,string,bytes,bytes)"
+    ],
+    "0x17fb6c6e": [
+        "approveRequest(uint256,bool,string)"
+    ],
+    "0x03ef2a2c": [
+        "tryExecuteProposal(uint256,bytes)"
+    ],
+    "0x4ff6aa46": [
+        "deactivateTeam()"
+    ],
+    "0x3f2885cb": [
+        "publish(string,string,address,bytes32)"
+    ],
+    "0x50692d9a": [
+        "toContentID(address,string,string,address,bytes32)"
+    ],
+    "0x7115c988": [
+        "Batch(address)"
+    ],
+    "0x64eb7327": [
+        "_getContent(bytes32)"
+    ],
+    "0x7ff0346b": [
+        "getContents(bytes32[])"
+    ],
+    "0x2625e2e1": [
+        "post(address,address,bytes32)"
+    ],
+    "0x534878fb": [
+        "reply(address,address,bytes32,bytes32)"
+    ],
+    "0x7f602231": [
+        "tip(bytes32,address,uint256)"
+    ],
+    "0x816e24b0": [
+        "setupDeposits()"
+    ],
+    "0x68e7bdba": [
+        "disableApi(address)"
+    ],
+    "0xbd322b77": [
+        "enableApi(address)"
+    ],
+    "0x5cc15001": [
+        "getContent(bytes32)"
+    ],
+    "0x9a01b4d5": [
+        "getChannel(address)"
+    ],
+    "0xfbcbc0f1": [
+        "getAccount(address)"
+    ],
+    "0xae9a0785": [
+        "getChannelPostCount(address)"
+    ],
+    "0x5a17aa41": [
+        "getContentTip(bytes32,address)"
+    ],
+    "0xd83a7f67": [
+        "getDepositAddress(address)"
+    ],
+    "0xc489744b": [
+        "getTokenBalance(address,address)"
+    ],
+    "0xe5c46944": [
+        "MultiSigWallet(address[],uint256)"
+    ],
+    "0xe20056e6": [
+        "replaceOwner(address,address)"
+    ],
+    "0xc6427474": [
+        "submitTransaction(address,uint256,bytes)"
+    ],
+    "0x20ea8d86": [
+        "revokeConfirmation(uint256)"
+    ],
+    "0xee22610b": [
+        "executeTransaction(uint256)"
+    ],
+    "0x784547a7": [
+        "isConfirmed(uint256)"
+    ],
+    "0xec096f8d": [
+        "addTransaction(address,uint256,bytes)"
+    ],
+    "0x8b51d13f": [
+        "getConfirmationCount(uint256)"
+    ],
+    "0x54741525": [
+        "getTransactionCount(bool,bool)"
+    ],
+    "0xb5dc40c3": [
+        "getConfirmations(uint256)"
+    ],
+    "0xa8abe69a": [
+        "getTransactionIds(uint256,uint256,bool,bool)"
+    ],
+    "0x1914427f": [
+        "MultiSigWalletWithDailyLimit(address[],uint256,uint256)"
+    ],
+    "0xcea08621": [
+        "changeDailyLimit(uint256)"
+    ],
+    "0x811de206": [
+        "isConfirmedByOwners(uint256)"
+    ],
+    "0x11c91914": [
+        "isUnderLimit(uint256)"
+    ],
+    "0x4bc9fdc2": [
+        "calcMaxWithdraw()"
+    ],
+    "0xae1a0b0c": [
+        "launchLength()"
+    ],
+    "0x0a40f15f": [
+        "fundDeal(string,address)"
+    ],
+    "0x1504ce95": [
+        "payout(string)"
+    ],
+    "0x2de90801": [
+        "hashtagToken()"
+    ],
+    "0x2e788443": [
+        "resolve(string,address,uint256)"
+    ],
+    "0x5e717e2d": [
+        "readDeal(string,address)"
+    ],
+    "0xac56c52b": [
+        "makeDealForTwo(string,uint256)"
+    ],
+    "0xcdcf0c4a": [
+        "dispute(string,address)"
+    ],
+    "0xf089b7dd": [
+        "hashtag()"
+    ],
+    "0xf3227dc4": [
+        "cancelDeal(string)"
+    ],
+    "0x3cebb823": [
+        "changeController(address)"
+    ],
+    "0xf77c4791": [
+        "controller()"
+    ],
+    "0x085d4883": [
+        "provider()"
+    ],
+    "0x0e429ecc": [
+        "providerValue()"
+    ],
+    "0x117de2fd": [
+        "payout(address,uint256)"
+    ],
+    "0x200d2ed2": [
+        "status()"
+    ],
+    "0x2e49d78b": [
+        "setStatus(uint8)"
+    ],
+    "0x30cfac6c": [
+        "assignTo(uint256,address,uint256)"
+    ],
+    "0xf3ab7ea9": [
+        "seeker()"
+    ],
+    "0xfef1dc7d": [
+        "seekerValue()"
+    ],
+    "0x0e4355d4": [
+        "validFactories(address)"
+    ],
+    "0x10fe9ae8": [
+        "getTokenAddress()"
+    ],
+    "0x29ce1ec5": [
+        "addFactory(address)"
+    ],
+    "0x355e6b43": [
+        "setCommission(uint256)"
+    ],
+    "0x4b37c73f": [
+        "removeFactory(address)"
+    ],
+    "0x6985e46e": [
+        "getConflictResolver()"
+    ],
+    "0x7f301b83": [
+        "setMetadataHash(string)"
+    ],
+    "0x24664106": [
+        "mintRep(int256,address,uint256)"
+    ],
+    "0xa4a75edc": [
+        "registerDeal(address,address)"
+    ],
+    "0xaaf73ef7": [
+        "registeredDeals()"
+    ],
+    "0xc5a1d7f0": [
+        "metadataHash()"
+    ],
+    "0xcffee328": [
+        "successfulDeals()"
+    ],
+    "0xe1489191": [
+        "commission()"
+    ],
+    "0xf34f43f6": [
+        "getRepTokenAddress()"
+    ],
+    "0xf6b44d03": [
+        "validFactories()"
+    ],
+    "0x2dc2dbf2": [
+        "makeSimpleDeal(address,address,uint256,bytes32)"
+    ],
+    "0x12424e3f": [
+        "approve()"
+    ],
+    "0xb85477c5": [
+        "dealStatus()"
+    ],
+    "0xe344606b": [
+        "hashtagCommission()"
+    ],
+    "0x4a393149": [
+        "onTransfer(address,address,uint256)"
+    ],
+    "0xda682aeb": [
+        "onApprove(address,address,uint256)"
+    ],
+    "0xf48c3054": [
+        "proxyPayment(address)"
+    ],
+    "0x55a373d6": [
+        "tokenContract()"
+    ],
+    "0xc0112678": [
+        "arcToken()"
+    ],
+    "0x921b2d64": [
+        "mintTokens(int256,address,uint256)"
+    ],
+    "0x3290ce29": [
+        "purchaseTokens()"
+    ],
+    "0x38cde380": [
+        "changeWeight(uint256)"
+    ],
+    "0x4f995d08": [
+        "getPeople()"
+    ],
+    "0x74607d91": [
+        "patient(uint256)"
+    ],
+    "0x7b464e93": [
+        "prescriptions(bytes32)"
+    ],
+    "0x86590955": [
+        "changeHeight(uint256)"
+    ],
+    "0xd72dec33": [
+        "changeVaccinHistory(address)"
+    ],
+    "0xdc3d4203": [
+        "createPatient(bytes32,bytes32,uint256,uint256,uint256,bytes32,uint256)"
+    ],
+    "0xe571fd2d": [
+        "addPrescription(uint256,string)"
+    ],
+    "0xfbbf93a0": [
+        "getDetails()"
+    ],
+    "0x077dadb2": [
+        "coinBalanceMultisig(address)"
+    ],
+    "0x249b4d4f": [
+        "transferContractUser(address)"
+    ],
+    "0x388f3cd3": [
+        "cashin(address,uint256)"
+    ],
+    "0x527f4ff1": [
+        "setTransferAddressUser(address,address)"
+    ],
+    "0x6ba2aefc": [
+        "transferMultisig(address,address,uint256)"
+    ],
+    "0x9d16aca6": [
+        "changeExchangeContract(address)"
+    ],
+    "0xd126dac4": [
+        "cashout(address,address,uint256)"
+    ],
+    "0xf1679095": [
+        "getTransferAddressUser(address)"
+    ],
+    "0x0bf77989": [
+        "debug_coinbaseTxSha(bytes,uint256)"
+    ],
+    "0x107b1f8c": [
+        "debug_verifyShare(bytes,uint256[],uint256[],bytes,uint256,uint256)"
+    ],
+    "0x14ca5398": [
+        "submitFullBlock(bytes,uint256[],uint256[],bytes,bytes,bytes,bytes,bytes,bytes,uint256)"
+    ],
+    "0x2850c72a": [
+        "debug_extendCoinbaseTxOutput(uint256,uint256)"
+    ],
+    "0x3e2ee39e": [
+        "debug_resetuser()"
+    ],
+    "0x43c33ac9": [
+        "submitShares(uint256,uint256)"
+    ],
+    "0x579d5fba": [
+        "debug_hash3Int(uint256)"
+    ],
+    "0x83cd5e13": [
+        "debug_multiplehash(uint256,uint256)"
+    ],
+    "0x88702cc4": [
+        "debug_hash256Double(bytes)"
+    ],
+    "0x88f6d5a4": [
+        "constructCoinbaseTx(uint256,uint256)"
+    ],
+    "0x9559225c": [
+        "debug_hash3Byte(bytes)"
+    ],
+    "0x99d1d002": [
+        "debug_blockHeaderMerkle(bytes)"
+    ],
+    "0xa68393a2": [
+        "debug_getCoinbaseTxOutputLen(uint256)"
+    ],
+    "0xad076bfc": [
+        "debug_hash256Double_concat(bytes,bytes,bytes)"
+    ],
+    "0xb2b0aefb": [
+        "verifyPendingShares(uint256[],uint256[],uint256,uint256[],uint256[],bytes,bytes,uint256)"
+    ],
+    "0xed47ca94": [
+        "debug_verifySharesTreeSubmission(uint256[],uint256[],uint256,uint256,uint256,uint256)"
+    ],
+    "0xf16fa954": [
+        "debug_resizeRealPrefix(uint256,uint256)"
+    ],
+    "0x6104464f": [
+        "previousPublishedVersion()"
+    ],
+    "0x6737c877": [
+        "setAttributes(bytes)"
+    ],
+    "0x884179d8": [
+        "ipfsAttributeLookup(address)"
+    ],
+    "0x9352fad2": [
+        "run(string)"
+    ],
+    "0x98e7ea43": [
+        "reward(uint32[],address[])"
+    ],
+    "0x0456860a": [
+        "acceptAtCommunity(address,uint256)"
+    ],
+    "0x0a90c704": [
+        "createCommunity(string,string,string,string,uint256,uint256,uint256,uint256,uint256,uint256,uint256,bool,uint256,uint256,uint256)"
+    ],
+    "0x197f3c29": [
+        "notLike(address)"
+    ],
+    "0x1b7db340": [
+        "sysAdmin()"
+    ],
+    "0x2925ffc2": [
+        "modifyCommunityTaxes(uint256,uint256,uint256,uint256)"
+    ],
+    "0x33b85b73": [
+        "modifyCommunityRates(uint256,uint256,uint256,uint256,uint256,bool,uint256,uint256,uint256)"
+    ],
+    "0x3500a48d": [
+        "transferCommunityCommune(uint256,address)"
+    ],
+    "0x36b33415": [
+        "modifyMemberInfo(string,string,string,string)"
+    ],
+    "0x47c66140": [
+        "getProposalVotes(uint256)"
+    ],
+    "0x519a078f": [
+        "getCommunitybyIndex(uint256)"
+    ],
+    "0x526b91d1": [
+        "transferSysAdmin(address)"
+    ],
+    "0x52ea5667": [
+        "getMPbyIndex(uint256)"
+    ],
+    "0x67a09c23": [
+        "payment(address,uint256)"
+    ],
+    "0x71efeff1": [
+        "transferCommunityBank(uint256,address)"
+    ],
+    "0x721a1f57": [
+        "endorseCredit(address,uint256,uint256)"
+    ],
+    "0x84e10a90": [
+        "getTotals()"
+    ],
+    "0x8b343e8f": [
+        "getMemberCredit(address)"
+    ],
+    "0x9431e412": [
+        "getCommunityRates(uint256)"
+    ],
+    "0xa5496e60": [
+        "newProposal(uint256,string,string,uint256,uint256)"
+    ],
+    "0xad71c687": [
+        "registerSystem(string,string,string,string)"
+    ],
+    "0xb122a0ef": [
+        "joinCommunity(uint256)"
+    ],
+    "0xbcabb54c": [
+        "modifyCommunityInfo(uint256,string,string,string,string)"
+    ],
+    "0xbfb04c60": [
+        "proposeAcceptanceAsMember(uint256)"
+    ],
+    "0xd21cbffc": [
+        "getIfVoted(uint256,address)"
+    ],
+    "0xd95ab72d": [
+        "getMemberWallet(address)"
+    ],
+    "0xdde8535f": [
+        "getMemberStatus(address)"
+    ],
+    "0xe05e3028": [
+        "getCommunityManagement(uint256)"
+    ],
+    "0xe465c465": [
+        "like(address)"
+    ],
+    "0xee650248": [
+        "vote(uint256,int8)"
+    ],
+    "0xf47efbca": [
+        "getMemberLinks(address)"
+    ],
+    "0xf6df26d2": [
+        "kickOutCommunity(address,uint256)"
+    ],
+    "0xf82c2301": [
+        "resignFromCommunity()"
+    ],
+    "0xfba6651c": [
+        "getCommunityTaxes(uint256)"
+    ],
+    "0xfcc101ba": [
+        "getCommunityDescription(uint256)"
+    ],
+    "0x04029f23": [
+        "_setBugFixVersion(string,uint32,bytes32,uint32)"
+    ],
+    "0x1f9ea25d": [
+        "_setDepositAccount(address)"
+    ],
+    "0x49593f53": [
+        "submit(string,uint64,uint32,uint32,bytes32)"
+    ],
+    "0x569aa0d8": [
+        "getPlayerSubmissionFromCompetition(string,uint8,address)"
+    ],
+    "0x59a4669f": [
+        "increaseJackpot(string)"
+    ],
+    "0x656104f5": [
+        "_setOrganiser(address)"
+    ],
+    "0x70de8c6e": [
+        "start(string,uint64,uint8,uint32)"
+    ],
+    "0x71bde852": [
+        "_startNextCompetition(string,uint32,uint88,uint8,uint8,uint16,uint64,uint32,bytes32,uint32[])"
+    ],
+    "0x8d909ad9": [
+        "getSeedAndState(string,address)"
+    ],
+    "0x8f30435d": [
+        "getCompetitionValues(string,uint8)"
+    ],
+    "0x916dbc17": [
+        "getPlayersFromCompetition(string,uint8)"
+    ],
+    "0xc91540f6": [
+        "getCurrentCompetitionValues(string)"
+    ],
+    "0xfedc2a28": [
+        "_rewardWinners(string,uint8,address[])"
+    ],
+    "0x224ccc49": [
+        "chainLastMessageHash(bytes32)"
+    ],
+    "0x482f63b0": [
+        "postMessage(bytes32,bytes)"
+    ],
+    "0x590a4595": [
+        "createNewChain(bytes)"
+    ],
+    "0x858c7559": [
+        "chainIDSeed()"
+    ],
+    "0x52c98e33": [
+        "checkClaim(address,uint256,uint256)"
+    ],
+    "0x598aa1fc": [
+        "checkEndorsement(address,uint256,address)"
+    ],
+    "0xa16c6a73": [
+        "setClaim(uint256,uint256)"
+    ],
+    "0xa1bdd146": [
+        "setEndorsement(address,uint256,uint256)"
+    ],
+    "0xa3a48785": [
+        "unsetClaim(uint256)"
+    ],
+    "0xd7789a9f": [
+        "unsetEndorsement(address,uint256)"
+    ],
+    "0xa9d0ddc7": [
+        "addContractWithInfo(string,string)"
+    ],
+    "0xfa3559f7": [
+        "attestToContract(uint256,bool,string)"
+    ],
+    "0x179fc99f": [
+        "etherBalanceOf(address)"
+    ],
+    "0x3b0c197e": [
+        "getBook()"
+    ],
+    "0x42da3b6b": [
+        "getAmount(uint256,address)"
+    ],
+    "0x6dee2032": [
+        "getOpenOrdersOf(address)"
+    ],
+    "0x836e4158": [
+        "numOrdersOf(address)"
+    ],
+    "0x8ab1a5d4": [
+        "sell(uint256,uint256,bool)"
+    ],
+    "0x8b7afe2e": [
+        "contractBalance()"
+    ],
+    "0x8c3f914a": [
+        "spread(bool)"
+    ],
+    "0x8f70ccf7": [
+        "setTrading(bool)"
+    ],
+    "0x975289fd": [
+        "getPriceVolume(uint256)"
+    ],
+    "0xc3434883": [
+        "buy(uint256,uint256,bool)"
+    ],
+    "0xd07866d2": [
+        "sizeOf(uint256)"
+    ],
+    "0xe1725c92": [
+        "decimalPlaces()"
+    ],
+    "0xe2dede94": [
+        "getNode(uint256,uint256)"
+    ],
+    "0xec44acf2": [
+        "trading()"
+    ],
+    "0x11456b47": [
+        "addName(string)"
+    ],
+    "0x14bfd6d0": [
+        "admins(uint256)"
+    ],
+    "0x4deb68a3": [
+        "auctionStart(bytes32,uint256,uint256)"
+    ],
+    "0x663e90d9": [
+        "setBuyNowListing(bytes32,uint256,bool)"
+    ],
+    "0x71c79588": [
+        "releaseName(bytes32)"
+    ],
+    "0x7c72e273": [
+        "auctionFinalize(bytes32)"
+    ],
+    "0x9bdd7cdb": [
+        "forceRelease(bytes32)"
+    ],
+    "0xbfcf63b0": [
+        "claimEther(address,uint256)"
+    ],
+    "0xc415b95c": [
+        "feeCollector()"
+    ],
+    "0xd7ad4931": [
+        "buyNow(bytes32)"
+    ],
+    "0xe2acf75d": [
+        "auctionCancel(bytes32)"
+    ],
+    "0xf747a5eb": [
+        "auctionBid(bytes32)"
+    ],
+    "0x13831693": [
+        "getLevitatingUnicorns(bytes32,uint64)"
+    ],
+    "0x50fe533b": [
+        "getLevitatingBirds(bytes32,uint64)"
+    ],
+    "0xc9aa71b8": [
+        "getFlyingUnicorns(bytes32,uint64)"
+    ],
+    "0xfeb50430": [
+        "getLevitatingKittens(bytes32,uint64)"
+    ],
+    "0x78c2c849": [
+        "burnUnicorns()"
+    ],
+    "0xbd8b452e": [
+        "eatUnicorns()"
+    ],
+    "0x4b06fb28": [
+        "eatUnicornsAlive()"
+    ],
+    "0x5b303e16": [
+        "eatUnicorns(uint256)"
+    ],
+    "0xa1e95792": [
+        "eatUnicornsAlive(uint256)"
+    ],
+    "0x10867877": [
+        "eatUnicornWithoutCorn()"
+    ],
+    "0x4b269a00": [
+        "withdraw(int256[])"
+    ],
+    "0x2c7cce9e": [
+        "auctionMinPriceIncrease()"
+    ],
+    "0x801c334e": [
+        "auctionIncreaseBid(bytes32)"
+    ],
+    "0x95e911a8": [
+        "feeBase()"
+    ],
+    "0xb4628c8a": [
+        "ENSRegistrar()"
+    ],
+    "0xddca3f43": [
+        "fee()"
+    ],
+    "0xe765cb44": [
+        "auctionMinPrice()"
+    ],
+    "0x69f30401": [
+        "bid(address,uint256[],uint256[])"
+    ],
+    "0x6e67b803": [
+        "bid3(address,uint256[],uint256[])"
+    ],
+    "0x21462191": [
+        "bid3(address,uint8[],uint8[])"
+    ],
+    "0x92584d80": [
+        "finalize(bytes32)"
+    ],
+    "0xf3bf93a0": [
+        "forceReleaseAdmin(bytes32)"
+    ],
+    "0x5b372532": [
+        "press()"
+    ],
+    "0x9f095e88": [
+        "asdf()"
+    ],
+    "0xb0459d49": [
+        "LoanStandard(address,address,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0xa2fb342d": [
+        "lend(address,uint256)"
+    ],
+    "0xd334d75b": [
+        "expireLoan()"
+    ],
+    "0xb7019744": [
+        "payBack(address,uint256)"
+    ],
+    "0x60aeac18": [
+        "neverPayBack()"
+    ],
+    "0xaad3ec96": [
+        "claim(address,uint256)"
+    ],
+    "0x4c123019": [
+        "tokenFallback(address,address,uint256,bytes)"
+    ],
+    "0xcb7acdd9": [
+        "hola()"
+    ],
+    "0xacb6e9b1": [
+        "testControlItemStoreNotRegistered()"
+    ],
+    "0xac767539": [
+        "testFailItemStoreNotRegistered()"
+    ],
+    "0x1649cdcd": [
+        "testGetItemStore()"
+    ],
+    "0xe41cc093": [
+        "getItemStore(bytes12)"
+    ],
+    "0x79ba5097": [
+        "acceptOwnership()"
+    ],
+    "0x58e9b208": [
+        "Controlled()"
+    ],
+    "0x30311898": [
+        "Account(address)"
+    ],
+    "0xce3f865f": [
+        "collect(uint256)"
+    ],
+    "0x55ee6afb": [
+        "Wallet(address,address)"
+    ],
+    "0x2268a358": [
+        "changeMultisig(address)"
+    ],
+    "0xea2c23da": [
+        "createAccounts(uint256)"
+    ],
+    "0xa5e8c5d6": [
+        "setVoteRight(address,uint256)"
+    ],
+    "0x9cc0c5e3": [
+        "experty_io()"
+    ],
+    "0x5022e940": [
+        "experty()"
+    ],
+    "0xb7090bb5": [
+        "www_experty_io()"
+    ],
+    "0x0edfb0f7": [
+        "withdrawCollectedInterest()"
+    ],
+    "0x21856b36": [
+        "interestOwed()"
+    ],
+    "0x402d8883": [
+        "repay()"
+    ],
+    "0x4665096d": [
+        "expiration()"
+    ],
+    "0x58f33e98": [
+        "isTaker(address)"
+    ],
+    "0x5eda5b9a": [
+        "interestCollected()"
+    ],
+    "0x6cbdb7d0": [
+        "takers(uint256)"
+    ],
+    "0x7c3a00fd": [
+        "interestRate()"
+    ],
+    "0xaa8116be": [
+        "fundedPrincipal()"
+    ],
+    "0xbc99c8be": [
+        "takerAddressAt(uint256)"
+    ],
+    "0xc41f4cc0": [
+        "takerStatus(address)"
+    ],
+    "0xc537a210": [
+        "principalOutstanding()"
+    ],
+    "0xc5ebeaec": [
+        "borrow(uint256)"
+    ],
+    "0xcb6da9da": [
+        "takerCount()"
+    ],
+    "0xfb775b46": [
+        "giver()"
+    ],
+    "0xe1a27ad3": [
+        "needsAdministration()"
+    ],
+    "0xb6253539": [
+        "needsInitialization()"
+    ],
+    "0xb6f98e53": [
+        "needsAllowancePayment()"
+    ],
+    "0xb5931f7c": [
+        "safeDiv(uint256,uint256)"
+    ],
+    "0x3a4faf7f": [
+        "max64(uint64,uint64)"
+    ],
+    "0x36b1315c": [
+        "min64(uint64,uint64)"
+    ],
+    "0x0c255c94": [
+        "max256(uint256,uint256)"
+    ],
+    "0xb1e9292f": [
+        "min256(uint256,uint256)"
+    ],
+    "0x1d3b9edf": [
+        "times(uint256,uint256)"
+    ],
+    "0xf4f3bdc1": [
+        "minus(uint256,uint256)"
+    ],
+    "0x66098d4f": [
+        "plus(uint256,uint256)"
+    ],
+    "0x8afc3605": [
+        "Ownable()"
+    ],
+    "0x04bbc255": [
+        "isPricingStrategy()"
+    ],
+    "0x8e768288": [
+        "isSane(address)"
+    ],
+    "0x18a4155e": [
+        "calculatePrice(uint256,uint256,uint256,address,uint256)"
+    ],
+    "0x614cb904": [
+        "isFinalizeAgent()"
+    ],
+    "0x82771c8e": [
+        "isSane()"
+    ],
+    "0x0bf318a3": [
+        "finalizeCrowdsale()"
+    ],
+    "0x96f47800": [
+        "investInternal(address,uint128)"
+    ],
+    "0x32013ac3": [
+        "preallocate(address,uint256,uint256)"
+    ],
+    "0x1a49803b": [
+        "investWithSignedAddress(address,uint128,uint8,bytes32,bytes32)"
+    ],
+    "0xef869443": [
+        "investWithCustomerId(address,uint128)"
+    ],
+    "0x03f9c793": [
+        "invest(address)"
+    ],
+    "0xf4869726": [
+        "buyWithSignedAddress(uint128,uint8,bytes32,bytes32)"
+    ],
+    "0x99e9376c": [
+        "buyWithCustomerId(uint128)"
+    ],
+    "0x7f7d711e": [
+        "setRequireCustomerId(bool)"
+    ],
+    "0xed68ff2c": [
+        "setRequireSignedAddress(bool,address)"
+    ],
+    "0xeac24932": [
+        "setEarlyParicipantWhitelist(address,bool)"
+    ],
+    "0x6e50eb3f": [
+        "setEndsAt(uint256)"
+    ],
+    "0xf3283fba": [
+        "setMultisig(address)"
+    ],
+    "0x87612102": [
+        "loadRefund()"
+    ],
+    "0x7c2e08a3": [
+        "isMinimumGoalReached()"
+    ],
+    "0xa7ba44c3": [
+        "isFinalizerSane()"
+    ],
+    "0x062b01ce": [
+        "isPricingSane()"
+    ],
+    "0x1865c57d": [
+        "getState()"
+    ],
+    "0x8d51faec": [
+        "setOwnerTestValue(uint256)"
+    ],
+    "0x4551dd59": [
+        "isCrowdsale()"
+    ],
+    "0x9d3c663f": [
+        "isBreakingCap(uint256,uint256,uint256,uint256)"
+    ],
+    "0xd5d09021": [
+        "isCrowdsaleFull()"
+    ],
+    "0x4d7edc15": [
+        "assignTokens(address,uint256)"
+    ],
+    "0xeefa597b": [
+        "isToken()"
+    ],
+    "0x09ae9452": [
+        "PreICOProxyBuyer(address,uint256,uint256,uint256,uint256)"
+    ],
+    "0x21df0da7": [
+        "getToken()"
+    ],
+    "0xbaeb91ae": [
+        "invest(uint128)"
+    ],
+    "0x1fb00cdc": [
+        "investWithId(uint128)"
+    ],
+    "0xdbb833df": [
+        "investWithoutId()"
+    ],
+    "0xd4607048": [
+        "buyForEverybody()"
+    ],
+    "0xdde070e8": [
+        "getClaimAmount(address)"
+    ],
+    "0x3c67b6b7": [
+        "getClaimLeft(address)"
+    ],
+    "0xd1058e59": [
+        "claimAll()"
+    ],
+    "0x4042b66f": [
+        "weiRaised()"
+    ],
+    "0xf6368f8a": [
+        "transfer(address,uint256,bytes,string)"
+    ],
+    "0x3ef13367": [
+        "flushTokens(address)"
+    ],
+    "0x083c6323": [
+        "endBlock()"
+    ],
+    "0x7055060f": [
+        "bulkStoreHeader(bytes)"
+    ],
+    "0x3115b4c4": [
+        "bulkStoreHeader(bytes,uint256)"
+    ],
+    "0x01725a0b": [
+        "demo()"
+    ],
+    "0xdce5c757": [
+        "cool()"
+    ],
+    "0x939a79ac": [
+        "demo(string)"
+    ],
+    "0x071bd079": [
+        "demo(uint256)"
+    ],
+    "0x43b1c529": [
+        "getSig(string,bytes4)"
+    ],
+    "0x1d03842f": [
+        "onePlus(uint256)"
+    ],
+    "0x42966c68": [
+        "burn(uint256)"
+    ],
+    "0x457f4d41": [
+        "hammer()"
+    ],
+    "0x58292a3d": [
+        "emission(uint256)"
+    ],
+    "0xd31fdffd": [
+        "setHammer(address)"
+    ],
+    "0xb8c48f8c": [
+        "setInitialParent(int256,int256,int256)"
+    ],
+    "0x08f75d17": [
+        "move_reveal(bytes32,uint8)"
+    ],
+    "0x2e9c91a8": [
+        "getStartParams(bytes32)"
+    ],
+    "0x497777d5": [
+        "collect(bytes32)"
+    ],
+    "0x5598c576": [
+        "reveal_move(bytes32,uint8,bytes32,bytes32)"
+    ],
+    "0x5cf34bcf": [
+        "getMinFee()"
+    ],
+    "0x6a7bf76a": [
+        "create_game(bytes32,uint32,uint32,uint8,uint16,uint8,address,uint256,bool)"
+    ],
+    "0x73931bbf": [
+        "getGame(bytes32)"
+    ],
+    "0x87287fd7": [
+        "setMinFee(uint8)"
+    ],
+    "0x89d61d77": [
+        "setOrganizer(address)"
+    ],
+    "0xa361b184": [
+        "move(bytes32,bytes32)"
+    ],
+    "0xe4083daf": [
+        "create_game_invite(bytes32,address,uint32,uint32,uint8,uint16,uint8,address,uint256)"
+    ],
+    "0xf223446c": [
+        "start_game(bytes32,uint8,uint32,uint16,address,uint256,uint8)"
+    ],
+    "0x3a4de190": [
+        "repost(bytes32)"
+    ],
+    "0x4b91ab35": [
+        "unfollow(bytes32)"
+    ],
+    "0x66e34dc6": [
+        "registerUsername(bytes32)"
+    ],
+    "0x699f200f": [
+        "addresses(bytes32)"
+    ],
+    "0x7e93163b": [
+        "tip(bytes32,bytes32)"
+    ],
+    "0x8ee93cf3": [
+        "post(string)"
+    ],
+    "0x9d7eb375": [
+        "updateUserDetails(string)"
+    ],
+    "0xa66b7748": [
+        "follow(bytes32)"
+    ],
+    "0xa83b1e21": [
+        "reply(string,bytes32)"
+    ],
+    "0xd38d0f28": [
+        "updateSplit(uint256)"
+    ],
+    "0xee91877c": [
+        "usernames(address)"
+    ],
+    "0xf59823cf": [
+        "Congress(uint256,uint256,int256)"
+    ],
+    "0xb3bb9b58": [
+        "LiquidDemocracy(address,string,uint256)"
+    ],
+    "0x6dd7d8ea": [
+        "vote(address)"
+    ],
+    "0xc0d061f4": [
+        "execute(address,uint256,bytes32)"
+    ],
+    "0xf2ba18ed": [
+        "calculateVotes()"
+    ],
+    "0xb154224e": [
+        "TimeLockMultisig(address,address[],uint256)"
+    ],
+    "0x15bef9cd": [
+        "changeMembers(address[],bool)"
+    ],
+    "0xc01f9e37": [
+        "proposalDeadline(uint256)"
+    ],
+    "0x159887d1": [
+        "calculateFactor(uint256,uint256)"
+    ],
+    "0x7207c19f": [
+        "MyToken(uint256)"
+    ],
+    "0x73e9f3e6": [
+        "Crowdsale(address,uint256,uint256,uint256,address,address)"
+    ],
+    "0xfd6b7ef8": [
+        "safeWithdrawal()"
+    ],
+    "0x9dbf0087": [
+        "TokenERC20(uint256,string,string)"
+    ],
+    "0x79cc6790": [
+        "burnFrom(address,uint256)"
+    ],
+    "0x7e4f6b95": [
+        "MyAdvancedToken(uint256,string,string)"
+    ],
+    "0xbc0c868c": [
+        "stocksOf(uint256)"
+    ],
+    "0x8262fc7d": [
+        "addrBalance(address)"
+    ],
+    "0x6dfe869b": [
+        "Preallocation(address,uint256)"
+    ],
+    "0xa357880d": [
+        "whitelistedAddrs(address)"
+    ],
+    "0x54da5393": [
+        "Utils()"
+    ],
+    "0xe4edf852": [
+        "transferManagement(address)"
+    ],
+    "0xc8c2fe6c": [
+        "acceptManagement()"
+    ],
+    "0x67cc4882": [
+        "TokenHolder()"
+    ],
+    "0x21e6b53d": [
+        "transferTokenOwnership(address)"
+    ],
+    "0x38a5e016": [
+        "acceptTokenOwnership()"
+    ],
+    "0x85d5e631": [
+        "disableTokenTransfers(bool)"
+    ],
+    "0x205c2878": [
+        "withdrawTo(address,uint256)"
+    ],
+    "0x1608f18f": [
+        "disableTransfers(bool)"
+    ],
+    "0x29a00e7c": [
+        "calculatePurchaseReturn(uint256,uint256,uint32,uint256)"
+    ],
+    "0x49f9b0f7": [
+        "calculateSaleReturn(uint256,uint256,uint32,uint256)"
+    ],
+    "0x59f8714b": [
+        "changeableTokenCount()"
+    ],
+    "0x503adbf6": [
+        "changeableToken(uint16)"
+    ],
+    "0x9b99a8e2": [
+        "reserveTokenCount()"
+    ],
+    "0x4e2280c4": [
+        "clearQuickBuyPath()"
+    ],
+    "0x9396a7f0": [
+        "getQuickBuyPathLength()"
+    ],
+    "0xabeb5f9f": [
+        "hasQuickBuyEtherToken()"
+    ],
+    "0xb3a9afb7": [
+        "getQuickBuyEtherToken()"
+    ],
+    "0x0b3f191a": [
+        "disableChanging(bool)"
+    ],
+    "0x88c0b8a7": [
+        "setChangeFee(uint32)"
+    ],
+    "0x48d6ca55": [
+        "getChangeFeeAmount(uint256)"
+    ],
+    "0x7758c4f8": [
+        "quickBuy(uint256)"
+    ],
+    "0x74214c92": [
+        "StandardERC223Token(uint256)"
+    ],
+    "0x16279055": [
+        "isContract(address)"
+    ],
+    "0x03ba3a88": [
+        "notifyContract(address,address,uint256,bytes)"
+    ],
+    "0x27e235e3": [
+        "balances(address)"
+    ],
+    "0x3f4ba83a": [
+        "unpause()"
+    ],
+    "0x5c658165": [
+        "allowed(address,address)"
+    ],
+    "0x5c975abb": [
+        "paused()"
+    ],
+    "0x8456cb59": [
+        "pause()"
+    ],
+    "0xa0821be3": [
+        "availableBalance(address)"
+    ],
+    "0xe9ed8667": [
+        "balanceLocks(address)"
+    ],
+    "0xf339c504": [
+        "lockBalance(uint256)"
+    ],
+    "0x1d4d691d": [
+        "fill(address,uint256,address,address,uint256,address,uint256,uint256,uint8,bytes32,bytes32)"
+    ],
+    "0x20158c44": [
+        "fills(bytes32)"
+    ],
+    "0x66a26419": [
+        "cancel(address,uint256,address,address,uint256,address,uint256,uint256,uint8,bytes32,bytes32)"
+    ],
+    "0x673a5ae3": [
+        "Sale(address,address,uint256,string,uint8,string,uint256,uint256,uint256,uint256,uint256,uint256)"
+    ],
+    "0x94b5255b": [
+        "distributePreBuyersRewards(address[],uint256[])"
+    ],
+    "0x555c4758": [
+        "distributeTimelockedTokens(address[],uint256[],uint256[],uint256[])"
+    ],
+    "0x8b9b1cbd": [
+        "withdrawRemainder()"
+    ],
+    "0xa2b40d19": [
+        "changePrice(uint256)"
+    ],
+    "0x98b9a2dc": [
+        "changeWallet(address)"
+    ],
+    "0x5437f098": [
+        "changeStartBlock(uint256)"
+    ],
+    "0x82222674": [
+        "changeEndBlock(uint256)"
+    ],
+    "0x00a53598": [
+        "emergencyToggle()"
+    ],
+    "0xe382b854": [
+        "_setPackedTimestamp(bytes20,uint256)"
+    ],
+    "0x31861423": [
+        "_deleteAllPackedRevisionTimestamps(bytes20)"
+    ],
+    "0x4ae6ab70": [
+        "_getRevisionTimestamp(bytes20,uint256)"
+    ],
+    "0x4e57d27d": [
+        "_getAllRevisionTimestamps(bytes20)"
+    ],
+    "0xc5cd3bec": [
+        "getRevisionTimestamp(bytes20,uint256)"
+    ],
+    "0x261c42dd": [
+        "getAllRevisionTimestamps(bytes20)"
+    ],
+    "0x50035eb8": [
+        "getInUse(bytes20)"
+    ],
+    "0xf25e7bb4": [
+        "getState(bytes20)"
+    ],
+    "0x634bc7db": [
+        "create(bytes32,bytes32)"
+    ],
+    "0xb0673d57": [
+        "getItemStore(bytes32)"
+    ],
+    "0x455ea98c": [
+        "getInUse(bytes32)"
+    ],
+    "0xa6c09381": [
+        "_setPackedTimestamp(bytes32,uint256)"
+    ],
+    "0x001a4f5e": [
+        "createNewRevision(bytes32,bytes32)"
+    ],
+    "0x032b0824": [
+        "updateLatestRevision(bytes32,bytes32)"
+    ],
+    "0x1b5710ed": [
+        "_deleteAllPackedRevisionTimestamps(bytes32)"
+    ],
+    "0x165ffd10": [
+        "restart(bytes32,bytes32)"
+    ],
+    "0x2ab7d104": [
+        "_getAllRevisionIpfsHashes(bytes32)"
+    ],
+    "0xf50f1ba9": [
+        "_getRevisionTimestamp(bytes32,uint256)"
+    ],
+    "0xcd22f418": [
+        "_getAllRevisionTimestamps(bytes32)"
+    ],
+    "0x09648a9d": [
+        "getState(bytes32)"
+    ],
+    "0x72cef34b": [
+        "getRevisionIpfsHash(bytes32,uint256)"
+    ],
+    "0x7c699401": [
+        "getAllRevisionIpfsHashes(bytes32)"
+    ],
+    "0x05664cea": [
+        "getRevisionTimestamp(bytes32,uint256)"
+    ],
+    "0x8cb3728c": [
+        "getAllRevisionTimestamps(bytes32)"
+    ],
+    "0x93c8b0d4": [
+        "addForeignChild(bytes32,bytes32)"
+    ],
+    "0x4048c449": [
+        "getParent(bytes32)"
+    ],
+    "0x31230e23": [
+        "createWithParent(bytes32,bytes32,bytes32)"
+    ],
+    "0x2eaad0b0": [
+        "_getAllChildren(bytes32)"
+    ],
+    "0xa09e3d0a": [
+        "getChildCount(bytes32)"
+    ],
+    "0x958d1725": [
+        "getChild(bytes32,uint256)"
+    ],
+    "0xfbdf0378": [
+        "getAllChildren(bytes32)"
+    ],
+    "0x9643aef4": [
+        "testControlCreateWithParentSameNonce()"
+    ],
+    "0x8dc1c44d": [
+        "testFailCreateWithParentSameNonce()"
+    ],
+    "0x2aaf1685": [
+        "testControlCreateWithParentSameItemId()"
+    ],
+    "0xa121d8df": [
+        "testFailCreateWithParentSameItemId()"
+    ],
+    "0x64d0d64c": [
+        "testControlCreateWithParentNotInUse()"
+    ],
+    "0x75f208bf": [
+        "testFailCreateWithParentNotInUse()"
+    ],
+    "0x473ae9fe": [
+        "testCreateWithParent()"
+    ],
+    "0x59e1667d": [
+        "testControlCreateWithForeignParentNotInUse()"
+    ],
+    "0xca615662": [
+        "testFailCreateWithForeignParentNotInUse()"
+    ],
+    "0x121f2081": [
+        "testCreateWithForeignParent()"
+    ],
+    "0xfc13a76a": [
+        "testFailAddForeignChildNotInUse()"
+    ],
+    "0x4e6c61aa": [
+        "testFailAddForeignChildNotChild()"
+    ],
+    "0x590ba734": [
+        "getUint(int256)"
+    ],
+    "0x732e632e": [
+        "assemblyTest()"
+    ],
+    "0x215de48a": [
+        "getParentCount(bytes32)"
+    ],
+    "0x33ac7256": [
+        "getParent(bytes32,uint256)"
+    ],
+    "0x32c4903d": [
+        "getAllParents(bytes32)"
+    ],
+    "0x6844ab43": [
+        "testControlCreateSameItemId()"
+    ],
+    "0x343f40a0": [
+        "testFailCreateSameItemId()"
+    ],
+    "0x9d9c9a0d": [
+        "testControlCreateWithParentParentSameItemId()"
+    ],
+    "0x3ce54ac3": [
+        "testFailCreateWithParentParentSameItemId()"
+    ],
+    "0xbca9e546": [
+        "testControlCreateWithParentParentNotInUse()"
+    ],
+    "0xbab9fc63": [
+        "testFailCreateWithParentParentNotInUse()"
+    ],
+    "0x30840c31": [
+        "testControlCreateWithParentForeignNotInUse()"
+    ],
+    "0x3d6b0cb7": [
+        "testFailCreateWithParentForeignNotInUse()"
+    ],
+    "0x0de04691": [
+        "testCreateWithParentForeign()"
+    ],
+    "0x3d608572": [
+        "testControlCreateWithParentsSameItemId()"
+    ],
+    "0xba907b7e": [
+        "testFailCreateWithParentsSameItemId()"
+    ],
+    "0x015689c6": [
+        "testControlCreateWithParentsParentSameItemId()"
+    ],
+    "0x28e47076": [
+        "testFailCreateWithParentsParentSameItemId0()"
+    ],
+    "0x8a7ef3df": [
+        "testFailCreateWithParentsParentSameItemId1()"
+    ],
+    "0x041dd3f6": [
+        "testControlCreateWithParentsParentNotInUse()"
+    ],
+    "0x46d47cdf": [
+        "testFailCreateWithParentsParentNotInUse0()"
+    ],
+    "0x89a45223": [
+        "testFailCreateWithParentsParentNotInUse1()"
+    ],
+    "0x44019db3": [
+        "testCreateWithParents()"
+    ],
+    "0xbf0d44d5": [
+        "testControlCreateWithParentsForeignNotInUse()"
+    ],
+    "0x0ee8e338": [
+        "testFailCreateWithParentsForeignNotInUse0()"
+    ],
+    "0xdddb983b": [
+        "testFailCreateWithParentsForeignNotInUse1()"
+    ],
+    "0xf94497fe": [
+        "testCreateWithParentsForeign0()"
+    ],
+    "0xf6951038": [
+        "testCreateWithParentsForeign1()"
+    ],
+    "0x26d3e889": [
+        "testCreateWithParentsForeign2()"
+    ],
+    "0x98f69aeb": [
+        "_addChildToParent(bytes32,bytes32)"
+    ],
+    "0x7fdd458d": [
+        "createWithParents(bytes32,bytes32,bytes32[])"
+    ],
+    "0xa300eadf": [
+        "_getAllParents(bytes32)"
+    ],
+    "0xa172045d": [
+        "PUSH1()"
+    ],
+    "0x22a7118d": [
+        "buyTokensFor(uint256,address,uint256,bool)"
+    ],
+    "0x9e1a00aa": [
+        "sendTo(address,uint256)"
+    ],
+    "0x00b172d7": [
+        "buyTokensForProposal(uint256,address)"
+    ],
+    "0x4913732e": [
+        "buyTokenFromModerator(uint256,address,uint256,bool)"
+    ],
+    "0xdb6a3652": [
+        "addOrder(address,uint256)"
+    ],
+    "0x9645337a": [
+        "removeOrder(uint256)"
+    ],
+    "0x709ef231": [
+        "sellTokens(uint256,uint256,uint256)"
+    ],
+    "0x868eb6bf": [
+        "removeOrders(uint256,uint256)"
+    ],
+    "0x02d05d3f": [
+        "creator()"
+    ],
+    "0x1f21f9af": [
+        "marketMaker()"
+    ],
+    "0x28c05d32": [
+        "shortSell(uint8,uint256,uint256)"
+    ],
+    "0x46280a80": [
+        "sell(uint8,uint256,uint256)"
+    ],
+    "0x476343ee": [
+        "withdrawFees()"
+    ],
+    "0x59acb42c": [
+        "createdAtBlock()"
+    ],
+    "0xa157979c": [
+        "netOutcomeTokensSold(uint256)"
+    ],
+    "0xb0011509": [
+        "calcMarketFee(uint256)"
+    ],
+    "0xcb4c86b7": [
+        "funding()"
+    ],
+    "0xe274fd24": [
+        "eventContract()"
+    ],
+    "0xf6d956df": [
+        "buy(uint8,uint256,uint256)"
+    ],
+    "0xfbde47f6": [
+        "FEE_RANGE()"
+    ],
+    "0x27793f87": [
+        "outcome()"
+    ],
+    "0x717a195a": [
+        "setOutcome(int256)"
+    ],
+    "0x7e7e4b47": [
+        "getOutcome()"
+    ],
+    "0xc623674f": [
+        "ipfsHash()"
+    ],
+    "0xc65fb380": [
+        "isSet()"
+    ],
+    "0xccdf68f3": [
+        "isOutcomeSet()"
+    ],
+    "0x4e2f220c": [
+        "createCentralizedOracle(bytes)"
+    ],
+    "0x5ea194a3": [
+        "createScalarEvent(address,address,int256,int256)"
+    ],
+    "0x8d1d2c21": [
+        "categoricalEvents(bytes32)"
+    ],
+    "0x9897e8a5": [
+        "scalarEvents(bytes32)"
+    ],
+    "0x9df0c176": [
+        "createCategoricalEvent(address,address,uint8)"
+    ],
+    "0xeac449d9": [
+        "revoke(address,uint256)"
+    ],
+    "0x7abeb6a0": [
+        "createMarket(address,address,uint24)"
+    ],
+    "0x42958b54": [
+        "issue(address[],uint256)"
+    ],
+    "0x061a85c7": [
+        "forwardedOracle()"
+    ],
+    "0x0853f7eb": [
+        "frontRunnerPeriod()"
+    ],
+    "0x0f3e9438": [
+        "frontRunner()"
+    ],
+    "0x1a39d8ef": [
+        "totalAmount()"
+    ],
+    "0x1a4f5b67": [
+        "isFrontRunnerPeriodOver()"
+    ],
+    "0x1ff14311": [
+        "totalOutcomeAmounts(int256)"
+    ],
+    "0x466ae314": [
+        "forwardedOutcomeSetTimestamp()"
+    ],
+    "0x72b8de14": [
+        "isChallengePeriodOver()"
+    ],
+    "0x739b8c48": [
+        "setForwardedOutcome()"
+    ],
+    "0x8ef8125e": [
+        "frontRunnerSetTimestamp()"
+    ],
+    "0x984a470a": [
+        "forwardedOutcome()"
+    ],
+    "0x9d89e7d4": [
+        "challengeAmount()"
+    ],
+    "0x9df4d0fe": [
+        "isChallenged()"
+    ],
+    "0x9f0de490": [
+        "challengeOutcome(int256)"
+    ],
+    "0xb2016bd4": [
+        "collateralToken()"
+    ],
+    "0xc427af9b": [
+        "outcomeAmounts(address,int256)"
+    ],
+    "0xd84d2a47": [
+        "spreadMultiplier()"
+    ],
+    "0xf3f480d9": [
+        "challengePeriod()"
+    ],
+    "0xf7553098": [
+        "voteForOutcome(int256,uint256)"
+    ],
+    "0xce70faec": [
+        "createUltimateOracle(address,address,uint8,uint256,uint256,uint256)"
+    ],
+    "0x91e8609f": [
+        "getParentId(bytes32,uint256)"
+    ],
+    "0xb4a39dfd": [
+        "getChildId(bytes32,uint256)"
+    ],
+    "0x5de4381b": [
+        "_addItemToParent(bytes32,bytes32)"
+    ],
+    "0x059417da": [
+        "_getAllParentIds(bytes32)"
+    ],
+    "0xeca85419": [
+        "_getAllChildIds(bytes32)"
+    ],
+    "0xaa0372e7": [
+        "getItem(bytes32)"
+    ],
+    "0xdcf946c2": [
+        "getAllParentIds(bytes32)"
+    ],
+    "0x1733043f": [
+        "getAllChildIds(bytes32)"
+    ],
+    "0x025e7c27": [
+        "owners(uint256)"
+    ],
+    "0x0cbe1eb8": [
+        "USDDOWNLOADPRICE()"
+    ],
+    "0x11851b5e": [
+        "BOARD_3()"
+    ],
+    "0x1e9be6a1": [
+        "usdEthPrice()"
+    ],
+    "0x3c540687": [
+        "txCount()"
+    ],
+    "0x436da5fe": [
+        "transferLog(uint256)"
+    ],
+    "0x44fddeb7": [
+        "BLOCKAPPS()"
+    ],
+    "0x52aaead8": [
+        "priceLastUpdated()"
+    ],
+    "0x6695b592": [
+        "stemPriceInWei()"
+    ],
+    "0x7dc0d1d0": [
+        "oracle()"
+    ],
+    "0x7fa28d75": [
+        "transferRightIfApproved(address,bytes32)"
+    ],
+    "0x83db0680": [
+        "TOTALSHARES()"
+    ],
+    "0x977eda79": [
+        "txLog(uint256)"
+    ],
+    "0xb9488546": [
+        "ownersCount()"
+    ],
+    "0xcc445611": [
+        "purchase(bytes32)"
+    ],
+    "0xda60d7e8": [
+        "BOARD_2()"
+    ],
+    "0xe347a773": [
+        "shares(bytes32,bytes32)"
+    ],
+    "0xe3d33fc9": [
+        "transferCount()"
+    ],
+    "0xe80d47dd": [
+        "USDSTEMPRICE()"
+    ],
+    "0xf267035f": [
+        "BOARD_1()"
+    ],
+    "0xf7701b47": [
+        "downloadPriceInWei()"
+    ],
+    "0xf851a440": [
+        "admin()"
+    ],
+    "0x8a252194": [
+        "betGanjilGenap(bool)"
+    ],
+    "0xa89171e3": [
+        "checkHasilBet(address)"
+    ],
+    "0xdd365b8b": [
+        "pwn()"
+    ],
+    "0x0537665d": [
+        "setOutcome()"
+    ],
+    "0x28da850b": [
+        "buyAllOutcomes(uint256)"
+    ],
+    "0x69c19d4c": [
+        "getOutcomeTokenDistribution(address)"
+    ],
+    "0x6fb1edcd": [
+        "sellAllOutcomes(uint256)"
+    ],
+    "0x7dc8f086": [
+        "getOutcomeCount()"
+    ],
+    "0x8abe59ea": [
+        "outcomeTokens(uint256)"
+    ],
+    "0xad0b2bec": [
+        "redeemWinnings()"
+    ],
+    "0xe96e5950": [
+        "getEventHash()"
+    ],
+    "0xf21a1468": [
+        "getOutcomeTokens()"
+    ],
+    "0x561cce0a": [
+        "LONG()"
+    ],
+    "0x6e5452fe": [
+        "OUTCOME_RANGE()"
+    ],
+    "0xa384d6ff": [
+        "lowerBound()"
+    ],
+    "0xa871da91": [
+        "SHORT()"
+    ],
+    "0xb09ad8a0": [
+        "upperBound()"
+    ],
+    "0x0a6fbb05": [
+        "SetPass(bytes32)"
+    ],
+    "0x31fd725a": [
+        "PassHasBeenSet(bytes32)"
+    ],
+    "0x6cd5c39b": [
+        "deployContract()"
+    ],
+    "0xe79487da": [
+        "checkInvariant()"
     ]
 };

@@ -44,7 +44,7 @@
                     "zh-TW": "國語"
                 }
             },
-            "accounts": {
+            "file": {
                 "label": "Accounts",
                 "importPresale": "Importeer Accounts",
                 "newAccount": "Nieuw account",
@@ -53,6 +53,7 @@
                 "backupMist": "Applicatie Data"
             },
             "develop": {
+                "uploadToSwarm": "Uploaden naar Swarm",
                 "label": "Ontwikkelen",
                 "devTools": "Ontwikkelaars Opties Inschakelen",
                 "devToolsMistUI": "Mist UI",
@@ -68,7 +69,7 @@
                 "fullNode": "Bewaar volledige blockchain",
                 "lightNode": "Gebruik light Node (experimenteel!)",
                 "mainNetwork": "Hoofdnetwerk",
-                "startMining": "⛏ Start Mining (Alleen testnet)",
+                "startMining": "⛏ Start Mining",
                 "stopMining": "⛏ Stop Mining"
             },
             "window": {
@@ -116,8 +117,8 @@
             "testNetwork": "Test-net",
             "privateNetwork": "Private-net",
             "mainnetExplain": "Je zit op het main Nekonium wereldwijde netwerk",
-            "testnetExplain": "Je bent actief op het __name__, VERSTUUR GEEN echte Nekonium naar deze adressen",
-            "privatenetExplain": "Je zit op een private net, VERSTUUR GEEN echte Nekonium naar deze adressen",
+            "testnetExplain": "Je bent actief op het __name__, VERSTUUR GEEN echte Nuko naar deze adressen",
+            "privatenetExplain": "Je zit op een private net, VERSTUUR GEEN echte Nuko naar deze adressen",
             "unknownnetExplain": "Niet in staat om te bepalen op welk netwerk je zit",
             "peers": "peers"
         },
@@ -137,7 +138,7 @@
             "startingNode": "Nekonium node starten...",
             "stoppingNode": "Nekonium node stoppen...",
             "startedNode": "Applicatie starten...",
-            "nodeConnectionTimeout": "Nekonium node opstarten niet mogelijk!<br><small>Als je <a href='https://github.com/nekonium' class='button' target='_blank'>Gnekonium geinstalleerd hebt</a>, gebruik dan dit commando om het op te starten: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> Of meld een fout </a></small>",
+            "nodeConnectionTimeout": "Nekonium node opstarten niet mogelijk!<br><small>Als je <a href='https://github.com/nekonium' class='button' target='_blank'>Gnekonium geinstalleerd hebt</a>, gebruik dan dit commando om het op te starten: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/nekonium/mist/issues' class='button' target='_blank'> Of meld een fout </a></small>",
             "nodeBinaryNotFound": "Geen Nekonium node gevonden!<br><small> <a href='https://github.com/nekonium' class='button' target='_blank'> Start er a.u.b. handmatig een. </a> </small>",
             "nodeStarting": "Nekonium node opstarten...",
             "nodeStarted": "Nekonium node gestart",
@@ -209,7 +210,7 @@
                 "transactionThrow": "Het contract staat niet toe dat deze transactie wordt uitgevoerd",
                 "noEstimate": "We konden de hoeveelheid gas niet inschatten.",
                 "gasPrice": "Gas prijs",
-                "perMillionGas": "Nekonium per millioen gas",
+                "perMillionGas": "Nuko per millioen gas",
                 "gasLimit": "Geef maximum transactie kosten aan",
                 "data": "Ruwe Data",
                 "parameters": "Parameters",
@@ -232,10 +233,10 @@
             },
             "onboarding": {
                 "description": "Nekonium is een decentraal platform voor het bouwen van applicaties op een blockchain: software die immuun is voor fraude en levenslang waarde en eigendom over kan brengen",
-                "goToTestnet": "Gebruik het test netwerk",
-                "goToTestnetDescription": "Test de technologie vrij in een testongeving, zonder echte Nekonium te gebruiken.",
+                "goToTestnet": "Gebruik het test netwerk (Rinkeby)",
+                "goToTestnetDescription": "Test de technologie vrij in een testongeving, zonder echte Nuko te gebruiken.",
                 "gotoMainnet": "Gebruik hoofdnetwerk",
-                "gotoMainnetDescription": "Je zult een beetje Nekonium nodig hebben om contracten uit te voeren. Geen zorgen, we helpen je met het verkrijgen...",
+                "gotoMainnetDescription": "Je zult een beetje Nuko nodig hebben om contracten uit te voeren. Geen zorgen, we helpen je met het verkrijgen...",
                 "doYouHaveAWalletFile": "Heb je een wallet bestand?",
                 "walletFileDescription": "<p>Als je mee hebt gedaan met de Ethereum voorverkoop van 2014 zou je een bestand met de naam <code>ethereum_wallet_backup.json</code> ontvangen moeten hebben. Je kon dit bestand downloaden na je contributie en is ook per email verstuurd</p>",
                 "dropFilesHere": "Sleep voorverkoop bestand hier",
@@ -247,9 +248,9 @@
                 "protectDescription": "Kies een wachtwoord voor je nieuwe account. Maak het even veilig alsof het uw huissleutels zijn!",
                 "accountTitle": "Opladen!",
                 "accountTitleTestnet": "Mine wat!",
-                "etherDescription": "Het Nekonium netwerk is gebaseerd op het “Nekonium” token. Je zal een kleine hoeveelheid nodig hebben om dingen op het netwerk te doen.",
-                "loadItDescription": "Als je al Bitcoins of een andere cryptocurrency hebt kan je deze makkelijk inwisselen voor Nekonium met Shapeshift.<br><br> Wij raden aan een hoeveelheid van tussen de <strong>0.25 en 1 nekonium</strong> om te wisselen.",
-                "mineItDescription": "<strong>Op het testnetwerk kun je zelf Nekonium mijnen door te gaan naar het <em>Ontwikkelaars</em> menu en te kiezen voor <em>Begin Mining</em>. </strong> <br> <strong> PROBEER GEEN ECHTE NEKONIUM NAAR DIT ADRES TE VERSTUREN </strong>",
+                "etherDescription": "Het Nekonium netwerk is gebaseerd op het “Nuko” token. Je zal een kleine hoeveelheid nodig hebben om dingen op het netwerk te doen.",
+                "loadItDescription": "Als je al Bitcoins of een andere cryptocurrency hebt kan je deze makkelijk inwisselen voor Nuko met Shapeshift.<br><br> Wij raden aan een hoeveelheid van tussen de <strong>0.25 en 1 Nuko</strong> om te wisselen.",
+                "mineItDescription": "<strong>Op het testnetwerk kun je zelf Nuko mijnen door te gaan naar het <em>Ontwikkelaars</em> menu en te kiezen voor <em>Begin Mining</em>. </strong> <br> <strong> PROBEER GEEN ECHTE NUKO NAAR DIT ADRES TE VERSTUREN </strong>",
                 "you": "Je",
                 "etherbase": "Centrale account (Etherbase)",
                 "depositBitcoin": "Bitcoin Storten",

@@ -4,6 +4,7 @@ const fs = require('fs');
 const logger = require('./utils/logger');
 const packageJson = require('../package.json');
 const _ = require('./utils/underscore');
+const lodash = require('lodash');
 
 
 // try loading in config file
@@ -56,7 +57,17 @@ const argv = require('yargs')
             type: 'string',
             group: 'Mist options:',
         },
-        gnekoniumpath: {
+        swarmurl: {
+            demand: false,
+            default: 'http://localhost:8500',
+            describe: 'URL serving the Swarm HTTP API. If null, Mist will open a local node.',
+            requiresArg: true,
+            nargs: 1,
+            type: 'string',
+            group: 'Mist options:',
+        },
+        // TODO Wrong string replacement?
+        gethpath: {
             demand: false,
             describe: 'Path to Gnekonium executable to use instead of default.',
             requiresArg: true,
@@ -105,12 +116,28 @@ const argv = require('yargs')
             type: 'string',
             group: 'Mist options:',
         },
+        syncmode: {
+            demand: false,
+            requiresArg: true,
+            describe: 'Geth synchronization mode: [fast|light|full]',
+            nargs: 1,
+            type: 'string',
+            group: 'Mist options:',
+        },
         version: {
             alias: 'v',
             demand: false,
             requiresArg: false,
             nargs: 0,
             describe: 'Display Mist version.',
+            group: 'Mist options:',
+            type: 'boolean',
+        },
+        skiptimesynccheck: {
+            demand: false,
+            requiresArg: false,
+            nargs: 0,
+            describe: 'Disable checks for the presence of automatic time sync on your OS.',
             group: 'Mist options:',
             type: 'boolean',
         },
@@ -122,7 +149,6 @@ const argv = require('yargs')
     .help('h')
     .alias('h', 'help')
     .parse(process.argv.slice(1));
-
 
 argv.nodeOptions = [];
 
@@ -141,6 +167,9 @@ if (argv.ipcpath) {
     argv.nodeOptions.push('--ipcpath', argv.ipcpath);
 }
 
+if (argv.nodeOptions && argv.nodeOptions.syncmode) {
+    argv.push('--syncmode', argv.nodeOptions.syncmode);
+}
 
 class Settings {
     init() {
@@ -194,6 +223,10 @@ class Settings {
 
     get inAutoTestMode() {
         return !!process.env.TEST_MODE;
+    }
+
+    get swarmURL() {
+        return argv.swarmurl;
     }
 
     get gethPath() {
@@ -263,12 +296,66 @@ class Settings {
         return argv.network;
     }
 
+    get syncmode() {
+        return argv.syncmode;
+    }
+
     get nodeOptions() {
         return argv.nodeOptions;
     }
 
-    loadUserData(path) {
-        const fullPath = this.constructUserDataPath(path);
+    get language() {
+        return this.loadConfig('ui.i18n');
+    }
+
+    set language(langCode) {
+        this.saveConfig('ui.i18n', langCode);
+    }
+
+    get skiptimesynccheck() {
+        return argv.skiptimesynccheck;
+    }
+
+    initConfig() {
+        global.config.insert({
+            ui: {
+                i18n: i18n.getBestMatchedLangCode(app.getLocale())
+            }
+        });
+    }
+
+    saveConfig(key, value) {
+        let obj = global.config.get(1);
+
+        if (!obj) {
+            this.initConfig();
+            obj = global.config.get(1);
+        }
+
+        if (lodash.get(obj, key) !== value) {
+            lodash.set(obj, key, value);
+            global.config.update(obj);
+
+            this._log.debug(`Settings: saveConfig('${key}', '${value}')`);
+            this._log.trace(global.config.data);
+        }
+    }
+
+    loadConfig(key) {
+        const obj = global.config.get(1);
+
+        if (!obj) {
+            this.initConfig();
+            return this.loadConfig(key);
+        }
+
+        this._log.trace(`Settings: loadConfig('${key}') = '${lodash.get(obj, key)}'`);
+
+        return lodash.get(obj, key);
+    }
+
+    loadUserData(path2) {
+        const fullPath = this.constructUserDataPath(path2);
 
         this._log.trace('Load user data', fullPath);
 
@@ -281,7 +368,9 @@ class Settings {
 
       // try to read it
         try {
-            return fs.readFileSync(fullPath, { encoding: 'utf8' });
+            const data = fs.readFileSync(fullPath, { encoding: 'utf8' });
+            this._log.debug(`Reading "${data}" from ${fullPath}`);
+            return data;
         } catch (err) {
             this._log.warn(`File not readable: ${fullPath}`, err);
         }
@@ -296,6 +385,7 @@ class Settings {
         const fullPath = this.constructUserDataPath(path2);
 
         try {
+            this._log.debug(`Saving "${data}" to ${fullPath}`);
             fs.writeFileSync(fullPath, data, { encoding: 'utf8' });
         } catch (err) {
             this._log.warn(`Unable to write to ${fullPath}`, err);

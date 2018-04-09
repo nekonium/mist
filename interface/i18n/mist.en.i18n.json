@@ -61,9 +61,8 @@
                 "devToolsWalletUI": "Wallet UI",
                 "devToolsWebview": "__webview__",
                 "runTests": "Run tests",
-                "logFiles": "Show log file",
+                "logFiles": "Show log files",
                 "openRemix": "Open Remix IDE",
-                "externalNode": "using external node",
                 "ethereumNode": "Nekonium Node",
                 "network": "Network",
                 "mainNetwork": "Main Network",
@@ -71,7 +70,8 @@
                 "fullNode": "Store full blockchain",
                 "lightNode": "Use light Node (experimental!)",
                 "startMining": "⛏ Start mining",
-                "stopMining": "⛏ Stop mining"
+                "stopMining": "⛏ Stop mining",
+                "enableSwarm": "Enable Swarm"
             },
             "window": {
                 "label": "Window",
@@ -103,6 +103,9 @@
             "legacyChain": {
                 "title": "Legacy chain detected",
                 "description": "Your node is currently on the unsupported Ethereum Classic chain. To use this chain, use tools provided by the ethereum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main ethereum chain follow the tutorial here:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+            },
+            "swarm": {
+                "notEnabled": "Swarm is not enabled. Please enable it in the menu under Develop > Enable Swarm."
             }
         },
         "rightClick": {
@@ -163,6 +166,7 @@
             "nodeSyncFoundPeers": "Connecting to __peers__ peers...",
             "peerSearchTimeout": "Skip peer search",
             "launchApp": "Launch Application",
+            "retryConnection": "Retry Connection",
             "clientBinaries": {
                 "scanning": "Checking for node update...",
                 "downloading": "Downloading new node...",
@@ -222,7 +226,7 @@
                 "notEnoughGas": "Gas might not be enough to successfully finish this transaction.<br>Click here to increase the gas amount.",
                 "noEstimate": "We couldn't estimate the gas.",
                 "gasPrice": "Gas price",
-                "perMillionGas": "nekonium per million gas",
+                "perMillionGas": "nuko per million gas",
                 "gasLimit": "Provide maximum fee",
                 "data": "Raw Data",
                 "parameters": "Parameters",
@@ -259,12 +263,12 @@
                 "accountTitle": "Load it up!",
                 "accountTitleTestnet": "Mine some!",
                 "etherDescription": "The ethereum network is based on a token called “Nuko”. You’ll need a small amount of it to do anything on the Nekonium network.",
-                "loadItDescription": "If you already own Bitcoin, or any other cryptocurrency, you can easily convert it to ether using Shapeshift. <br><br> We recommend loading somewhere between <strong>0.25 to 1 ether</strong>.",
-                "faucetDescription": "The Rinkeby testnet uses Clique Proof of Authority as a consensus mechanism, therefore there's no mining. If you want to get some test ether, head to the Rinkeby Faucet: <strong> faucet.rinkeby.io </strong>",
+                "loadItDescription": "If you already own Bitcoin, or any other cryptocurrency, you can easily convert it to ether using changelly. <br><br> We recommend loading somewhere between <strong>$1 - $10 in nuko</strong>.",
+                "faucetDescription": "The Rinkeby testnet uses Clique Proof of Authority as a consensus mechanism, therefore there's no mining. If you want to get some test nuko, head to the Rinkeby Faucet: <strong> faucet.rinkeby.io </strong>",
                 "you": "YOU",
                 "etherbase": "Main account (etherbase)",
-                "depositBitcoin": "Deposit using Bitcoin",
-                "viaShapeshift": "Instant conversion via <a href='https://shapeshift.io/' target='_blank'>Shapeshift</a>",
+                "buyEther": "Buy Ether",
+                "viaChangelly": "Accepts cryptocurrency and credit card via <a href='https://changelly.com/' target='_blank'>Changelly</a>",
                 "learnIt": "Learn while you wait",
                 "downloadingBlocks": "Downloading blocks",
                 "syncMessage": "Block __displayBlock__ of __highestBlockString__",

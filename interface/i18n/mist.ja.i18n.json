@@ -44,7 +44,6 @@
                 "runTests": "テストを実行する",
                 "logFiles": "ログファイルを表示する",
                 "openRemix": "Remix IDE を開く",
-                "externalNode": "外部のノードを使用する",
                 "ethereumNode": "Nekonium ノード",
                 "network": "ネットワーク",
                 "mainNetwork": "メインネットワーク",
@@ -52,7 +51,8 @@
                 "fullNode": "フルノードを保存する",
                 "lightNode": "ライトノードを使う (実験的なものです!)",
                 "startMining": "⛏ マイニングを始める",
-                "stopMining": "⛏ マイニングを中止する"
+                "stopMining": "⛏ マイニングを中止する",
+                "enableSwarm": "Swarmを有効化"
             },
             "window": {
                 "label": "ウィンドウ",
@@ -63,7 +63,7 @@
             "help": {
                 "label": "ヘルプ",
                 "mistWiki": "トラブルシュートとヘルプ",
-                "gitter": "Mist channel on Gitter",
+                "gitter": "Official discord server",
                 "reportBug": "Githubでバグレポート"
             }
         },
@@ -84,6 +84,9 @@
             "legacyChain": {
                 "title": "レガシーチェーンを検出しました",
                 "description": "あなたのノードは現在サポートされていません. Ethereum のクラシックプロジェクトによって提供されるこのチェーン使用ツールを使用するには \nhttps://ethereumclassic.github.io.\n\nメイン Ethereum チェーンに戻す方法のチュートリアルはこちら:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+            },
+            "swarm": {
+              "notEnabled": "Swarm is not enabled. Please enable it in the menu under Develop > Enable Swarm."
             }
         },
         "rightClick": {
@@ -144,6 +147,7 @@
             "nodeSyncFoundPeers": "__peers__ ピアーに接続中...",
             "peerSearchTimeout": "ピアーの検索を中止しています",
             "launchApp": "アプリケーションを起動",
+            "retryConnection": "接続を再試行",
             "clientBinaries": {
                 "scanning": "ノードのアップデートを確認中...",
                 "downloading": "新たなノードをダウンロード中...",
@@ -246,7 +250,7 @@
                 "you": "あなた",
                 "etherbase": "メインアカウント(etherbase)",
                 "depositBitcoin": "Bitcoin をデポジットする",
-                "viaShapeshift": "<a href='https://shapeshift.io/' target='_blank'>Shapeshift</a> で簡単にコインを変換",
+                "viaShapeshift": "<a href='https://changelly.com/' target='_blank'>Changelly</a> で簡単にコインを変換",
                 "learnIt": "待っている間に NekoniumWallet のことを学ぶ",
                 "downloadingBlocks": "ブロックをダウンロードする",
                 "syncMessage": "ブロック __displayBlock__ / __highestBlockString__",

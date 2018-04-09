@@ -39,7 +39,7 @@
                                 ],
                                 "output": [
                                     "Gnekonium",
-                                    "1.6.6"
+                                    "1.8.2"
                                 ]
                             }
                         }
@@ -61,7 +61,7 @@
                                 ],
                                 "output": [
                                     "Gnekonium",
-                                    "1.6.6"
+                                    "1.8.2"
                                 ]
                             }
                         }
@@ -78,8 +78,13 @@
                         "bin": "gnekonium-windows-4.0-amd64.exe",
                         "commands": {
                             "sanity": {
-                                "args": ["version"],
-                                "output": [ "Gnekonium", "1.6.6" ]
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gnekonium",
+                                    "1.6.6"
+                                ]
                             }
                         }
                     },
@@ -93,8 +98,13 @@
                         "bin": "gnekonium-windows-4.0-386.exe",
                         "commands": {
                             "sanity": {
-                                "args": ["version"],
-                                "output": [ "Gnekonium", "1.6.6" ]
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gnekonium",
+                                    "1.6.6"
+                                ]
                             }
                         }
                     }

@@ -216,8 +216,8 @@
                 "protectDescription": "Wähle ein Passwort für dein Konto. Mache es so stark, als wären es deine Hausschlüssel!",
                 "accountTitle": "Lade die Datei hoch!",
                 "accountTitleTestnet": "Nuko minen!",
-                "etherDescription": "Das Nuko Netz basiert auf einem Tokan namens “Nuko”. Du benötigst eine kleine Menge davon, um irgendetwas auf dem Nuko-Netz zu tun.",
-                "loadItDescription": "Wenn du bereits über Bitcoin oder eine andere Kryptowährung verfügst, kannst du diese mit Shapeshift einfach in Nuko umtauschen. <br><br> Wir empfehlen, ca. <strong>0.25 bis 1 ether</strong> einzutauschen.",
+                "etherDescription": "Das Nekonium Netz basiert auf einem Tokan namens “Nuko”. Du benötigst eine kleine Menge davon, um irgendetwas auf dem Nekonium-Netz zu tun.",
+                "loadItDescription": "Wenn du bereits über Bitcoin oder eine andere Kryptowährung verfügst, kannst du diese mit changelly einfach in Nuko umtauschen. <br><br> Wir empfehlen, ca. <strong>0.25 bis 1 ether</strong> einzutauschen.",
                 "mineItDescription": "<strong>Auf dem Testnetz kannst du selbst Nuko minen. Bitte gehe dazu in den Menüpunkt <em>Entwicklung</em> menu und wähle <em>Mining starten</em>. </strong> <br> <strong> VERSUCHE NICHT, ECHTE ETHER AN DIESE ADRESSE ZU SENDEN! </strong>",
                 "you": "DU",
                 "etherbase": "Hauptkonto (etherbase)",
@@ -239,7 +239,8 @@
                     "wrongPassword": "Falsches Passwort.",
                     "importFailed": "Beim Import der Datei ist folgender Fehler aufgetreten: __error__"
                 },
-                "viaShapeshift": "Sofortige Konversion via <a href='https://shapeshift.io/' target='_blank'>Shapeshift</a>",
+                "buyEther": "Buy Ether",
+                "viaChangelly": "Accepts cryptocurrency and credit card via <a href='https://changelly.com/' target='_blank'>Changelly</a>",
                 "syncMessage": "Block __displayBlock__ von __highestBlockString__",
                 "syncMessageWithStates": "Block __displayBlock__ von __highestBlockString__ (Chain Struktur __statesPercent__%)",
                 "startingSync": "Bereite Synchronisation vor.."

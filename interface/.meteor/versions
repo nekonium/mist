@@ -67,7 +67,7 @@ mongo-id@1.0.6
 mrt:jquery-ui-sortable@1.10.3
 nekonium:accounts@0.4.0
 nekonium:blocks@0.3.2
-nekonium:elements@0.7.12
+nekonium:elements@0.7.18
 nekonium:tools@0.7.0
 nekonium:web3@0.20.2
 npm-mongo@2.2.11_2

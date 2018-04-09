@@ -26,8 +26,8 @@
                 "fullscreen": "Basculer en mode plein écran",
                 "default": "Default"
             },
-            "accounts": {
-                "label": "Comptes",
+            "file": {
+                "label": "Fichier",
                 "importPresale": "Importer les comptes",
                 "newAccount": "Nouveau compte",
                 "backup": "Sauvegarder",
@@ -35,6 +35,7 @@
                 "backupMist": "Données de l'application"
             },
             "develop": {
+                "uploadToSwarm": "Télécharger à Swarm",
                 "label": "Développement",
                 "devTools": "Outils de développement",
                 "devToolsMistUI": "Mist UI",
@@ -45,7 +46,7 @@
                 "ethereumNode": "Nœud Nekonium",
                 "network": "Réseau",
                 "mainNetwork": "Réseau principal",
-                "startMining": "⛏ Commencer à miner (seulement pour Testnet)",
+                "startMining": "⛏ Commencer à miner",
                 "stopMining": "⛏ Arrêter de miner",
                 "externalNode": "using external node",
                 "openRemix": "Open Remix IDE",
@@ -99,8 +100,8 @@
             "testNetwork": "Test-net",
             "privateNetwork": "Private-net",
             "mainnetExplain": "You are on the main Nekonium global network",
-            "testnetExplain": "You are on the testnet, DO NOT SEND any real nekonium to these addresses",
-            "privatenetExplain": "You are on a private net, DO NOT SEND any real nekonium to these addresses",
+            "testnetExplain": "You are on the testnet, DO NOT SEND any real nuko to these addresses",
+            "privatenetExplain": "You are on a private net, DO NOT SEND any real nuko to these addresses",
             "unknownnetExplain": "Unable to determine which network you are on"
         },
         "sidebar": {
@@ -118,7 +119,7 @@
             "runningNodeFound": "Nœud Nekonium actif trouvé !",
             "startingNode": "Démarrage du nœud Nekonium en cours...",
             "startedNode": "Démarrage de l'application...",
-            "nodeConnectionTimeout": "Echec du démarrage du nœud Nekonium !<br><small>Si vous <a href='https://github.com/nekonium' class='button' target='_blank'>avez installé Gnekonium</a>, utilisez cette commande pour le lancer : <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> Ou signalez le problème </a></small>",
+            "nodeConnectionTimeout": "Echec du démarrage du nœud Nekonium !<br><small>Si vous <a href='https://github.com/nekonium' class='button' target='_blank'>avez installé Gnekonium</a>, utilisez cette commande pour le lancer : <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/nekonium/mist/issues' class='button' target='_blank'> Ou signalez le problème </a></small>",
             "nodeBinaryNotFound": "Pas de binaire du nœud Nekonium trouvé !<br><small> <a href='https://github.com/nekonium' class='button' target='_blank'> Veuillez en lancer d'abord un manuellement. </a> </small>",
             "nodeSyncing": "Le nœud Nekonium se synchronise, veuillez patienter...",
             "nodeSyncInfo": "Télechargement du bloc __displayBlock__ depuis le bloc __highestBlock__.",
@@ -177,7 +178,7 @@
                 "estimatedFee": "Taxe de consommation estimée",
                 "estimatedGasError": "Les données n'ont pas pu être executées et vont donc utiliser tout le gaz fourni.",
                 "gasPrice": "Prix du gaz",
-                "perMillionGas": "nekonium par million de gaz",
+                "perMillionGas": "nuko par million de gaz",
                 "gasLimit": "Fournir la taxe maximum",
                 "data": "Données",
                 "buttons": {
@@ -202,10 +203,10 @@
             },
             "onboarding": {
                 "description": "Nekonium est une plateforme décentralisée pour la création d'applications sur une blockchain (chaîne de blocs) : logiciel inviolable qui peut transférer de la valeur et de la propriété et qui vit pour toujours",
-                "goToTestnet": "Utiliser le réseau Testnet",
-                "goToTestnetDescription": "Testez la technologie librement sur le réseau sandboxé (bac à sable), sans utiliser d'nekonium réel.",
+                "goToTestnet": "Utiliser le réseau Testnet (Rinkeby)",
+                "goToTestnetDescription": "Testez la technologie librement sur le réseau sandboxé (bac à sable), sans utiliser d'nuko réel.",
                 "gotoMainnet": "Utiliser le réseau réel",
-                "gotoMainnetDescription": "Vous aurez besoin de quelques Nekonium afin de créer et exécuter des contrats. Ne vous en faites pas, nous allons vous aider à en obtenir...",
+                "gotoMainnetDescription": "Vous aurez besoin de quelques Nuko afin de créer et exécuter des contrats. Ne vous en faites pas, nous allons vous aider à en obtenir...",
                 "doYouHaveAWalletFile": "Avez-vous un fichier wallet ?",
                 "walletFileDescription": "<p>Si vous avez participé à la prévente Ethereum 2014, vous devriez avoir un fichier nommé <code>ethereum_wallet_backup.json</code>. Il a été téléchargé après la vente et vous a aussi été envoyé par e-mail</p>",
                 "dropFilesHere": "Déposer un fichier de prévente ici",
@@ -217,9 +218,9 @@
                 "protectDescription": "Choisissez un mot de passe pour votre nouveau compte. Rendez-le aussi fort que s'il protégeait les clés de votre maison !",
                 "accountTitle": "Chargez le !",
                 "accountTitleTestnet": "Minez-en quelques-uns !",
-                "etherDescription": "Le réseau nekonium est basé sur un token (jeton) appelé “Nekonium”. Vous aurez besoin d'un petit montant de cela pour faire ce que vous souhaitez sur le réseau Nekonium.",
-                "loadItDescription": "Si vous possédez déjà des Bitcoin, ou n'importe quel autre crypto-monnaie, vous pouvez facilement les convertir en nekonium en utilisant shapeshift. <br><br> Nous recommandons d'en charger de <strong>0.25 à 1 nekonium</strong>.",
-                "mineItDescription": "<strong>Sur le réseau Testnet vous pouvez miner de l'nekonium vous-même en allant sur le menu <em>Développement</em> et en choisissant <em>Commencer à miner</em>. </strong> <br> <strong> N'ESSAYEZ PAS D'ENVOYER DU VERITABLE NEKONIUM A CETTE ADRESSE </strong>",
+                "etherDescription": "Le réseau nekonium est basé sur un token (jeton) appelé “Nuko”. Vous aurez besoin d'un petit montant de cela pour faire ce que vous souhaitez sur le réseau Nekonium.",
+                "loadItDescription": "Si vous possédez déjà des Bitcoin, ou n'importe quel autre crypto-monnaie, vous pouvez facilement les convertir en nuko en utilisant changelly. <br><br> Nous recommandons d'en charger de <strong>0.25 à 1 nuko</strong>.",
+                "mineItDescription": "<strong>Sur le réseau Testnet vous pouvez miner de l'nuko vous-même en allant sur le menu <em>Développement</em> et en choisissant <em>Commencer à miner</em>. </strong> <br> <strong> N'ESSAYEZ PAS D'ENVOYER DU VERITABLE NUKO A CETTE ADRESSE </strong>",
                 "you": "VOUS",
                 "etherbase": "Compte principal (etherbase)",
                 "depositBitcoin": "Déposer des Bitcoin",
@@ -240,7 +241,8 @@
                     "wrongPassword": "Mauvais mot de passe.",
                     "importFailed": "Echec à l'importation du fichier avec l'erreur : __error__"
                 },
-                "viaShapeshift": "Instant conversion via <a href='https://shapeshift.io/' target='_blank'>Shapeshift</a>",
+                "buyEther": "Acheter Nuko",
+                "viaChangelly": "Accepts cryptocurrency and credit card via <a href='https://changelly.com/' target='_blank'>Changelly</a>",
                 "syncMessage": "Block __displayBlock__ of __highestBlockString__",
                 "syncMessageWithStates": "Block __displayBlock__ of __highestBlockString__ (Chain structure __statesPercent__%)",
                 "startingSync": "Getting ready to sync.."

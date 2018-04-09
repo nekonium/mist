@@ -26,7 +26,7 @@
                 "fullscreen": "Veksle Mellom Fullskjerm",
                 "default": "Default"
             },
-            "accounts": {
+            "file": {
                 "label": "Kontoer",
                 "importPresale": "Importer Kontoer",
                 "newAccount": "Ny konto",
@@ -35,6 +35,7 @@
                 "backupMist": "Applikasjonsdata"
             },
             "develop": {
+                "uploadToSwarm": "Opplasting til Swarm",
                 "label": "Utvikle",
                 "devTools": "Veksle Mellom Utviklerverktøy",
                 "devToolsMistUI": "Mist UI",
@@ -45,7 +46,7 @@
                 "ethereumNode": "Nekonium Node",
                 "network": "Nettverk",
                 "mainNetwork": "Hovednettverk",
-                "startMining": "⛏ Start Mining (Kun testnett)",
+                "startMining": "⛏ Start Mining",
                 "stopMining": "⛏ Stopp Mining",
                 "externalNode": "using external node",
                 "openRemix": "Open Remix IDE",
@@ -98,8 +99,8 @@
             "testNetwork": "Testnett",
             "privateNetwork": "Privatnett",
             "mainnetExplain": "Du er på det globale Nekonium hovednettverket",
-            "testnetExplain": "Du er på testnettet, IKKE SEND noen ekte nekonium til disse adressene",
-            "privatenetExplain": "Du er på et privatnett, IKKE SEND noen ekte nekonium til disse adressene",
+            "testnetExplain": "Du er på testnettet, IKKE SEND noen ekte nuko til disse adressene",
+            "privatenetExplain": "Du er på et privatnett, IKKE SEND noen ekte nuko til disse adressene",
             "unknownnetExplain": "Kan ikke fastslå hvilket nettverk du er på",
             "peers": "peers"
         },
@@ -177,7 +178,7 @@
                 "estimatedFee": "Beregnet avgiftsforbruk",
                 "estimatedGasError": "Data kan ikke utføres, så den kommer til å bruke all gass.",
                 "gasPrice": "Gass pris",
-                "perMillionGas": "nekonium per million gass",
+                "perMillionGas": "nuko per million gass",
                 "gasLimit": "Gi maksimal avgift",
                 "data": "Data",
                 "buttons": {
@@ -202,10 +203,10 @@
             },
             "onboarding": {
                 "description": "Nekonium er en desentralisert plattform for å bygge applikasjoner på en blokkjede: sabotasjesikker programvare som kan overføre verdi og eiendom, og som lever evig",
-                "goToTestnet": "Bruk testnettet",
-                "goToTestnetDescription": "Test teknologien fritt i en sandboks (testnett), uten å bruke ekte nekonium.",
+                "goToTestnet": "Bruk testnettet (Rinkeby)",
+                "goToTestnetDescription": "Test teknologien fritt i en sandboks (testnett), uten å bruke ekte nuko.",
                 "gotoMainnet": "Bruk hovednettverket",
-                "gotoMainnetDescription": " Du trenger noen nekonium for å skape og utføre kontrakter. Ikke bekymre deg, vi vil hjelpe deg å skaffe noen...",
+                "gotoMainnetDescription": " Du trenger noen nuko for å skape og utføre kontrakter. Ikke bekymre deg, vi vil hjelpe deg å skaffe noen...",
                 "doYouHaveAWalletFile": "Har du en lommebok-fil?",
                 "walletFileDescription": "<p>Hvis du har deltatt på forhåndssalget av Ethereum i 2014, har du en fil med navnet <code>ethereum_wallet_backup.json</code>. Den ble lastet ned etter salget, og også sendt til din e-post</p>",
                 "dropFilesHere": "Slipp filen fra forhåndssalget",
@@ -217,9 +218,9 @@
                 "protectDescription": "Velg et passord for den nye kontoen. Gjør det så sterkt som om det skulle beskyttet husnøklene dine!",
                 "accountTitle": "Fyll den opp!",
                 "accountTitleTestnet": "Mine noen!",
-                "etherDescription": "Nekonium-nettverket er basert på en enhet kalt \"nekonium\". Du trenger en liten mengde av den for å gjøre noe på Nekonium-nettverket.",
-                "loadItDescription": "Hvis du allerede eier bitcoin, eller hvilken som helst annen kryptovaluta, kan du enkelt konvertere den til nekonium via Shapeshift. <br><br> Vi anbefaler å fylle opp med mellom <strong>0.25 til 1 nekonium</strong>.",
-                "mineItDescription": "<strong>På testnettet kan du mine nekonium selv ved å gå til <em>Utvikle</em> menyvalget og velge <em>Start Mining</em>. </strong> <br> <strong> IKKE PRØV Å SENDE EKTE NEKONIUM TIL DENNE ADRESSEN </strong>",
+                "etherDescription": "Nekonium-nettverket er basert på en enhet kalt \"nuko\". Du trenger en liten mengde av den for å gjøre noe på Nekonium-nettverket.",
+                "loadItDescription": "Hvis du allerede eier bitcoin, eller hvilken som helst annen kryptovaluta, kan du enkelt konvertere den til nuko via changelly. <br><br> Vi anbefaler å fylle opp med mellom <strong>0.25 til 1 nuko</strong>.",
+                "mineItDescription": "<strong>På testnettet kan du mine nuko selv ved å gå til <em>Utvikle</em> menyvalget og velge <em>Start Mining</em>. </strong> <br> <strong> IKKE PRØV Å SENDE EKTE NUKO TIL DENNE ADRESSEN </strong>",
                 "you": "DU",
                 "etherbase": "Hovedkonto (etherbase)",
                 "depositBitcoin": "Sett inn bitcoin",
@@ -240,7 +241,8 @@
                     "wrongPassword": "Feil passord.",
                     "importFailed": "Kunne ikke importere filen, fikk: __error__"
                 },
-                "viaShapeshift": "Instant conversion via <a href='https://shapeshift.io/' target='_blank'>Shapeshift</a>",
+                "buyEther": "Buy Nuko",
+                "viaChangelly": "Accepts cryptocurrency and credit card via <a href='https://changelly.com/' target='_blank'>Changelly</a>",
                 "syncMessage": "Block __displayBlock__ of __highestBlockString__",
                 "syncMessageWithStates": "Block __displayBlock__ of __highestBlockString__ (Chain structure __statesPercent__%)",
                 "startingSync": "Getting ready to sync.."

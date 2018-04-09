@@ -30,12 +30,7 @@ diff-sequence@1.0.7
 ecmascript@0.6.1
 ecmascript-runtime@0.3.15
 ejson@1.0.13
-nekonium:accounts@0.3.12
-nekonium:blocks@0.3.2
 ethereum:dapp-styles@0.5.7
-nekonium:elements@0.7.10
-nekonium:tools@0.6.0
-nekonium:web3@0.20.0
 fastclick@1.0.13
 frozeman:animation-helper@0.2.6
 frozeman:global-notifications@0.2.1
@@ -70,6 +65,11 @@ modules-runtime@0.7.7
 mongo@1.1.14
 mongo-id@1.0.6
 mrt:jquery-ui-sortable@1.10.3
+nekonium:accounts@0.4.0
+nekonium:blocks@0.3.2
+nekonium:elements@0.7.18
+nekonium:tools@0.7.0
+nekonium:web3@0.20.2
 npm-mongo@2.2.11_2
 numeral:languages@1.5.3
 numeral:numeral@1.5.3_1

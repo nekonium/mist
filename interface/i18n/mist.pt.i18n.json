@@ -12,6 +12,15 @@
                 "showAll": "Mostrar Todos",
                 "quit": "Fechar __app__"
             },
+            "file": {
+                "label": "Arquivos",
+                "importPresale": "Importar conta",
+                "newAccount": "Nova conta",
+                "backup": "Cópia de segurança",
+                "backupKeyStore": "Contas",
+                "backupMist": "Carteiras, contratos e etc",
+                "swarmUpload": "Subir arquivo para Swarm..."
+            },
             "edit": {
                 "label": "Editar",
                 "undo": "Desfazer",
@@ -26,15 +35,8 @@
                 "fullscreen": "Modo de tela cheia",
                 "default": "Default"
             },
-            "accounts": {
-                "label": "Contas",
-                "importPresale": "Importar conta",
-                "newAccount": "Nova conta",
-                "backup": "Cópia de segurança",
-                "backupKeyStore": "Contas",
-                "backupMist": "Carteiras, contratos e etc"
-            },
             "develop": {
+                "uploadToSwarm": "Upload no Swarm",
                 "label": "Desenvolvimento",
                 "devTools": "Mostrar ferramentas de desenvolvedor",
                 "devToolsMistUI": "Interface Mist",
@@ -45,7 +47,7 @@
                 "ethereumNode": "Node",
                 "network": "Rede",
                 "mainNetwork": "Rede principal",
-                "startMining": "⛏ Iniciar mineração (somente em teste)",
+                "startMining": "⛏ Iniciar mineração",
                 "stopMining": "⛏ Parar mineração",
                 "externalNode": "using external node",
                 "openRemix": "Open Remix IDE",
@@ -93,14 +95,14 @@
             "blockReceived": "Novo bloco recebido",
             "timeSinceBlock": "Tempo corrido desde último bloco",
             "blockNumber": "Número de seu bloco atual",
-            "testnetExplain": "Você está na rede de teste, NÃO ENVIE nekoniums de verdade para essas contas",
+            "testnetExplain": "Você está na rede de teste, NÃO ENVIE nukos de verdade para essas contas",
             "peers": "nós",
             "checkingWhichNetwork": "Checking network...",
             "mainNetwork": "Main-net",
             "testNetwork": "Test-net",
             "privateNetwork": "Private-net",
             "mainnetExplain": "You are on the main Nekonium global network",
-            "privatenetExplain": "You are on a private net, DO NOT SEND any real nekonium to these addresses",
+            "privatenetExplain": "You are on a private net, DO NOT SEND any real nuko to these addresses",
             "unknownnetExplain": "Unable to determine which network you are on"
         },
         "sidebar": {
@@ -118,7 +120,7 @@
             "runningNodeFound": "Node Nekonium encontrado!",
             "startingNode": "Iniciando Node...",
             "startedNode": "Iniciando aplicativo...",
-            "nodeConnectionTimeout": "Não pode inicializar um Node!<br><small> Instale <a href='https://github.com/nekonium' class='button' target='_blank'>um manualmente</a>, e use esse comando para executa-lo: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> Caso não consiga, entre em contato </a></small>",
+            "nodeConnectionTimeout": "Não pode inicializar um Node!<br><small> Instale <a href='https://github.com/nekonium' class='button' target='_blank'>um manualmente</a>, e use esse comando para executa-lo: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/nekonium/mist/issues' class='button' target='_blank'> Caso não consiga, entre em contato </a></small>",
             "nodeBinaryNotFound": "Nó não encontrado!<br><small><a href='https://github.com/nekonium' class='button' target='_blank'>Instale um manualmente</a></small>",
             "nodeSyncing": "Sincronizando, favor aguarde...",
             "nodeSyncInfoStates": "Carregando bloco __displayBlock__ de __highestBlock__, <br> Lendo estrutura __displayState__ de __displayKnownStates__",
@@ -177,7 +179,7 @@
                 "estimatedFee": "Taxa estimada",
                 "estimatedGasError": "Transação inválida, se executada irá gastar todo o combustível dado.",
                 "gasPrice": "Preço do combustível",
-                "perMillionGas": "nekonium por milhão de combustível",
+                "perMillionGas": "nuko por milhão de combustível",
                 "gasLimit": "Providenciar taxa máxima",
                 "data": "Dados",
                 "buttons": {
@@ -202,12 +204,12 @@
             },
             "onboarding": {
                 "description": "Nekonium é uma plataforma decentralizada para construir aplicativos no blockchain: apps a prova de fraude, censura ou corrupção que podem transferir valor e títulos de propriedade",
-                "goToTestnet": "Usar a rede de teste",
+                "goToTestnet": "Usar a rede de teste (Rinkeby)",
                 "goToTestnetDescription": "Experimente a tecnologia usando uma rede de teste sem valores reais.",
                 "gotoMainnet": "Usar a rede Nekonium principal",
-                "gotoMainnetDescription": "Você irá precisar de nekonium para executar contratos. Não se preocupe, iremos lhe ajudar com isso",
+                "gotoMainnetDescription": "Você irá precisar de nuko para executar contratos. Não se preocupe, iremos lhe ajudar com isso",
                 "doYouHaveAWalletFile": "Você tem um arquivo de conta?",
-                "walletFileDescription": "<p>Se você participou da pré-venda de nekonium em 2014, você deve ter um arquivo chamado  <code>ethereum_wallet_backup.json</code>. Além de fazer o download, esse arquivo também foi enviado para o seu email na época</p>",
+                "walletFileDescription": "<p>Se você participou da pré-venda de nuko em 2014, você deve ter um arquivo chamado  <code>ethereum_wallet_backup.json</code>. Além de fazer o download, esse arquivo também foi enviado para o seu email na época</p>",
                 "dropFilesHere": "Largar arquivo de pré-venda",
                 "creating": "Criando...",
                 "importing": "Importando...",
@@ -217,9 +219,9 @@
                 "protectDescription": "Crie uma senha para sua conta nova. Escolha uma senha forte como se fosse guardar a porta da sua casa",
                 "accountTitle": "Adicione crédito",
                 "accountTitleTestnet": "Faça mineração",
-                "etherDescription": "A rede Nekonium usa nekonium como uma unidade de troca entre criadores e processadores de contratos. Você não precisa obter uma quantidade muito grande de Nekonium para poder realizar funções na rede.",
-                "loadItDescription": "Se você já tem Bitcoin ou outra criptomoeda, a forma mais simples de convertê-la é usando ShapeShift. <br><br> Recomendamos carregar algo como  <strong>0.25 a 1 nekonium</strong>.",
-                "mineItDescription": "<strong>Na rede de teste é possível minerar nekonium escolhendo o menu <em>Desenvolvimento</em> e depois <em>Iniciar mineração</em>. </strong> <br> <strong> NÃO ENVIE NEKONIUM DE VERDADE PARA ESSE ENDEREÇO </strong>",
+                "etherDescription": "A rede Nekonium usa nuko como uma unidade de troca entre criadores e processadores de contratos. Você não precisa obter uma quantidade muito grande de nuko para poder realizar funções na rede.",
+                "loadItDescription": "Se você já tem Bitcoin ou outra criptomoeda, a forma mais simples de convertê-la é usando changelly. <br><br> Recomendamos carregar algo como  <strong>0.25 a 1 ether</strong>.",
+                "mineItDescription": "<strong>Na rede de teste é possível minerar nuko escolhendo o menu <em>Desenvolvimento</em> e depois <em>Iniciar mineração</em>. </strong> <br> <strong> NÃO ENVIE NUKO DE VERDADE PARA ESSE ENDEREÇO </strong>",
                 "you": "VOCÊ",
                 "etherbase": "Conta principal (etherbase)",
                 "depositBitcoin": "Depositar Bitcoin",
@@ -240,7 +242,8 @@
                     "wrongPassword": "Senha incorreta.",
                     "importFailed": "Não pode importar. Erro: __error__"
                 },
-                "viaShapeshift": "Instant conversion via <a href='https://shapeshift.io/' target='_blank'>Shapeshift</a>",
+                "buyEther": "Comprar Nuko",
+                "viaChangelly": "Aceita cartão e cryptomoedas através de <a href='https://changelly.com/' target='_blank'>Changelly</a>",
                 "syncMessage": "Block __displayBlock__ of __highestBlockString__",
                 "syncMessageWithStates": "Block __displayBlock__ of __highestBlockString__ (Chain structure __statesPercent__%)",
                 "startingSync": "Getting ready to sync.."

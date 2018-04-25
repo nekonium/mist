@@ -12,7 +12,7 @@ const shell = require('shelljs');
 const version = require('../package.json').version;
 
 const type = options.type;
-const applicationName = options.wallet ? 'Nekonium Wallet' : 'Mist';
+const applicationName = options.wallet ? 'Nekonium Wallet' : 'NekoniumMist';
 
 gulp.task('clean-dist', cb => {
   return del([`./dist_${type}`, './meteor-dapp-wallet'], cb);

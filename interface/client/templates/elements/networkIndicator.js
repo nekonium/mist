@@ -17,6 +17,7 @@ Check network type.
 @method checkNetworkType
 */
 var checkNetworkType = function(template) {
+  var web3=nekonium.web3;
   console.trace('Check network type...');
 
   try {

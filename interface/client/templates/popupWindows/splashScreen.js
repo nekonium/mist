@@ -22,6 +22,8 @@ var lastSyncData = {},
 Template['popupWindows_splashScreen'].onCreated(function() {
   var template = this;
   template._intervalId = null;
+  var web3=nekonium.web3;    
+  
 
   ipc.on('uiAction_nodeLogText', function(e, text, data) {
     if (showNodeLog && data) {

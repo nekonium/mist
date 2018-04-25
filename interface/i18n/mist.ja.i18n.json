@@ -130,11 +130,11 @@
             "runningNodeFound": "起動している Nekonium ノードを見つけました!",
             "startingNode": "Nekonium ノードを開始しています。",
             "stoppingNode": "ノードを終了しています...",
-            "startedNode": "Nekonium ノードは開始されました...",
+            "startedNode": "Nekonium ノードは開始しました。",
             "nodeConnectionTimeout": "Nekonium ノードをスタート出来ませんでした!<br><small>もし<a href='https://github.com/nekonium' class='button' target='_blank'>Gnekonium</a>をインストールしているならば、このコマンドを使ってみてください: <br> <code>gnekonium --ipcpath __path__</code></small><br> <small><a href='https://github.com/nekonium/mist/issues' class='button' target='_blank'>もしくは問題を報告して下さい。 </a></small>",
             "nodeBinaryNotFound": "Nekonium ノードバイナリが見つかりませんでした。<br><small> <a href='https://github.com/nekonium' class='button' target='_blank'> 手動でスタートして下さい。 </a> </small>",
             "nodeStarting": "ノードを起動しています...",
-            "nodeStarted": "ノードの起動完了",
+            "nodeStarted": "ノードを起動しました。",
             "nodeConnected": "ノードに接続されました",
             "nodeStopping": "ノードを終了しています...",
             "nodeStopped": "ノードは終了しました",
@@ -153,8 +153,8 @@
                 "downloading": "新たなノードをダウンロード中...",
                 "loadConfig": "クライアントの設定を読み込み中...",
                 "filtering": "クライアントのバイナリをフィルタリング中...",
-                "done": "Nekonium ノードは最新です",
-                "error": "ダウンロードしたバイナリでエラーが発生."
+                "done": "Nekoniumノードは最新です",
+                "error": "ダウンロードしたバイナリでエラーが発生しました。"
             }
         },
         "popupWindows": {

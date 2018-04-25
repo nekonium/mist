@@ -185,7 +185,7 @@
   EthereumProvider.prototype.isConnected = function() {
     return true;
   };
-  window.web3 = {
+  window.nekonium.web3 = {
     currentProvider: new EthereumProvider()
   };
 })();

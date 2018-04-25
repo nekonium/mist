@@ -12,10 +12,10 @@ const LegacyWeb3IpcProvider = require('./legacyWeb3IpcProvider.js');
 // window.ethereumProvider = new Web3.providers.IpcProvider('', ipcProviderWrapper);
 
 // LEGACY
-window.BigNumber = BigNumber;
-window.web3 = {
+window.nekonium.BigNumber = BigNumber;
+window.nekonium.web3 = {
   currentProvider: new LegacyWeb3IpcProvider('', ipcProviderWrapper)
 };
 
 // for now still add this too: WILL BE REMOVED with web3 1.0
-window.web3 = new Web3(new Web3.providers.IpcProvider('', ipcProviderWrapper));
+window.nekonium.web3 = new Web3(new Web3.providers.IpcProvider('', ipcProviderWrapper));

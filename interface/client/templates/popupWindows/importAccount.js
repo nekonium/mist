@@ -106,6 +106,7 @@ Template['popupWindows_importAccount'].events({
     @event submit form
     */
   'submit form': function(e, template) {
+    var web3=nekonium.web3;        
     var pw = template.find('input.password').value;
 
     ipc.send('backendAction_importWalletFile', TemplateVar.get('filePath'), pw);

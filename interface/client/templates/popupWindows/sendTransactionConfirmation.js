@@ -123,6 +123,8 @@ Template['popupWindows_sendTransactionConfirmation'].onCreated(function() {
 
   // check inital data and gas estimates
   this.autorun(function() {
+    var web3=nekonium.web3;    
+    
     TemplateVar.set(template, 'displayDecodedParams', true);
 
     var data = Session.get('data');
@@ -371,6 +373,7 @@ Template['popupWindows_sendTransactionConfirmation'].events({
     @event submit form
     */
   'submit form': function(e, template) {
+    var web3=nekonium.web3;    
     e.preventDefault();
 
     var data = Session.get('data'),

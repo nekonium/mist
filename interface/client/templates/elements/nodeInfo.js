@@ -10,6 +10,7 @@ Update the peercount
 @method getPeerCount
 */
 var getPeerCount = function(template) {
+  var web3=nekonium.web3;
   web3.net.getPeerCount(function(e, res) {
     if (!e) TemplateVar.set(template, 'peerCount', res);
   });
@@ -21,6 +22,7 @@ Update the mining hashrate
 @method getMining
 */
 var getMining = function(template) {
+  var web3=nekonium.web3;
   web3.eth.getMining(function(e, res) {
     if (!e && res) {
       web3.eth.getHashrate(function(e, res) {
@@ -47,7 +49,7 @@ The main template
 
 Template['elements_nodeInfo'].onCreated(function() {
   var template = this;
-
+  var web3=nekonium.web3;
   // CHECK FOR NETWORK
   web3.eth.getBlock(0, function(e, res) {
     if (!e) {

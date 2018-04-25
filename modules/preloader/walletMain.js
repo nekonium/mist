@@ -15,7 +15,7 @@ webFrame.executeJavaScript("window.mistMode = 'wallet';");
 
 // add admin later
 setTimeout(() => {
-  web3Admin.extend(window.web3);
+  web3Admin.extend(window.nekonium.web3);
 }, 1000);
 
 setTimeout(() => {

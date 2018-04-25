@@ -28,6 +28,7 @@ The backend side of the mist API.
 @method mistAPIBackend
 */
 mistAPIBackend = function(event) {
+  var web3=nekonium.web3;
   var template = this.template;
   var webview = this.webview;
   var arg = event.args[0];

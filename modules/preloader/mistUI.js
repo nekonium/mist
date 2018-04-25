@@ -18,7 +18,7 @@ require('./include/setBasePath')('interface');
 
 // add admin later
 setTimeout(() => {
-  web3Admin.extend(window.web3);
+  web3Admin.extend(window.nekonium.web3);
 }, 1000);
 
 window.mist = mist();
@@ -87,6 +87,7 @@ const randomizeAccounts = (acc, coinbase) => {
 
 // Run tests
 ipcRenderer.on('uiAction_runTests', (e, type) => {
+  var web3=nekonium.web3; 
   if (type === 'webview') {
     web3.eth.getAccounts((error, accounts) => {
       if (error) return;

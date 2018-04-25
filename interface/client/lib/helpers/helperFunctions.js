@@ -242,23 +242,8 @@ Helpers.detectNetwork = function(hash) {
         network.name = 'Main';
         break;
 
-    case '0x86a89bcce7783fec92fce4f7b85094db7702c3afc28881aa4a64fd633ecf3526':
-        console.log('Network is Testnet #3 (Ropsten)');
-        network.type = 'testnet';
-        network.name = 'Ropsten';
-        break;
 
-    case '0x6341fd3daf94b748c72ced5a5b26028f2474f5f00d824504e4fa37a75767e177':
-      console.log('Network is Testnet #4 (Rinkeby)');
-      network.type = 'testnet';
-      network.name = 'Rinkeby';
-      break;
 
-    case '0x0cd786a2425d16f152c658316c423e6ce1181e15c3295826d7c9904cba9ce303':
-      console.log('Network is Testnet #2 (Morden)');
-      network.type = 'testnet';
-      network.name = 'Morden';
-      break;
 
     default:
       console.log('Network is privatenet');
@@ -445,6 +430,7 @@ Formats a given number toa unit balance
 @return {String} The formated balance including the unit
 **/
 // Helpers.formatBalance = function(number, format){
+//     var web3=nekonium.web3;
 //     number = web3.fromWei(number, LocalStore.get('etherUnit'));
 
 //     return Helpers.formatNumber(number, format) +' '+ LocalStore.get('etherUnit');

@@ -432,9 +432,11 @@ const argv = require('yargs')
     },
     syncmode: {
       demand: false,
+      default: 'fast',
       requiresArg: true,
-      describe: 'Geth synchronization mode: [fast|light|full]',
-      nargs: 1,
+//      describe: 'Geth synchronization mode: [fast|light|full]',//@FIXIT_LITING_MODE
+      describe: 'Geth synchronization mode: [fast|full]',
+nargs: 1,
       type: 'string',
       group: 'Mist options:',
     },

@@ -11,7 +11,6 @@ ipcRenderer.send('backendAction_getLanguage');
 
 // disable pinch zoom
 webFrame.setZoomLevelLimits(1, 1);
-
 window.ipc = ipcRenderer;
 window.mist = mist();
 window.mistMode = remote.getGlobal('mode');

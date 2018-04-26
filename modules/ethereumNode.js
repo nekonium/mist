@@ -16,7 +16,7 @@ const ethereumNodeLog = logger.create('EthereumNode');
 
 const DEFAULT_NODE_TYPE = 'gnekonium';
 const DEFAULT_NETWORK = 'main';
-const DEFAULT_SYNCMODE = 'fast';//FIX IT WHEN GNEKONIUM SUPPORT to LIGHT MODE
+const DEFAULT_SYNCMODE = 'fast';//@FIXIT_LITING_MODE WHEN GNEKONIUM SUPPORT to LIGHT MODE
 
 const UNABLE_TO_BIND_PORT_ERROR = 'unableToBindPort';
 const NODE_START_WAIT_MS = 3000;
@@ -564,7 +564,6 @@ class EthereumNode extends EventEmitter {
 
   _loadDefaults() {
     ethereumNodeLog.trace('Load defaults');
-
     this.defaultNodeType =
       Settings.nodeType || Settings.loadUserData('node') || DEFAULT_NODE_TYPE;
     this.defaultNetwork =
@@ -573,7 +572,6 @@ class EthereumNode extends EventEmitter {
       Settings.syncmode ||
       Settings.loadUserData('syncmode') ||
       DEFAULT_SYNCMODE;
-
     ethereumNodeLog.info(
       Settings.syncmode,
       Settings.loadUserData('syncmode'),

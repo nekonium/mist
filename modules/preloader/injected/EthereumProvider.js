@@ -185,6 +185,10 @@
   EthereumProvider.prototype.isConnected = function() {
     return true;
   };
+  if(!window.nekonium){
+    console.log("add winrow.nekonium namespace.");
+    window.nekonium={};
+  }
   window.nekonium.web3 = {
     currentProvider: new EthereumProvider()
   };

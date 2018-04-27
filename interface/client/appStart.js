@@ -48,8 +48,8 @@ mistInit = function() {
       { _id: 'wallet' },
       {
         $set: {
-          url: 'https://wallet.nekonium.org',
-          redirect: 'https://wallet.nekonium.org',
+          url: 'https://nekonium.github.io/wallet/',
+          redirect: 'https://nekonium.github.io/wallet/',
           position: 1,
           permissions: {
             admin: true

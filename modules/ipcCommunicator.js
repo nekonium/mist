@@ -260,7 +260,7 @@ ipc.on('mistAPI_requestAccount', e => {
     // TODO change URL
     // Mist
     // if coming from wallet, skip connect, go straight to create
-    if (e.sender.history[0] === 'https://wallet.nekonium.org/') {
+    if (e.sender.history[0] === 'https://nekonium.github.io/wallet/') {
       createAccountPopup(e);
     } else {
       Windows.createPopup('connectAccount', { ownerId: e.sender.id });

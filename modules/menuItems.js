@@ -450,15 +450,15 @@ let menuTempl = function(webviews) {
     submenu: devtToolsSubMenu
   });
 
-  if (Settings.uiMode === 'mist') {
-    devToolsMenu.push({
-      label: i18n.t('mist.applicationMenu.develop.openRemix'),
-      enabled: true,
-      click() {
-        Windows.createPopup('remix');
-      }
-    });
-  }
+  // if (Settings.uiMode === 'mist') {
+  //   devToolsMenu.push({
+  //     label: i18n.t('mist.applicationMenu.develop.openRemix'),
+  //     enabled: true,
+  //     click() {
+  //       Windows.createPopup('remix');
+  //     }
+  //   });
+  // }
 
   devToolsMenu.push({
     label: i18n.t('mist.applicationMenu.develop.runTests'),
@@ -540,36 +540,16 @@ let menuTempl = function(webviews) {
         }
       },
       // TODO Test network change
-      {
-        label: 'Ropsten - Test network',
-        accelerator: 'CommandOrControl+Alt+2',
-        checked: ethereumNode.isOwnNode && ethereumNode.network === 'test',
-        enabled: ethereumNode.isOwnNode,
-        type: 'checkbox',
-        click() {
-          restartNode(ethereumNode.type, 'test');
-        }
-      },
-      {
-        label: 'Rinkeby - Test network',
-        accelerator: 'CommandOrControl+Alt+3',
-        checked: ethereumNode.isOwnNode && ethereumNode.network === 'rinkeby',
-        enabled: ethereumNode.isOwnNode,
-        type: 'checkbox',
-        click() {
-          restartNode(ethereumNode.type, 'rinkeby');
-        }
-      },
-      {
-        label: 'Solo network',
-        accelerator: 'CommandOrControl+Alt+4',
-        checked: ethereumNode.isOwnNode && ethereumNode.isDevNetwork,
-        enabled: ethereumNode.isOwnNode,
-        type: 'checkbox',
-        click() {
-          restartNode(ethereumNode.type, 'dev');
-        }
-      }
+      // {
+      //   label: 'Solo network',
+      //   accelerator: 'CommandOrControl+Alt+4',
+      //   checked: ethereumNode.isOwnNode && ethereumNode.isDevNetwork,
+      //   enabled: ethereumNode.isOwnNode,
+      //   type: 'checkbox',
+      //   click() {
+      //     restartNode(ethereumNode.type, 'dev');
+      //   }
+      // }
     ]
   });
 
@@ -581,7 +561,7 @@ let menuTempl = function(webviews) {
   ) {
     devToolsMenu.push({
       label: 'Sync with Light client (beta)',
-      enabled: true,
+      enabled: false,
       checked: ethereumNode.isLightMode,
       type: 'checkbox',
       click() {
@@ -618,7 +598,7 @@ let menuTempl = function(webviews) {
       },
       {
         label: i18n.t('mist.applicationMenu.develop.enableSwarm'),
-        enabled: true,
+        enabled: true,//#disabled by Nekonium
         checked: [SwarmState.Enabling, SwarmState.Enabled].includes(
           global.store.getState().settings.swarmState
         ),
@@ -692,15 +672,15 @@ let menuTempl = function(webviews) {
     {
       label: i18n.t('mist.applicationMenu.help.mistWiki'),
       click() {
-        shell.openExternal('https://github.com/ethereum/mist/wiki');
+        shell.openExternal('https://github.com/nekonium/mist/wiki');
       }
     },
-    {
-      label: i18n.t('mist.applicationMenu.help.gitter'),
-      click() {
-        shell.openExternal('https://gitter.im/nekonium/mist');
-      }
-    },
+    // {  //When active this section the should be update text of each langurge.
+    //   label: i18n.t('mist.applicationMenu.help.gitter'),
+    //   click() {
+    //     shell.openExternal('https://discord.gg/C8mJg44');
+    //   }
+    // },
     {
       label: i18n.t('mist.applicationMenu.help.reportBug'),
       click() {

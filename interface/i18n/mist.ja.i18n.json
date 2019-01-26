@@ -106,7 +106,7 @@
             "privateNetwork": "プライベートネット",
             "mainnetExplain": "ここは Nekonium のメインネットです",
             "testnetExplain": "ここはテストネットです。絶対に本物の nuko を送らないでください",
-            "privatenetExplain": "ここはプライベートっとです。絶対に本物の nuko を送らないでください",
+            "privatenetExplain": "ここはプライベートネットです。絶対に本物の nuko を送らないでください",
             "unknownnetExplain": "どこのネットワークにいるか判定できませんでした",
             "peers": "ピアー"
         },
